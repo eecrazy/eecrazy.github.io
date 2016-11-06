@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="机器学习," />
 
 
 
@@ -86,19 +86,16 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="看《a course in ML》第十一章ensemble learning所做的笔记:In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning mode">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/11/06/hello-world/index.html">
+<meta property="og:title" content="集成学习">
+<meta property="og:url" content="http://yoursite.com/2015/04/15/集成学习/index.html">
 <meta property="og:site_name" content="李忠阳的个人博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-11-06T04:25:34.000Z">
+<meta property="og:description" content="看《a course in ML》第十一章ensemble learning所做的笔记:In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning mode">
+<meta property="og:updated_time" content="2016-11-06T04:34:49.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="集成学习">
+<meta name="twitter:description" content="看《a course in ML》第十一章ensemble learning所做的笔记:In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning mode">
 
 
 
@@ -119,10 +116,10 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/11/06/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2015/04/15/集成学习/"/>
 
 
-  <title> Hello World | 李忠阳的个人博客 </title>
+  <title> 集成学习 | 李忠阳的个人博客 </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -262,7 +259,7 @@ Quick">
             
             
               
-                Hello World
+                集成学习
               
             
           </h1>
@@ -274,19 +271,38 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T10:50:38+08:00" content="2016-11-06">
-              2016-11-06
+            <time itemprop="dateCreated" datetime="2015-04-15T15:47:55+08:00" content="2015-04-15">
+              2015-04-15
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/11/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2015/04/15/集成学习/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/15/集成学习/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -309,15 +325,51 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h2 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h2 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h3 id="看《a-course-in-ML》第十一章ensemble-learning所做的笔记"><a href="#看《a-course-in-ML》第十一章ensemble-learning所做的笔记" class="headerlink" title="看《a course in ML》第十一章ensemble learning所做的笔记:"></a>看《a course in ML》第十一章ensemble learning所做的笔记:</h3><p>In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.</p>
+<h3 id="Learning-Objectives"><a href="#Learning-Objectives" class="headerlink" title="Learning Objectives:"></a>Learning Objectives:</h3><p>Implement bagging and explain how it reduces variance in a predictor.</p>
+<p>实现bagging并解释为什么它可以降低方差<br><a id="more"></a></p>
+<p>Explain the difference between a weak learner and a strong learner.</p>
+<p>解释弱学习器和强学习器的不同</p>
+<p>Derive the AdaBoost algorithm.</p>
+<p>提出AdaBoost-adaptive boosting algorithm</p>
+<p>Understand the relationship between boosting decision stumps and linear classification.</p>
+<p>理解决策树桩的提升和线性分类器的关系</p>
+<p>boosting方法的优点：</p>
+<p>比随机猜测好一点点的弱分类器提升为一个很好的分类器</p>
+<p>天生并行，训练和测试效率更高</p>
+<p>降低方差，实施正则化的另一种方法</p>
+<h3 id="11-1-多个分类器投票"><a href="#11-1-多个分类器投票" class="headerlink" title="11.1 多个分类器投票"></a>11.1 多个分类器投票</h3><p>训练很多基础分类器：DT,perceptron,KNN,NN of different architectures,多者胜出</p>
+<p>不是所有分类器都会犯同一个错误，如果每一个错误只有少数分类器犯下，那么你就会得到优化的分类器</p>
+<p>不幸的是不同的算法倾向于饭同一类错误</p>
+<p>对降低方差有效</p>
+<p>二分类容易扩展到多分类问题，但不容易扩展到一下问题，因为很难得到相同的输出：回归：均值；排序，聚类需要不同的方法</p>
+<p>在一个相通数据集上训练或者平分原来的数据集都不是很好的方法</p>
+<p>一个数据集获得多个数据集：bootstrap resampling，原理：独立同分布，bagging</p>
+<p>一个样例不被选中的概率：1-1/N   在一个集合中不出现的概率1-1/N的N次方，1/e==0.3679    N=1000（集合样本数量）是已经精确到4位小数</p>
+<p>所以约有63%的原始样本会出现在所有的集合中 </p>
+<p>正则化-降低方差：通过使用超参数或bagging方法 </p>
+<p>尽管每一个分类器都overfit，但是对不同的特征overfit，通过投票，可以去除掉很大一部分overfit</p>
+<p>图形对比：错误率-DT depth   错误率-num of bags</p>
+<h3 id="11-2-boosting-weak-learners"><a href="#11-2-boosting-weak-learners" class="headerlink" title="11.2 boosting weak learners"></a>11.2 boosting weak learners</h3><p>提升弱学习器：想起文件压缩-不断压缩直至1b</p>
+<p>强学习算法定义-第十章：PAC (probably approximately correct)learning，以成功率y学习到一个算法,错误率必须降低到e</p>
+<p>可以容易得到一个弱学习器：49%错误率，只要比随机猜测好就行</p>
+<p>boosting相对来说是一种学习框架而不是一个算法</p>
+<p>特定的boosting algorithm-AdaBoosting-adaptive boosting algorithm</p>
+<p>第一个实用的boosting算法：多项式复杂度，不需定义很多的超参数，自动适应训练数据</p>
+<p>与准备考试相比较，答对的问题降低注意力，答错的问题提高注意力（权重）</p>
+<p>在训练数据上的权重分布d（初始化每个样本权重都是1/N），在这个有权重的数据集上训练弱学习器（假设可以接受加权样本数据，基本都是可以的），Fk的错误率用来决定这个函数的适应参数a，表示这个分类器结果的重要性。只要分类器的错误率小于50%，那么a就会大于零，如果错误率为0，那么这个分类器的适应参数就会无限大，相当于只需要这一个分类器的结果就够了。</p>
+<p>a计算出来后，权重分布d在新一轮迭代中得到更新。分类正确的样本权重下降，分类错误的样本权重上升，Z是正则项，保证d的和为1。</p>
+<p>算法最终返回结果：多个分类器的加权投票结果</p>
+<p>一个具体的例子：对每个样本加权之后，如果要取得小于50%的错误率，就要有所更新。</p>
+<p>shallow DT：with small depth</p>
+<p>图形对比：一层的DT,多个boost  和  一个DT,深度逐渐增加的对比</p>
+<p>decision stumps-AdaBoost起到了线性分类器的效果</p>
+<p>一个具体的例子：<br>更进一步：最近的研究表明,AdaBoost算法优化目标为exponential loss</p>
+<p>另一个例子：linear classifier-AdaBoost起到了两层神经网络的效果<br>K个线性分类器，K个隐藏单元，<br>仅仅是结构相同-但是参数学习方法不同，一旦学习到了线性分类器的W和b参数，就再也不会更新了。</p>
+<h3 id="11-3-random-ensembles随机集成算法"><a href="#11-3-random-ensembles随机集成算法" class="headerlink" title="11.3 random ensembles随机集成算法"></a>11.3 random ensembles随机集成算法</h3><p>选择决策树的结构非常耗时，树桩算法很高效</p>
+<p>固定树的结构，随机选择特征（一个特征甚至可以在一个分支当中多次出现）：随机森林<br>D（数据），depth（树深），K（决策树的数量）</p>
+<p>最终分类器：多个随机树的投票</p>
+<p>这种方法效果很好：不同特征之间不相关时效果最好，因为每一棵树可能用到的特征很少。一些树会query无用的特征，产生随机猜测结果，可以作为噪声数据，最终只有好的决策树有效。</p>
 
       
     </div>
@@ -338,21 +390,27 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/机器学习/" rel="tag">#机器学习</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/04/24/事理图谱思考-2016-04-24/" rel="next" title="事理图谱思考">
-                <i class="fa fa-chevron-left"></i> 事理图谱思考
+              <a href="/2015/04/15/shell脚本标程自己用过的一些经典例子/" rel="next" title="shell基本编程自己用过的一些经典例子">
+                <i class="fa fa-chevron-left"></i> shell基本编程自己用过的一些经典例子
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/11/06/事理图谱标注/" rel="prev" title="事理图谱标注">
-                事理图谱标注 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/01/14/论文阅读笔记-2016-01-14/" rel="prev" title="论文阅读笔记">
+                论文阅读笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -379,8 +437,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/11/06/hello-world/"
-           data-title="Hello World" data-url="http://yoursite.com/2016/11/06/hello-world/">
+      <div class="ds-thread" data-thread-key="2015/04/15/集成学习/"
+           data-title="集成学习" data-url="http://yoursite.com/2015/04/15/集成学习/">
       </div>
     
   </div>
@@ -512,7 +570,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">2.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-server"><span class="nav-number">3.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">4.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">5.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#看《a-course-in-ML》第十一章ensemble-learning所做的笔记"><span class="nav-number">1.</span> <span class="nav-text">看《a course in ML》第十一章ensemble learning所做的笔记:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Learning-Objectives"><span class="nav-number">2.</span> <span class="nav-text">Learning Objectives:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-1-多个分类器投票"><span class="nav-number">3.</span> <span class="nav-text">11.1 多个分类器投票</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-2-boosting-weak-learners"><span class="nav-number">4.</span> <span class="nav-text">11.2 boosting weak learners</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-3-random-ensembles随机集成算法"><span class="nav-number">5.</span> <span class="nav-text">11.3 random ensembles随机集成算法</span></a></li></ol></div>
             
           </div>
         </section>

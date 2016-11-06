@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="shell," />
 
 
 
@@ -86,19 +86,19 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="文本行中各列打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;for(i=1;i&amp;lt;=NF;i++) b[rand()NF]=$i&amp;#125;END&amp;#123;for(x in b)printf &quot;%s &quot;,b[x]&amp;#125;&apos; data
+文本行中各行打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;b[rand()NR]=$0&amp;#12">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/11/06/hello-world/index.html">
+<meta property="og:title" content="shell基本编程自己用过的一些经典例子">
+<meta property="og:url" content="http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/index.html">
 <meta property="og:site_name" content="李忠阳的个人博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-11-06T04:25:34.000Z">
+<meta property="og:description" content="文本行中各列打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;for(i=1;i&amp;lt;=NF;i++) b[rand()NF]=$i&amp;#125;END&amp;#123;for(x in b)printf &quot;%s &quot;,b[x]&amp;#125;&apos; data
+文本行中各行打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;b[rand()NR]=$0&amp;#12">
+<meta property="og:updated_time" content="2016-11-06T04:34:59.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="shell基本编程自己用过的一些经典例子">
+<meta name="twitter:description" content="文本行中各列打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;for(i=1;i&amp;lt;=NF;i++) b[rand()NF]=$i&amp;#125;END&amp;#123;for(x in b)printf &quot;%s &quot;,b[x]&amp;#125;&apos; data
+文本行中各行打乱：1awk &apos;BEGIN&amp;#123;srand()&amp;#125;&amp;#123;b[rand()NR]=$0&amp;#12">
 
 
 
@@ -119,10 +119,10 @@ Quick">
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/11/06/hello-world/"/>
+  <link rel="canonical" href="http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/"/>
 
 
-  <title> Hello World | 李忠阳的个人博客 </title>
+  <title> shell基本编程自己用过的一些经典例子 | 李忠阳的个人博客 </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -262,7 +262,7 @@ Quick">
             
             
               
-                Hello World
+                shell基本编程自己用过的一些经典例子
               
             
           </h1>
@@ -274,19 +274,38 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T10:50:38+08:00" content="2016-11-06">
-              2016-11-06
+            <time itemprop="dateCreated" datetime="2015-04-15T13:37:48+08:00" content="2015-04-15">
+              2015-04-15
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/11/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2015/04/15/shell脚本标程自己用过的一些经典例子/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/15/shell脚本标程自己用过的一些经典例子/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -309,15 +328,21 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h2 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h2 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
+<p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight haskell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">shuf</span> -n1000 <span class="class"><span class="keyword">data</span></span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>以a.txt作为pattern查找b.txt，实际是求2者交集：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
+<p>以a.txt作为pattern查找b.txt，显示不在a.txt中的数据，实际是求差集b-a：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -v -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
+<p>编码转换：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iconv <span class="_">-f</span> gb18030 -t utf8 filename</div></pre></td></tr></table></figure></p>
+<p>以_为分隔符，第二列为键值排序，稳定排序（默认不稳定）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sort -t_ -k1,2  <span class="_">-s</span>  filename</div></pre></td></tr></table></figure></p>
+<p>对大文件进行外部排序并去重，以temp目录作为缓存：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sort -u -T temp filename</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">sort</span> filename | uniq   -<span class="built_in">c</span>计数唯一的排序的记录 -d仅仅显示重复的记录 -u仅仅显示没有重复的记录</div></pre></td></tr></table></figure>
+<p>在preview中打开awk的man文档：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">man</span> -t awk | <span class="keyword">open</span> -a Preview -<span class="built_in">f</span></div></pre></td></tr></table></figure></p>
+<p>awk和cut简单用法：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">awk</span> -F: -v <span class="string">'OFS=\t'</span> <span class="string">'&#123;print "all users are:",<span class="variable">$1</span>,<span class="variable">$2</span>,<span class="variable">$3</span>,<span class="variable">$4</span>,<span class="variable">$5</span>,<span class="variable">$6</span>,<span class="variable">$7</span>&#125;'</span> /etc/passwd | cut -f <span class="number">1</span>,<span class="number">6</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wc <span class="_">-l</span> 行数 -c字节数 -w字数</div></pre></td></tr></table></figure>
+<p>查看端口:<br><figure class="highlight elm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">lsof</span> -i tcp:<span class="keyword">port</span> 将<span class="keyword">port</span>换成被占用的端口(如：8086、9998)</div></pre></td></tr></table></figure></p>
+<p>查看自己的进程详细情况:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">ps</span> -ef |<span class="keyword">grep</span> zyli</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -338,21 +363,27 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/shell/" rel="tag">#shell</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/04/24/事理图谱思考-2016-04-24/" rel="next" title="事理图谱思考">
-                <i class="fa fa-chevron-left"></i> 事理图谱思考
+              <a href="/2015/04/15/我的个人简历/" rel="next" title="我的个人简历">
+                <i class="fa fa-chevron-left"></i> 我的个人简历
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/11/06/事理图谱标注/" rel="prev" title="事理图谱标注">
-                事理图谱标注 <i class="fa fa-chevron-right"></i>
+              <a href="/2015/04/15/集成学习/" rel="prev" title="集成学习">
+                集成学习 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -379,8 +410,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/11/06/hello-world/"
-           data-title="Hello World" data-url="http://yoursite.com/2016/11/06/hello-world/">
+      <div class="ds-thread" data-thread-key="2015/04/15/shell脚本标程自己用过的一些经典例子/"
+           data-title="shell基本编程自己用过的一些经典例子" data-url="http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/">
       </div>
     
   </div>
@@ -512,7 +543,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">2.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-server"><span class="nav-number">3.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">4.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">5.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>

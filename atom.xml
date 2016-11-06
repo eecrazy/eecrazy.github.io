@@ -1,424 +1,54 @@
-<!doctype html>
-
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>李忠阳的个人博客</title>
   
-
-
-<html class="theme-next muse use-motion">
-<head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
+  <link href="/atom.xml" rel="self"/>
   
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-06T05:24:38.000Z</updated>
+  <id>http://yoursite.com/</id>
   
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-  
-  
-  
-  
-
-  
+  <author>
+    <name>Zhongyang Li</name>
     
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>事理图谱标注</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%BA%8B%E7%90%86%E5%9B%BE%E8%B0%B1%E6%A0%87%E6%B3%A8/"/>
+    <id>http://yoursite.com/2016/11/06/事理图谱标注/</id>
+    <published>2016-11-06T04:29:07.000Z</published>
+    <updated>2016-11-06T05:24:38.000Z</updated>
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="李忠阳的个人博客" type="application/atom+xml" />
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.2" />
-
-
-
-
-
-
-<meta name="description" content="李忠阳的个人博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="李忠阳的个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="李忠阳的个人博客">
-<meta property="og:description" content="李忠阳的个人博客">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="李忠阳的个人博客">
-<meta name="twitter:description" content="李忠阳的个人博客">
-
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Muse',
-    sidebar: {"position":"right","display":"always"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: '6349694973281043000',
-      author: '李忠阳'
-    }
-  };
-</script>
-
-
-
-
-  <link rel="canonical" href="http://yoursite.com/"/>
-
-
-  <title> 李忠阳的个人博客 </title>
-</head>
-
-<body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-right 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">李忠阳的个人博客</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-  <p class="site-subtitle"></p>
-</div>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/06/事理图谱标注/" itemprop="url">
-                  事理图谱标注
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T12:29:07+08:00" content="2016-11-06">
-              2016-11-06
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/11/06/事理图谱标注/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/事理图谱标注/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="需要修改的例子"><a href="#需要修改的例子" class="headerlink" title="需要修改的例子"></a>需要修改的例子</h1><p>台阶上堆满蜡烛和乞讨的人</p>
+    <content type="html"><![CDATA[<h1 id="需要修改的例子"><a href="#需要修改的例子" class="headerlink" title="需要修改的例子"></a>需要修改的例子</h1><p>台阶上堆满蜡烛和乞讨的人</p>
 <p>累的半死<br>一起走<br>喘气</p>
 <p>待得心烦<br>先走</p>
 <p>看到游客经过</p>
 <p>目光交流<br>下山<br>坐缆车</p>
 <p>挥泪告别<br>自己攀登</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/06/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-06T10:50:38+08:00" content="2016-11-06">
-              2016-11-06
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/11/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/06/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;h1 id=&quot;需要修改的例子&quot;&gt;&lt;a href=&quot;#需要修改的例子&quot; class=&quot;headerlink&quot; title=&quot;需要修改的例子&quot;&gt;&lt;/a&gt;需要修改的例子&lt;/h1&gt;&lt;p&gt;台阶上堆满蜡烛和乞讨的人&lt;/p&gt;
+&lt;p&gt;累的半死&lt;br&gt;一起走&lt;br&gt;喘气&lt;/p&gt;
+&lt;p&gt;待得心烦&lt;
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/11/06/hello-world/"/>
+    <id>http://yoursite.com/2016/11/06/hello-world/</id>
+    <published>2016-11-06T02:50:38.000Z</published>
+    <updated>2016-11-06T04:25:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h2 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -427,126 +57,25 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/24/事理图谱思考-2016-04-24/" itemprop="url">
-                  事理图谱思考
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-24T17:28:05+08:00" content="2016-04-24">
-              2016-04-24
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/24/事理图谱思考-2016-04-24/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/24/事理图谱思考-2016-04-24/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="研究意义"><a href="#研究意义" class="headerlink" title="研究意义"></a>研究意义</h1><p>事理图谱：以事件为元素的常识推理知识库<br>Open Information Extraction：Event Extraction<br>基于特定场景的事件链条：意义何在？<br>TDT：Topic Detection and Tracking</p>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>事理图谱思考</title>
+    <link href="http://yoursite.com/2016/04/24/%E4%BA%8B%E7%90%86%E5%9B%BE%E8%B0%B1%E6%80%9D%E8%80%83-2016-04-24/"/>
+    <id>http://yoursite.com/2016/04/24/事理图谱思考-2016-04-24/</id>
+    <published>2016-04-24T09:28:05.000Z</published>
+    <updated>2016-11-06T04:34:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="研究意义"><a href="#研究意义" class="headerlink" title="研究意义"></a>研究意义</h1><p>事理图谱：以事件为元素的常识推理知识库<br>Open Information Extraction：Event Extraction<br>基于特定场景的事件链条：意义何在？<br>TDT：Topic Detection and Tracking</p>
 <p>现在的第一要务：<br>手工筛选500条问答对语料，400条训练，100条测试。<br>手工标注每个问答对可以构建的事件链条。<br>按照嘉伟的规则，以及我的问题的特殊性，完成完善的事件抽取模块。提高准确率和召回率。</p>
 <p>事件抽取的规则制定：<br>如果主语是人或者没有主语，则可以不要主语，否则的话应该加上主语 SBV<br>动词的修饰副词应该加上,如不，没等<br>并列结构应该要：COO</p>
 <p>事件最小单元：动宾短语-如果主语是人或者没有主语，则可以不要主语，否则的话应该加上主语 SBV</p>
@@ -579,126 +108,29 @@
 <p>平台团队：删了一段最后一段</p>
 <p>第五篇论文word文档中是代表作</p>
 <p>错误原因：<br>句子不规则，缺少标点，如果加上标点，就可以句法分析正确。<br>分词，词性标注，句法分析错误。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/02/网页-微信文章-科普文章阅读笔记-2016-04-02/" itemprop="url">
-                  网页-微信文章-科普文章阅读笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-02T22:20:41+08:00" content="2016-04-02">
-              2016-04-02
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/02/网页-微信文章-科普文章阅读笔记-2016-04-02/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/02/网页-微信文章-科普文章阅读笔记-2016-04-02/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;h1 id=&quot;研究意义&quot;&gt;&lt;a href=&quot;#研究意义&quot; class=&quot;headerlink&quot; title=&quot;研究意义&quot;&gt;&lt;/a&gt;研究意义&lt;/h1&gt;&lt;p&gt;事理图谱：以事件为元素的常识推理知识库&lt;br&gt;Open Information Extraction：Event Extra
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <ol>
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="研究" scheme="http://yoursite.com/tags/%E7%A0%94%E7%A9%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页-微信文章-科普文章阅读笔记</title>
+    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5-%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0-%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0-2016-04-02/"/>
+    <id>http://yoursite.com/2016/04/02/网页-微信文章-科普文章阅读笔记-2016-04-02/</id>
+    <published>2016-04-02T14:20:41.000Z</published>
+    <updated>2016-11-06T04:34:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
 <li><p>机器学习那些事，刘知远<br>得到的经验就是：<br>特征工程很重要：特征选择，试错<br>训练多个不同模型集成很重要：bagging，boosting，stacking</p>
 </li>
 <li><p>深度学习：推动NLP领域发展的新引擎</p>
@@ -778,126 +210,33 @@
 <ol>
 <li>李飞飞做研究的建议<br>important problem (inspiring idea) + solid and novel theory + convincing and analytical experiments + good writing = seminal research + excellent paper.<br>重要的问题 + 坚固而新颖的理论 + 令人信服的分析实验 + 一流的写作 = 开创性的研究 + 出色的论文</li>
 </ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/01/14/论文阅读笔记-2016-01-14/" itemprop="url">
-                  论文阅读笔记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-01-14T10:08:19+08:00" content="2016-01-14">
-              2016-01-14
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/论文阅读笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">论文阅读笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/01/14/论文阅读笔记-2016-01-14/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/14/论文阅读笔记-2016-01-14/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;机器学习那些事，刘知远&lt;br&gt;得到的经验就是：&lt;br&gt;特征工程很重要：特征选择，试错&lt;br&gt;训练多个不同模型集成很重要：bagging，boosting，stacking&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;深度学习：推动NLP领域发展的新引擎&lt;/p&gt;
+&lt;/
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="深度学习相关论文"><a href="#深度学习相关论文" class="headerlink" title="深度学习相关论文"></a>深度学习相关论文</h1><ol>
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论文阅读笔记</title>
+    <link href="http://yoursite.com/2016/01/14/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0-2016-01-14/"/>
+    <id>http://yoursite.com/2016/01/14/论文阅读笔记-2016-01-14/</id>
+    <published>2016-01-14T02:08:19.000Z</published>
+    <updated>2016-11-06T04:34:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="深度学习相关论文"><a href="#深度学习相关论文" class="headerlink" title="深度学习相关论文"></a>深度学习相关论文</h1><ol>
 <li>机器学习系统，隐藏多少技术债？Hidden Technical Debt in Machine Learning Systems</li>
 <li>Mastering the game of Go with deep neural networks and tree search_nature</li>
 <li>Human-level control through deep reinforcement</li>
@@ -1105,373 +444,138 @@
 <ol>
 <li>Ranking Multidocument Event Descriptions for Building Thematic Timelines, coling 2014,法国</li>
 </ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/04/15/集成学习/" itemprop="url">
-                  集成学习
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-04-15T15:47:55+08:00" content="2015-04-15">
-              2015-04-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/04/15/集成学习/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/15/集成学习/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;h1 id=&quot;深度学习相关论文&quot;&gt;&lt;a href=&quot;#深度学习相关论文&quot; class=&quot;headerlink&quot; title=&quot;深度学习相关论文&quot;&gt;&lt;/a&gt;深度学习相关论文&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;机器学习系统，隐藏多少技术债？Hidden Technical Debt in 
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="看《a-course-in-ML》第十一章ensemble-learning所做的笔记"><a href="#看《a-course-in-ML》第十一章ensemble-learning所做的笔记" class="headerlink" title="看《a course in ML》第十一章ensemble learning所做的笔记:"></a>看《a course in ML》第十一章ensemble learning所做的笔记:</h3><p>In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.</p>
+    </summary>
+    
+      <category term="论文阅读笔记" scheme="http://yoursite.com/categories/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="论文阅读" scheme="http://yoursite.com/tags/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>集成学习</title>
+    <link href="http://yoursite.com/2015/04/15/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2015/04/15/集成学习/</id>
+    <published>2015-04-15T07:47:55.000Z</published>
+    <updated>2016-11-06T04:34:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="看《a-course-in-ML》第十一章ensemble-learning所做的笔记"><a href="#看《a-course-in-ML》第十一章ensemble-learning所做的笔记" class="headerlink" title="看《a course in ML》第十一章ensemble learning所做的笔记:"></a>看《a course in ML》第十一章ensemble learning所做的笔记:</h3><p>In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.</p>
 <h3 id="Learning-Objectives"><a href="#Learning-Objectives" class="headerlink" title="Learning Objectives:"></a>Learning Objectives:</h3><p>Implement bagging and explain how it reduces variance in a predictor.</p>
-<p>实现bagging并解释为什么它可以降低方差<br>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/04/15/集成学习/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+<p>实现bagging并解释为什么它可以降低方差<br><a id="more"></a></p>
+<p>Explain the difference between a weak learner and a strong learner.</p>
+<p>解释弱学习器和强学习器的不同</p>
+<p>Derive the AdaBoost algorithm.</p>
+<p>提出AdaBoost-adaptive boosting algorithm</p>
+<p>Understand the relationship between boosting decision stumps and linear classification.</p>
+<p>理解决策树桩的提升和线性分类器的关系</p>
+<p>boosting方法的优点：</p>
+<p>比随机猜测好一点点的弱分类器提升为一个很好的分类器</p>
+<p>天生并行，训练和测试效率更高</p>
+<p>降低方差，实施正则化的另一种方法</p>
+<h3 id="11-1-多个分类器投票"><a href="#11-1-多个分类器投票" class="headerlink" title="11.1 多个分类器投票"></a>11.1 多个分类器投票</h3><p>训练很多基础分类器：DT,perceptron,KNN,NN of different architectures,多者胜出</p>
+<p>不是所有分类器都会犯同一个错误，如果每一个错误只有少数分类器犯下，那么你就会得到优化的分类器</p>
+<p>不幸的是不同的算法倾向于饭同一类错误</p>
+<p>对降低方差有效</p>
+<p>二分类容易扩展到多分类问题，但不容易扩展到一下问题，因为很难得到相同的输出：回归：均值；排序，聚类需要不同的方法</p>
+<p>在一个相通数据集上训练或者平分原来的数据集都不是很好的方法</p>
+<p>一个数据集获得多个数据集：bootstrap resampling，原理：独立同分布，bagging</p>
+<p>一个样例不被选中的概率：1-1/N   在一个集合中不出现的概率1-1/N的N次方，1/e==0.3679    N=1000（集合样本数量）是已经精确到4位小数</p>
+<p>所以约有63%的原始样本会出现在所有的集合中 </p>
+<p>正则化-降低方差：通过使用超参数或bagging方法 </p>
+<p>尽管每一个分类器都overfit，但是对不同的特征overfit，通过投票，可以去除掉很大一部分overfit</p>
+<p>图形对比：错误率-DT depth   错误率-num of bags</p>
+<h3 id="11-2-boosting-weak-learners"><a href="#11-2-boosting-weak-learners" class="headerlink" title="11.2 boosting weak learners"></a>11.2 boosting weak learners</h3><p>提升弱学习器：想起文件压缩-不断压缩直至1b</p>
+<p>强学习算法定义-第十章：PAC (probably approximately correct)learning，以成功率y学习到一个算法,错误率必须降低到e</p>
+<p>可以容易得到一个弱学习器：49%错误率，只要比随机猜测好就行</p>
+<p>boosting相对来说是一种学习框架而不是一个算法</p>
+<p>特定的boosting algorithm-AdaBoosting-adaptive boosting algorithm</p>
+<p>第一个实用的boosting算法：多项式复杂度，不需定义很多的超参数，自动适应训练数据</p>
+<p>与准备考试相比较，答对的问题降低注意力，答错的问题提高注意力（权重）</p>
+<p>在训练数据上的权重分布d（初始化每个样本权重都是1/N），在这个有权重的数据集上训练弱学习器（假设可以接受加权样本数据，基本都是可以的），Fk的错误率用来决定这个函数的适应参数a，表示这个分类器结果的重要性。只要分类器的错误率小于50%，那么a就会大于零，如果错误率为0，那么这个分类器的适应参数就会无限大，相当于只需要这一个分类器的结果就够了。</p>
+<p>a计算出来后，权重分布d在新一轮迭代中得到更新。分类正确的样本权重下降，分类错误的样本权重上升，Z是正则项，保证d的和为1。</p>
+<p>算法最终返回结果：多个分类器的加权投票结果</p>
+<p>一个具体的例子：对每个样本加权之后，如果要取得小于50%的错误率，就要有所更新。</p>
+<p>shallow DT：with small depth</p>
+<p>图形对比：一层的DT,多个boost  和  一个DT,深度逐渐增加的对比</p>
+<p>decision stumps-AdaBoost起到了线性分类器的效果</p>
+<p>一个具体的例子：<br>更进一步：最近的研究表明,AdaBoost算法优化目标为exponential loss</p>
+<p>另一个例子：linear classifier-AdaBoost起到了两层神经网络的效果<br>K个线性分类器，K个隐藏单元，<br>仅仅是结构相同-但是参数学习方法不同，一旦学习到了线性分类器的W和b参数，就再也不会更新了。</p>
+<h3 id="11-3-random-ensembles随机集成算法"><a href="#11-3-random-ensembles随机集成算法" class="headerlink" title="11.3 random ensembles随机集成算法"></a>11.3 random ensembles随机集成算法</h3><p>选择决策树的结构非常耗时，树桩算法很高效</p>
+<p>固定树的结构，随机选择特征（一个特征甚至可以在一个分支当中多次出现）：随机森林<br>D（数据），depth（树深），K（决策树的数量）</p>
+<p>最终分类器：多个随机树的投票</p>
+<p>这种方法效果很好：不同特征之间不相关时效果最好，因为每一棵树可能用到的特征很少。一些树会query无用的特征，产生随机猜测结果，可以作为噪声数据，最终只有好的决策树有效。</p>
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/04/15/shell脚本标程自己用过的一些经典例子/" itemprop="url">
-                  shell基本编程自己用过的一些经典例子
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-04-15T13:37:48+08:00" content="2015-04-15">
-              2015-04-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/04/15/shell脚本标程自己用过的一些经典例子/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/15/shell脚本标程自己用过的一些经典例子/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;h3 id=&quot;看《a-course-in-ML》第十一章ensemble-learning所做的笔记&quot;&gt;&lt;a href=&quot;#看《a-course-in-ML》第十一章ensemble-learning所做的笔记&quot; class=&quot;headerlink&quot; title=&quot;看《a course in ML》第十一章ensemble learning所做的笔记:&quot;&gt;&lt;/a&gt;看《a course in ML》第十一章ensemble learning所做的笔记:&lt;/h3&gt;&lt;p&gt;In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.&lt;/p&gt;
+&lt;h3 id=&quot;Learning-Objectives&quot;&gt;&lt;a href=&quot;#Learning-Objectives&quot; class=&quot;headerlink&quot; title=&quot;Learning Objectives:&quot;&gt;&lt;/a&gt;Learning Objectives:&lt;/h3&gt;&lt;p&gt;Implement bagging and explain how it reduces variance in a predictor.&lt;/p&gt;
+&lt;p&gt;实现bagging并解释为什么它可以降低方差&lt;br&gt;
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell基本编程自己用过的一些经典例子</title>
+    <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC%E6%A0%87%E7%A8%8B%E8%87%AA%E5%B7%B1%E7%94%A8%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E5%85%B8%E4%BE%8B%E5%AD%90/"/>
+    <id>http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/</id>
+    <published>2015-04-15T05:37:48.000Z</published>
+    <updated>2016-11-06T04:34:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
 <p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
 <figure class="highlight haskell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">shuf</span> -n1000 <span class="class"><span class="keyword">data</span></span></div></pre></td></tr></table></figure>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/04/15/shell脚本标程自己用过的一些经典例子/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+<a id="more"></a>
+<p>以a.txt作为pattern查找b.txt，实际是求2者交集：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
+<p>以a.txt作为pattern查找b.txt，显示不在a.txt中的数据，实际是求差集b-a：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -v -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
+<p>编码转换：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iconv <span class="_">-f</span> gb18030 -t utf8 filename</div></pre></td></tr></table></figure></p>
+<p>以_为分隔符，第二列为键值排序，稳定排序（默认不稳定）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sort -t_ -k1,2  <span class="_">-s</span>  filename</div></pre></td></tr></table></figure></p>
+<p>对大文件进行外部排序并去重，以temp目录作为缓存：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sort -u -T temp filename</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">sort</span> filename | uniq   -<span class="built_in">c</span>计数唯一的排序的记录 -d仅仅显示重复的记录 -u仅仅显示没有重复的记录</div></pre></td></tr></table></figure>
+<p>在preview中打开awk的man文档：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">man</span> -t awk | <span class="keyword">open</span> -a Preview -<span class="built_in">f</span></div></pre></td></tr></table></figure></p>
+<p>awk和cut简单用法：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">awk</span> -F: -v <span class="string">'OFS=\t'</span> <span class="string">'&#123;print "all users are:",<span class="variable">$1</span>,<span class="variable">$2</span>,<span class="variable">$3</span>,<span class="variable">$4</span>,<span class="variable">$5</span>,<span class="variable">$6</span>,<span class="variable">$7</span>&#125;'</span> /etc/passwd | cut -f <span class="number">1</span>,<span class="number">6</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wc <span class="_">-l</span> 行数 -c字节数 -w字数</div></pre></td></tr></table></figure>
+<p>查看端口:<br><figure class="highlight elm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">lsof</span> -i tcp:<span class="keyword">port</span> 将<span class="keyword">port</span>换成被占用的端口(如：8086、9998)</div></pre></td></tr></table></figure></p>
+<p>查看自己的进程详细情况:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">ps</span> -ef |<span class="keyword">grep</span> zyli</div></pre></td></tr></table></figure></p>
+]]></content>
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
+    <summary type="html">
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2015/04/15/我的个人简历/" itemprop="url">
-                  我的个人简历
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2015-04-15T12:41:59+08:00" content="2015-04-15">
-              2015-04-15
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">笔记</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2015/04/15/我的个人简历/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/04/15/我的个人简历/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      &lt;p&gt;文本行中各列打乱：&lt;br&gt;&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;awk &lt;span class=&quot;symbol&quot;&gt;&#39;BEGIN&lt;/span&gt;&amp;#123;srand()&amp;#125;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(i=&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;i&amp;lt;=NF;i++) b[rand()NF]=$i&amp;#125;&lt;span class=&quot;keyword&quot;&gt;END&lt;/span&gt;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(x &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; b)printf &lt;span class=&quot;string&quot;&gt;&quot;%s &quot;&lt;/span&gt;,b[x]&amp;#125;&#39; data&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;文本行中各行打乱：&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;awk &#39;&lt;span class=&quot;keyword&quot;&gt;BEGIN&lt;/span&gt;&amp;#123;srand()&amp;#125;&amp;#123;b[&lt;span class=&quot;keyword&quot;&gt;rand&lt;/span&gt;()NR]=$&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&amp;#125;&lt;span class=&quot;keyword&quot;&gt;END&lt;/span&gt;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(x &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; b)print b[x]&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; data&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight haskell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;shuf&lt;/span&gt; -n1000 &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;data&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>####教育经历</p>
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="shell" scheme="http://yoursite.com/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的个人简历</title>
+    <link href="http://yoursite.com/2015/04/15/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
+    <id>http://yoursite.com/2015/04/15/我的个人简历/</id>
+    <published>2015-04-15T04:41:59.000Z</published>
+    <updated>2016-11-06T04:34:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>####教育经历</p>
 <ul>
 <li>2008.08-2011.06 河南省林州市林州一中-高中</li>
 <li>2011.08-至今 哈尔滨工业大学-本科</li>
@@ -1483,323 +587,95 @@
 <li>机器学习</li>
 <li>数据挖掘</li>
 </ul>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/04/15/我的个人简历/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
+<a id="more"></a>
+<p>####我的个人信息</p>
+<ul>
+<li>哈尔滨工业大学本科在读，社会计算与信息检索实验室-SCIR</li>
+<li>家乡:河南省林州市</li>
+<li>手机:15629181795</li>
+<li>QQ:1482612462</li>
+<li>常用邮箱:elizhongyang@163.com</li>
+<li>工作邮箱:zyli@ir.hit.edu.cn</li>
+<li>新浪微博:<a href="http://weibo.com/u/2494805143" target="_blank" rel="external">我的新浪微博主页</a></li>
+<li>个人主页:<a href="http://ir.hit.edu.cn/~zyli" target="_blank" rel="external">我的实验室个人主页</a></li>
+<li>CSDN主页:<a href="http://blog.csdn.net/e6894853" target="_blank" rel="external">我的CSDN</a></li>
+<li>博客园主页:<a href="http://www.cnblogs.com/zzllzy" target="_blank" rel="external">zzllzy的园子</a></li>
+<li>github主页:<a href="https://github.com/eecrazy" target="_blank" rel="external">我的github</a></li>
+<li>豆瓣:<a href="http://www.douban.com/people/54858206" target="_blank" rel="external">我的豆瓣个人主页</a></li>
+</ul>
+<p>####技能</p>
+<ul>
+<li>c/c++</li>
+<li>python</li>
+<li>shell</li>
+<li>java</li>
+<li>statistical machine learning</li>
+<li>ruby on rails,css</li>
+<li>mysql</li>
+<li>hadoop</li>
+<li>vim,emacs,sublime</li>
+</ul>
+<p>####兴趣</p>
+<ul>
+<li>mongodb</li>
+<li>nodejs,javascripte,bootstrap</li>
+<li>lisp</li>
+<li>ios,swift</li>
+</ul>
+<p>####爱好</p>
+<ul>
+<li>游泳</li>
+<li>跑步</li>
+<li>LOL</li>
+<li>街舞:breaking</li>
+</ul>
+<p>####工作经历</p>
+<ul>
+<li>2014.03-2014.04 学工办助理</li>
+<li>2014.06.25-2014.09.30 百度NLP部门DQA小组实习生</li>
+<li>2012.02-2012.06 实验学院C语言助教</li>
+<li>2013.02-2013.06 软件学院C语言助教</li>
+</ul>
+<p>####项目经历</p>
+<ul>
+<li>百度知道问答对垃圾数据过滤系统</li>
+<li>负责维护实验室电影票房预测系统</li>
+<li>类Twitter微博系统</li>
+</ul>
+<p>####曾任职务</p>
+<ul>
+<li>班级团支书</li>
+<li>哈工大微软俱乐部技术部副部长</li>
+</ul>
+<p>####所获奖励</p>
+<ul>
+<li>2013国家励志奖学金</li>
+<li>校园机器人足球亚军</li>
+<li>2013黑龙江省ACM省赛一等奖</li>
+<li>2013ACM亚洲区预赛浙江邀请赛三等奖</li>
+</ul>
+]]></content>
     
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/uploads/avatar.png"
-               alt="Zhongyang Li" />
-          <p class="site-author-name" itemprop="name">Zhongyang Li</p>
-          <p class="site-description motion-element" itemprop="description">李忠阳的个人博客</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">8</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-          <div class="feed-link motion-element">
-            <a href="/atom.xml" rel="alternate">
-              <i class="fa fa-rss"></i>
-              RSS
-            </a>
-          </div>
-        
-
-        <div class="links-of-author motion-element">
-          
-            
-              <span class="links-of-author-item">
-                <a href="https://github.com/eecrazy" target="_blank" title="GitHub">
-                  
-                    <i class="fa fa-fw fa-github"></i>
-                  
-                  GitHub
-                </a>
-              </span>
-            
-              <span class="links-of-author-item">
-                <a href="http://www.weibo.com/u/2494805143?is_all=1" target="_blank" title="Weibo">
-                  
-                    <i class="fa fa-fw fa-weibo"></i>
-                  
-                  Weibo
-                </a>
-              </span>
-            
-          
-        </div>
-
-        
-        
-
-        
-        
-          <div class="links-of-blogroll motion-element links-of-blogroll-block">
-            <div class="links-of-blogroll-title">
-              <i class="fa  fa-fw fa-globe"></i>
-              Links
-            </div>
-            <ul class="links-of-blogroll-list">
-              
-                <li class="links-of-blogroll-item">
-                  <a href="http://macshuo.com/" title="MacTalk" target="_blank">MacTalk</a>
-                </li>
-              
-            </ul>
-          </div>
-        
-
-      </section>
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Zhongyang Li</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-        
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.2"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.2"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.2"></script>
-
-
-
-  
-
-  
+    <summary type="html">
     
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"eecrazy"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
+      &lt;p&gt;####教育经历&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2008.08-2011.06 河南省林州市林州一中-高中&lt;/li&gt;
+&lt;li&gt;2011.08-至今 哈尔滨工业大学-本科&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;####研究方向&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;社会媒体处理&lt;/li&gt;
+&lt;li&gt;自然语言处理&lt;/li&gt;
+&lt;li&gt;机器学习&lt;/li&gt;
+&lt;li&gt;数据挖掘&lt;/li&gt;
+&lt;/ul&gt;
     
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+    </summary>
+    
+      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
   
-
-
-
-
-
-
-  
-  
-
-  
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-  </script>
-
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for (i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-    });
-  </script>
-  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-
-  
-
-  
-
-  
-
-
-</body>
-</html>
+</feed>
