@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T06:25:09.000Z</updated>
+  <updated>2016-11-06T10:51:59.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,559 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>科研</title>
+    <link href="http://yoursite.com/2016/11/06/%E7%A7%91%E7%A0%94/"/>
+    <id>http://yoursite.com/2016/11/06/科研/</id>
+    <published>2016-11-06T09:48:16.000Z</published>
+    <updated>2016-11-06T10:51:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://www.aclweb.org/anthology/index.html" target="_blank" rel="external">ACL Anthology</a></li>
+<li><a href="https://www.google.com" target="_blank" rel="external">谷歌</a></li>
+<li><a href="https://scholar.google.com" target="_blank" rel="external">谷歌学术</a></li>
+</ul>
+<h2 id="科研项目"><a href="#科研项目" class="headerlink" title="科研项目"></a>科研项目</h2><ul>
+<li><a href="">ConceptNet</a></li>
+<li><a href="">WordNet</a></li>
+<li><a href="">LTP</a></li>
+<li><a href="">BigCiLin</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ACL Anthology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="对科研有帮助的网站" scheme="http://yoursite.com/tags/%E5%AF%B9%E7%A7%91%E7%A0%94%E6%9C%89%E5%B8%AE%E5%8A%A9%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>兴趣</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%85%B4%E8%B6%A3/"/>
+    <id>http://yoursite.com/2016/11/06/兴趣/</id>
+    <published>2016-11-06T09:38:02.000Z</published>
+    <updated>2016-11-06T10:42:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="https://www.kaggle.com/" target="_blank" rel="external">kaggle</a></li>
+<li><a href="https://tianchi.shuju.aliyun.com/competition/index.htm" target="_blank" rel="external">tianchi</a></li>
+<li><a href="https://www.tensorflow.org/" target="_blank" rel="external">tensorflow</a></li>
+<li><a href="https://www.zhihu.com" target="_blank" rel="external">zhihu</a></li>
+<li><a href="http://weibo.com/u/2494805143" target="_blank" rel="external">weibo</a></li>
+<li><a href="https://www.douban.com" target="_blank" rel="external">douban</a></li>
+</ul>
+<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ul>
+<li><a href="http://python.freelycode.com" target="_blank" rel="external">python部落</a></li>
+<li><a href="http://www.numpy.org" target="_blank" rel="external">numpy</a></li>
+<li><a href="http://www.scipy.org" target="_blank" rel="external">Scipy</a></li>
+<li><a href="http://pandas.pydata.org" target="_blank" rel="external">Pandas</a></li>
+<li><a href="http://matplotlib.org" target="_blank" rel="external">Matplotlib</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tianchi.shuju.aliyun.com/comp
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="感兴趣的网站" scheme="http://yoursite.com/tags/%E6%84%9F%E5%85%B4%E8%B6%A3%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书籍</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%B9%A6%E7%B1%8D/"/>
+    <id>http://yoursite.com/2016/11/06/书籍/</id>
+    <published>2016-11-06T09:34:11.000Z</published>
+    <updated>2016-11-06T10:28:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="在线书籍"><a href="#在线书籍" class="headerlink" title="在线书籍"></a>在线书籍</h1><ul>
+<li><a href="http://iissnan.com/progit/index.html" target="_blank" rel="external">progit</a></li>
+<li><a href="http://www.deeplearningbook.org" target="_blank" rel="external">deeplearningbook</a></li>
+</ul>
+<h1 id="我的书单"><a href="#我的书单" class="headerlink" title="我的书单"></a>我的书单</h1><h2 id="Kindle-Top-100人气小说第二期："><a href="#Kindle-Top-100人气小说第二期：" class="headerlink" title="Kindle Top 100人气小说第二期："></a>Kindle Top 100人气小说第二期：</h2><ul>
+<li>三体</li>
+<li>无声告白</li>
+<li>古董局中局</li>
+<li>火星救援</li>
+<li>安柏志</li>
+<li>岛上书店</li>
+<li>古龙作品集</li>
+<li>大秦帝国</li>
+<li>刘慈欣最爱：阿瑟克拉克经典科幻：神的九十亿个名字，最后一个地球人，遥远地球之歌，地光</li>
+<li>阿弥陀佛么么哒</li>
+<li>余华长篇小说集：在细雨中呼喊，兄弟，许三观卖血记，或者</li>
+<li>虚无的十字架</li>
+<li>秘密：东野圭吾</li>
+<li>乖，摸摸头</li>
+<li>银河帝国：基地七部曲</li>
+<li>权力巅峰的女人</li>
+<li>我不知道该说些什么，关于死亡还是爱情</li>
+<li>海伯利安四部曲</li>
+<li>大江东去：全3册</li>
+<li>生活与命运</li>
+<li>地海传奇六部曲</li>
+<li>太阳黑子</li>
+<li>杰茨费拉德文集</li>
+<li>移动迷宫：全三本</li>
+<li>丈量世界</li>
+<li>王小波文集：全十卷</li>
+<li>伪装者</li>
+<li>彷徨之刃</li>
+<li>苏菲的世界</li>
+<li>那片星空，那片海</li>
+<li>永恒的终结</li>
+<li>清明上河图密码</li>
+<li>龙族全五册</li>
+<li>剑桥简明金庸武侠史</li>
+<li>云中歌</li>
+<li>李自成</li>
+<li>间谍课：上帝的拳头，暗杀名单</li>
+<li>余罪</li>
+<li>跟孩子一起学说话</li>
+<li>韩寒MOOK7：我们从未陌生过</li>
+<li>等待</li>
+<li>锌皮娃娃兵</li>
+<li>事件移民</li>
+<li>人间失格</li>
+<li>我的晃荡的青春</li>
+<li>且将生活一饮而尽</li>
+<li>悖论13</li>
+<li>罪全书5</li>
+<li>空中杀人现场</li>
+<li>阴阳师典藏合集：5册</li>
+<li>我是女兵，也是女人</li>
+<li>亚特兰蒂斯：基因战争</li>
+<li>一个人的朝圣1和2</li>
+<li>暮光之城</li>
+<li>和喜欢的一切在一起</li>
+<li>华胥引</li>
+<li>孔二狗的江湖</li>
+<li>无人生还</li>
+<li>忽然七日</li>
+<li>冰与火之歌</li>
+<li>长相思</li>
+<li>苏丝黄的世界</li>
+<li>那些我们没谈过的事</li>
+<li>黄雀记</li>
+<li>股票大作手回忆录</li>
+<li>神探伽利略</li>
+<li>后宫如懿传</li>
+<li>我们夜里在美术馆谈恋爱</li>
+<li>沉默的羔羊</li>
+<li>牧羊少年奇幻之旅</li>
+<li>曾国藩</li>
+<li>李碧华经典小说集</li>
+<li>忘川</li>
+<li>二月河文集：康熙大帝</li>
+<li>微宇宙的上帝</li>
+<li>东野圭吾笑系列四部曲</li>
+<li>教父</li>
+<li>北平无战事</li>
+<li>米奇-阿尔博姆系列套装</li>
+<li>死亡通知单系列</li>
+<li>我只是感和别人不一样</li>
+<li>绑架游戏</li>
+<li>精灵宝钻</li>
+<li>当我足够爱你，才敢失去你</li>
+<li>平生欢</li>
+<li>面包匠的狂欢节</li>
+<li>我还是想你妈妈</li>
+<li>在不安的世界安静地活</li>
+<li>致遗忘了我的你</li>
+<li>簪中录</li>
+<li>何所冬暖，何所夏凉</li>
+<li>三嫁惹君心</li>
+</ul>
+<h2 id="Kindle-Top-100人气小说第一期："><a href="#Kindle-Top-100人气小说第一期：" class="headerlink" title="Kindle Top 100人气小说第一期："></a>Kindle Top 100人气小说第一期：</h2><ul>
+<li>解忧杂货店</li>
+<li>教父</li>
+<li>银河帝国</li>
+<li>从你的全世界路过</li>
+<li>失乐园</li>
+<li>红顶商人胡雪岩</li>
+<li>白夜行</li>
+<li>藏地密码</li>
+<li>偷影子的人</li>
+<li>追风筝的人</li>
+<li>荆棘鸟</li>
+<li>魔戒三部曲</li>
+<li>第七天</li>
+<li>世界上所有通话都是写给大人看的</li>
+<li>再美也美不过想象</li>
+<li>单恋</li>
+<li>嫌疑人X的献身</li>
+<li>无影灯</li>
+<li>让我留在你身边</li>
+<li>饥饿游戏</li>
+<li>第十一根手指</li>
+<li>安珀志</li>
+<li>我是个算命先生</li>
+<li>陆犯焉识</li>
+<li>纳尼亚传奇</li>
+<li>大清相国</li>
+<li>白鹿原</li>
+<li>情人</li>
+<li>妈阁是座城</li>
+<li>伊斯坦布尔假期</li>
+<li>菲利普迪克科幻短篇小说集</li>
+<li>了不起的盖茨比</li>
+<li>悟空传</li>
+<li>亲爱的生活</li>
+<li>当我足够好，才会遇见你</li>
+<li>比恐惧更强烈的情感</li>
+<li>活着活着就老了</li>
+<li>何以笙箫默</li>
+<li>霍比特人</li>
+<li>他方世界</li>
+<li>1980年代的爱情</li>
+<li>空间三部曲：沉寂的星球，皮尔兰德拉星，黑暗之劫</li>
+<li>一个人的朝圣</li>
+<li>一九八四</li>
+<li>毛姆短篇小说集</li>
+<li>消失的爱人</li>
+<li>悉达多</li>
+<li>逃离</li>
+<li>朗读者</li>
+<li>丰乳肥臀</li>
+<li>青蛇</li>
+<li>羊毛战记</li>
+<li>大漠谣</li>
+<li>福尔摩斯探案全集</li>
+<li>掌舵</li>
+<li>穆斯林的葬礼</li>
+<li>假面饭店</li>
+<li>起风了</li>
+<li>三生三世</li>
+<li>我也会爱上别人的</li>
+<li>幻夜</li>
+<li>生死疲劳</li>
+<li>当我们谈论爱情时我们在谈论什么</li>
+<li>无证之罪</li>
+<li>廊桥遗梦</li>
+<li>最美的时光</li>
+<li>群山回唱</li>
+<li>魔兽世界</li>
+<li>华尔街之狼</li>
+<li>反乌托邦三部曲：1984，美妙的新世界，我们</li>
+<li>灿烂千阳</li>
+<li>天堂向左，深圳往右</li>
+<li>因为是医生</li>
+<li>掌舵</li>
+<li>基督山伯爵</li>
+<li>画中情缘</li>
+<li>狼图腾</li>
+<li>少年PI的奇幻漂流</li>
+<li>北回归线</li>
+<li>星际迷航：红杉</li>
+<li>偶发空缺</li>
+<li>爱与黑暗的故事</li>
+<li>大漠苍狼全集</li>
+<li>X的悲剧</li>
+<li>布登波洛克一家</li>
+<li>分歧者</li>
+<li>神经漫游者</li>
+<li>别相信任何人</li>
+<li>所有年轻人都将在黎明前死去</li>
+<li>暗恋-橘生淮南</li>
+<li>霸王别姬</li>
+<li>海明威精选集</li>
+<li>深渊上的火</li>
+<li>安德的游戏</li>
+<li>时间回旋</li>
+<li>平行的宇宙</li>
+<li>天意</li>
+<li>中国通史</li>
+<li>自卑与超越</li>
+<li>跟任何人都聊得来</li>
+<li>人间失格</li>
+<li>人间喜剧</li>
+<li>1984</li>
+<li>钟形罩</li>
+<li>蒙马特遗书</li>
+<li>晚学盲言</li>
+</ul>
+<h2 id="素描"><a href="#素描" class="headerlink" title="素描"></a>素描</h2><ul>
+<li>素描的诀窍，作者: 伯特·多德森 ，2005，2011</li>
+<li>素描进阶教程，作者: 基蒙・尼克莱代斯 </li>
+<li>人体素描，作者: 罗伯特.贝弗利.黑尔 </li>
+</ul>
+<h2 id="摄影构图"><a href="#摄影构图" class="headerlink" title="摄影构图"></a>摄影构图</h2><ul>
+<li>摄影构图原理，作者: [美]Andreas Feininger </li>
+<li>摄影构图学：作者: 【美】本·克来门茨 / 大卫·罗森菲尔德 </li>
+<li>摄影构图与色彩设计，作者: [德]拉尔德·曼特 </li>
+<li>摄影构图与图像语言，作者: 科拉•巴尼克 / 格奥尔格•巴尼克 </li>
+<li>摄影构图的最佳选择，作者: （德）恩斯特・韦伯 </li>
+<li>COMPOSITION摄影构图，作者: (美)大卫·普拉克尔 </li>
+</ul>
+<h2 id="历史"><a href="#历史" class="headerlink" title="历史"></a>历史</h2><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>别闹了，费曼先生</li>
+<li>红楼梦</li>
+<li>小王子</li>
+<li>斯通纳</li>
+<li>旧制度与大革命</li>
+<li>从0到1</li>
+<li>如何阅读一本书</li>
+<li>人类简史</li>
+<li>人工智能的未来</li>
+<li>最好的告别</li>
+<li>佛教史</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;在线书籍&quot;&gt;&lt;a href=&quot;#在线书籍&quot; class=&quot;headerlink&quot; title=&quot;在线书籍&quot;&gt;&lt;/a&gt;在线书籍&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/index.html&quot; target=&quot;_
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="在线书籍" scheme="http://yoursite.com/tags/%E5%9C%A8%E7%BA%BF%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>知乎</title>
+    <link href="http://yoursite.com/2016/11/06/%E7%9F%A5%E4%B9%8E/"/>
+    <id>http://yoursite.com/2016/11/06/知乎/</id>
+    <published>2016-11-06T09:31:00.000Z</published>
+    <updated>2016-11-06T09:44:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="https://www.zhihu.com/question/35758158" target="_blank" rel="external">multi-task深度神经网络如何实现，优化？</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/35758158&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;multi-task深度神经网络如何实现，优化？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="知乎有价值问题" scheme="http://yoursite.com/tags/%E7%9F%A5%E4%B9%8E%E6%9C%89%E4%BB%B7%E5%80%BC%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博主</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
+    <id>http://yoursite.com/2016/11/06/博主/</id>
+    <published>2016-11-06T09:11:45.000Z</published>
+    <updated>2016-11-06T10:56:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
+<li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
+<li><a href="http://www.jeyzhang.com/archives/" target="_blank" rel="external">jeyzhang</a></li>
+<li><a href="https://www.yunaitong.cn/" target="_blank" rel="external">yunaitong</a></li>
+<li><a href="http://nanjunxiao.github.io/" target="_blank" rel="external">nanjunxiao强烈推荐</a></li>
+<li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
+<li><a href="http://www.cnblogs.com/edwardbi/tag/深度学习/" target="_blank" rel="external">edwardbi</a></li>
+</ul>
+<h2 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h2><ul>
+<li><a href="http://karpathy.github.io/" target="_blank" rel="external">karpathy</a></li>
+<li><a href="https://colah.github.io/" target="_blank" rel="external">colah</a></li>
+<li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;中文&quot;&gt;&lt;a href=&quot;#中文&quot; class=&quot;headerlink&quot; title=&quot;中文&quot;&gt;&lt;/a&gt;中文&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://2hwp.com/archives/&quot; target=&quot;_blank&quot; rel=&quot;externa
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="棒棒的博主" scheme="http://yoursite.com/tags/%E6%A3%92%E6%A3%92%E7%9A%84%E5%8D%9A%E4%B8%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目</title>
+    <link href="http://yoursite.com/2016/11/06/%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://yoursite.com/2016/11/06/项目/</id>
+    <published>2016-11-06T09:10:09.000Z</published>
+    <updated>2016-11-06T10:59:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="https://xgboost.readthedocs.io/en/latest/" target="_blank" rel="external">xgboost doc</a></li>
+<li><a href="https://www.tensorflow.org/" target="_blank" rel="external">tensorflow</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://xgboost.readthedocs.io/en/latest/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;xgboost doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.te
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="github好项目" scheme="http://yoursite.com/tags/github%E5%A5%BD%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2016/11/06/博客/</id>
+    <published>2016-11-06T09:09:26.000Z</published>
+    <updated>2016-11-06T10:50:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://www.cnblogs.com/kaituorensheng/p/3569436.html" target="_blank" rel="external">Wordnet 与 Hownet 比较</a></li>
+<li><a href="http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html" target="_blank" rel="external">《Using Cross-Entity Inference to Improve Event Extraction》读书笔记</a></li>
+<li><a href="http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/" target="_blank" rel="external">GBM之GBRT总结</a></li>
+<li><a href="https://www.nervanasys.com/deep-reinforcement-learning-with-neon/" target="_blank" rel="external">Guest Post (Part II): Deep Reinforcement Learning with Neon</a></li>
+<li><a href="https://www.nervanasys.com/openai/" target="_blank" rel="external">Blog Post (Part III): Deep Reinforcement Learning with OpenAI Gym</a></li>
+<li><a href="http://www.cnblogs.com/peghoty/p/3857839.html" target="_blank" rel="external">word2vec 中的数学原理详解</a></li>
+<li><a href="http://www.jianshu.com/p/9dc9f41f0b29" target="_blank" rel="external">理解LSTM网络</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/kaituorensheng/p/3569436.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wordnet 与 Hownet 比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a h
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="优秀博文" scheme="http://yoursite.com/tags/%E4%BC%98%E7%A7%80%E5%8D%9A%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学者</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%AD%A6%E8%80%85/"/>
+    <id>http://yoursite.com/2016/11/06/学者/</id>
+    <published>2016-11-06T09:09:17.000Z</published>
+    <updated>2016-11-06T10:41:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#国内</p>
+<ul>
+<li><a href="">刘知远</a></li>
+<li><a href="">张梅山</a></li>
+<li><a href="">丁效</a></li>
+<li><a href="">周志华</a></li>
+<li><a href="">郭江</a></li>
+<li><a href="">唐都钰</a></li>
+</ul>
+<p>#国外</p>
+<ul>
+<li><a href="">Heng Ji</a></li>
+<li><a href="">张越</a></li>
+<li><a href="">韩家炜</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#国内&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;刘知远&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;张梅山&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;丁效&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;周志华&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="关注的学者" scheme="http://yoursite.com/tags/%E5%85%B3%E6%B3%A8%E7%9A%84%E5%AD%A6%E8%80%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会议</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%BC%9A%E8%AE%AE/"/>
+    <id>http://yoursite.com/2016/11/06/会议/</id>
+    <published>2016-11-06T09:09:01.000Z</published>
+    <updated>2016-11-06T10:06:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Conference-From-chenyadong"><a href="#Conference-From-chenyadong" class="headerlink" title="Conference From chenyadong"></a>Conference From <a href="www.cnblogs.com/chenyadong">chenyadong</a></h1><h2 id="A类："><a href="#A类：" class="headerlink" title="A类："></a>A类：</h2><ul>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">ACL(ACL) Meeting of the Association for Computational Linguistics </a></li>
+<li><a href="">IJCAI(AAAI) International Joint Conference on Artificial Intelligence 国际人工智能联合会议</a></li>
+<li><a href="http://www.aaai.org/Library/IJCAI/ijcai-library.php" target="_blank" rel="external">IJCAI</a></li>
+<li><a href="http://www.aaai.org/Library/AAAI/aaai-library.php" target="_blank" rel="external">AAAI(AAAI) National Conference on Artificial Intelligence</a> <a href="http://www.aaai.org/Library/conferences-library.php" target="_blank" rel="external">AAAI所有会议下载地址</a></li>
+<li><a href="">SIGIR(ACM) International ACM SIGIR Conference on Research and Development in Information Retrieval</a></li>
+<li><a href="">SIGKDD(ACM) Workshop on Large-Scale Parallel KDD Systems</a></li>
+<li><a href="">WWW(ACM) International World Wide Web Conferences</a></li>
+<li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank" rel="external">ICDE(IEEE) International Conference on Data Engineering</a></li>
+</ul>
+<h2 id="B类"><a href="#B类" class="headerlink" title="B类"></a>B类</h2><ul>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">EMNLP(ACL) Empirical Methods in Natural Language Processing</a></li>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">NAACL(ACL) North American Chapter of the Association for Computational Linguistics</a></li>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">COLING(ACL) International Conference on Computational Linguistics</a></li>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">EACL(ACL) Conference of the European Chapter of the Association for Computational Linguistics</a></li>
+<li><a href="">CIKM(ACM) Conference on Information and Knowledge Management</a></li>
+<li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank" rel="external">ICDM(IEEE) International Conference on Data Mining</a></li>
+</ul>
+<h2 id="C类"><a href="#C类" class="headerlink" title="C类"></a>C类</h2><ul>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">IJCNLP(ACL)</a></li>
+</ul>
+<h2 id="D类"><a href="#D类" class="headerlink" title="D类"></a>D类</h2><ul>
+<li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">PACLIC(ACL)</a></li>
+<li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank" rel="external">IALP(IEEE)</a></li>
+<li><a href="">CLSW 汉语词汇语义学研讨会 Chinese Lexical Semantics Workshop</a></li>
+<li><a href="">CCIR 全国信息检索学术会议</a></li>
+<li><a href="http://springer.lib.tsinghua.edu.cn/" target="_blank" rel="external">CCL Conference of Computational Linguistics ?Constraints in Computational Logics</a></li>
+<li><a href="">YCCL Youth Conference of Computational Linguistics 青年计算语言学会议</a></li>
+</ul>
+<h1 id="Conference-From-GeTao"><a href="#Conference-From-GeTao" class="headerlink" title="Conference From GeTao"></a>Conference From GeTao</h1><p>Here listed below are prestigious conferences related to my research field – Natural Language Processing (NLP), Data Mining (DM), Machine Learning (ML) and Information Retrieval (IR).</p>
+<h2 id="A-Class"><a href="#A-Class" class="headerlink" title="A Class"></a>A Class</h2><p>SIGKDD: The best data mining conference.<br>ACL: The best NLP/CL conference.<br>SIGIR: The best Information Retrieval (IR) conference.<br>WWW: The best conference on Web<br>ICML: Top machine learning conference.<br>NIPS: Top machine learning conference.<br>VLDB: Top conference on database.<br>SIGMOD: Top conference on database.<br>IJCAI: Top AI conference.<br>AAAI: Top AI conference.</p>
+<h2 id="B-Class"><a href="#B-Class" class="headerlink" title="B Class"></a>B Class</h2><p>CIKM: Famous conference on database and knowledge management<br>EMNLP: Famous conference on natural language processing<br>Recsys: Famous conference on recommender systems.<br>ECML/PKDD: Famous conference on machine learning and data mining<br>ICDM: Famous conference on data mining.<br>NAACL: Famous conference on natural language processing<br>WSDM: Famous conference on IR and DM<br>COLING: Famous conference on NLP/CL.<br>SDM: Famous conference on data mining</p>
+<h2 id="C-Class"><a href="#C-Class" class="headerlink" title="C Class"></a>C Class</h2><p>CoNLL: Good conference on natural language processing<br>PAKDD: Good conference on data mining<br>IJCNLP: Good conference on natural language processing<br>WISE: Good conference on Web<br>ECIR: Good conference on IR<br>AIRS: Good conference on IR in Pacific Asia<br>ACML: Good conference on Machine learning in Asia<br>APWeb: Good conference on Web in Pacific Asia<br>WAIM: Good conference on web information management</p>
+<h2 id="Chinese-Conference"><a href="#Chinese-Conference" class="headerlink" title="Chinese Conference"></a>Chinese Conference</h2><p>NLPCC: Local NLP conference in China<br>CCL: Local NLP conference in China<br>CCIR: Local IR conference in China<br>CCML: Local ML conference in China</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conferen
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="我关注的会议" scheme="http://yoursite.com/tags/%E6%88%91%E5%85%B3%E6%B3%A8%E7%9A%84%E4%BC%9A%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -45,8 +598,8 @@
   
   <entry>
     <title>网页-微信文章-科普文章阅读笔记</title>
-    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5-%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0-%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2016/04/02/网页-微信文章-科普文章阅读笔记/</id>
+    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/04/02/网页文章阅读笔记/</id>
     <published>2016-04-02T14:20:41.000Z</published>
     <updated>2016-11-06T06:46:29.000Z</updated>
     
@@ -556,10 +1109,10 @@ Measures）和混合式语义相似度计算（Hybrid Measures）。
   
   <entry>
     <title>shell基本编程自己用过的一些经典例子</title>
-    <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC%E6%A0%87%E7%A8%8B%E8%87%AA%E5%B7%B1%E7%94%A8%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E5%85%B8%E4%BE%8B%E5%AD%90/"/>
-    <id>http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/</id>
+    <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC/"/>
+    <id>http://yoursite.com/2015/04/15/shell脚本/</id>
     <published>2015-04-15T05:37:48.000Z</published>
-    <updated>2016-11-06T06:25:33.000Z</updated>
+    <updated>2016-11-06T12:51:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
 <p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
