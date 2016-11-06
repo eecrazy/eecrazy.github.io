@@ -982,6 +982,7 @@ pre .javascript .function {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
+  color: #f00;
 }
 .menu .menu-item {
   display: inline-block;
@@ -993,6 +994,7 @@ pre .javascript .function {
   }
 }
 .menu .menu-item a {
+  color: #f00;
   display: block;
   font-size: 13px;
   text-transform: capitalize;
@@ -1563,7 +1565,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c2ff1f;
+  background: #c9ff46;
 }
 .links-of-blogroll {
   font-size: 13px;

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T10:51:59.000Z</updated>
+  <updated>2016-11-06T13:07:20.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,14 @@
     <link href="http://yoursite.com/2016/11/06/%E7%A7%91%E7%A0%94/"/>
     <id>http://yoursite.com/2016/11/06/科研/</id>
     <published>2016-11-06T09:48:16.000Z</published>
-    <updated>2016-11-06T10:51:59.000Z</updated>
+    <updated>2016-11-06T13:07:20.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="http://www.aclweb.org/anthology/index.html" target="_blank" rel="external">ACL Anthology</a></li>
 <li><a href="https://www.google.com" target="_blank" rel="external">谷歌</a></li>
 <li><a href="https://scholar.google.com" target="_blank" rel="external">谷歌学术</a></li>
 </ul>
+<a id="more"></a>
 <h2 id="科研项目"><a href="#科研项目" class="headerlink" title="科研项目"></a>科研项目</h2><ul>
 <li><a href="">ConceptNet</a></li>
 <li><a href="">WordNet</a></li>
@@ -38,8 +39,10 @@
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;ACL Anthology&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www
+&lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology/index.html&quot;&gt;ACL Anthology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;谷歌&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://scholar.google.com&quot;&gt;谷歌学术&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -55,7 +58,7 @@
     <link href="http://yoursite.com/2016/11/06/%E5%85%B4%E8%B6%A3/"/>
     <id>http://yoursite.com/2016/11/06/兴趣/</id>
     <published>2016-11-06T09:38:02.000Z</published>
-    <updated>2016-11-06T10:42:45.000Z</updated>
+    <updated>2016-11-06T13:08:03.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="https://www.kaggle.com/" target="_blank" rel="external">kaggle</a></li>
@@ -65,6 +68,7 @@
 <li><a href="http://weibo.com/u/2494805143" target="_blank" rel="external">weibo</a></li>
 <li><a href="https://www.douban.com" target="_blank" rel="external">douban</a></li>
 </ul>
+<a id="more"></a>
 <h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ul>
 <li><a href="http://python.freelycode.com" target="_blank" rel="external">python部落</a></li>
 <li><a href="http://www.numpy.org" target="_blank" rel="external">numpy</a></li>
@@ -77,8 +81,13 @@
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kaggle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://tianchi.shuju.aliyun.com/comp
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tianchi.shuju.aliyun.com/competition/index.htm&quot;&gt;tianchi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;tensorflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com&quot;&gt;zhihu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weibo.com/u/2494805143&quot;&gt;weibo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.douban.com&quot;&gt;douban&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -94,12 +103,13 @@
     <link href="http://yoursite.com/2016/11/06/%E4%B9%A6%E7%B1%8D/"/>
     <id>http://yoursite.com/2016/11/06/书籍/</id>
     <published>2016-11-06T09:34:11.000Z</published>
-    <updated>2016-11-06T10:28:34.000Z</updated>
+    <updated>2016-11-06T13:08:19.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="在线书籍"><a href="#在线书籍" class="headerlink" title="在线书籍"></a>在线书籍</h1><ul>
 <li><a href="http://iissnan.com/progit/index.html" target="_blank" rel="external">progit</a></li>
 <li><a href="http://www.deeplearningbook.org" target="_blank" rel="external">deeplearningbook</a></li>
 </ul>
+<a id="more"></a>
 <h1 id="我的书单"><a href="#我的书单" class="headerlink" title="我的书单"></a>我的书单</h1><h2 id="Kindle-Top-100人气小说第二期："><a href="#Kindle-Top-100人气小说第二期：" class="headerlink" title="Kindle Top 100人气小说第二期："></a>Kindle Top 100人气小说第二期：</h2><ul>
 <li>三体</li>
 <li>无声告白</li>
@@ -333,7 +343,9 @@
     <summary type="html">
     
       &lt;h1 id=&quot;在线书籍&quot;&gt;&lt;a href=&quot;#在线书籍&quot; class=&quot;headerlink&quot; title=&quot;在线书籍&quot;&gt;&lt;/a&gt;在线书籍&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/index.html&quot; target=&quot;_
+&lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/index.html&quot;&gt;progit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.deeplearningbook.org&quot;&gt;deeplearningbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -349,19 +361,19 @@
     <link href="http://yoursite.com/2016/11/06/%E7%9F%A5%E4%B9%8E/"/>
     <id>http://yoursite.com/2016/11/06/知乎/</id>
     <published>2016-11-06T09:31:00.000Z</published>
-    <updated>2016-11-06T09:44:16.000Z</updated>
+    <updated>2016-11-06T13:07:27.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="https://www.zhihu.com/question/35758158" target="_blank" rel="external">multi-task深度神经网络如何实现，优化？</a></li>
 </ul>
+<a id="more"></a>
 ]]></content>
     
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/35758158&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;multi-task深度神经网络如何实现，优化？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/35758158&quot;&gt;multi-task深度神经网络如何实现，优化？&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
     
     </summary>
     
@@ -377,7 +389,7 @@
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
     <id>http://yoursite.com/2016/11/06/博主/</id>
     <published>2016-11-06T09:11:45.000Z</published>
-    <updated>2016-11-06T10:56:30.000Z</updated>
+    <updated>2016-11-06T13:07:58.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
 <li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
@@ -387,6 +399,7 @@
 <li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
 <li><a href="http://www.cnblogs.com/edwardbi/tag/深度学习/" target="_blank" rel="external">edwardbi</a></li>
 </ul>
+<a id="more"></a>
 <h2 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h2><ul>
 <li><a href="http://karpathy.github.io/" target="_blank" rel="external">karpathy</a></li>
 <li><a href="https://colah.github.io/" target="_blank" rel="external">colah</a></li>
@@ -397,7 +410,13 @@
     <summary type="html">
     
       &lt;h2 id=&quot;中文&quot;&gt;&lt;a href=&quot;#中文&quot; class=&quot;headerlink&quot; title=&quot;中文&quot;&gt;&lt;/a&gt;中文&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://2hwp.com/archives/&quot; target=&quot;_blank&quot; rel=&quot;externa
+&lt;li&gt;&lt;a href=&quot;http://2hwp.com/archives/&quot;&gt;wepon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jeyzhang.com/archives/&quot;&gt;jeyzhang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.yunaitong.cn/&quot;&gt;yunaitong&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://nanjunxiao.github.io/&quot;&gt;nanjunxiao强烈推荐&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://handong1587.github.io/archives.html&quot;&gt;handong1587&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/edwardbi/tag/深度学习/&quot;&gt;edwardbi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -441,13 +460,16 @@
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/06/博客/</id>
     <published>2016-11-06T09:09:26.000Z</published>
-    <updated>2016-11-06T10:50:54.000Z</updated>
+    <updated>2016-11-06T13:07:50.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="http://www.cnblogs.com/kaituorensheng/p/3569436.html" target="_blank" rel="external">Wordnet 与 Hownet 比较</a></li>
 <li><a href="http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html" target="_blank" rel="external">《Using Cross-Entity Inference to Improve Event Extraction》读书笔记</a></li>
 <li><a href="http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/" target="_blank" rel="external">GBM之GBRT总结</a></li>
 <li><a href="https://www.nervanasys.com/deep-reinforcement-learning-with-neon/" target="_blank" rel="external">Guest Post (Part II): Deep Reinforcement Learning with Neon</a></li>
+</ul>
+<a id="more"></a>
+<ul>
 <li><a href="https://www.nervanasys.com/openai/" target="_blank" rel="external">Blog Post (Part III): Deep Reinforcement Learning with OpenAI Gym</a></li>
 <li><a href="http://www.cnblogs.com/peghoty/p/3857839.html" target="_blank" rel="external">word2vec 中的数学原理详解</a></li>
 <li><a href="http://www.jianshu.com/p/9dc9f41f0b29" target="_blank" rel="external">理解LSTM网络</a></li>
@@ -457,8 +479,11 @@
     <summary type="html">
     
       &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/kaituorensheng/p/3569436.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Wordnet 与 Hownet 比较&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a h
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/kaituorensheng/p/3569436.html&quot;&gt;Wordnet 与 Hownet 比较&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html&quot;&gt;《Using Cross-Entity Inference to Improve Event Extraction》读书笔记&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/&quot;&gt;GBM之GBRT总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nervanasys.com/deep-reinforcement-learning-with-neon/&quot;&gt;Guest Post (Part II): Deep Reinforcement Learning with Neon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -474,7 +499,7 @@
     <link href="http://yoursite.com/2016/11/06/%E5%AD%A6%E8%80%85/"/>
     <id>http://yoursite.com/2016/11/06/学者/</id>
     <published>2016-11-06T09:09:17.000Z</published>
-    <updated>2016-11-06T10:41:56.000Z</updated>
+    <updated>2016-11-06T13:07:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>#国内</p>
 <ul>
@@ -485,6 +510,7 @@
 <li><a href="">郭江</a></li>
 <li><a href="">唐都钰</a></li>
 </ul>
+<a id="more"></a>
 <p>#国外</p>
 <ul>
 <li><a href="">Heng Ji</a></li>
@@ -501,7 +527,9 @@
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;张梅山&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;丁效&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;周志华&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;郭江&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;唐都钰&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
@@ -517,7 +545,7 @@
     <link href="http://yoursite.com/2016/11/06/%E4%BC%9A%E8%AE%AE/"/>
     <id>http://yoursite.com/2016/11/06/会议/</id>
     <published>2016-11-06T09:09:01.000Z</published>
-    <updated>2016-11-06T10:06:42.000Z</updated>
+    <updated>2016-11-06T13:08:11.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Conference-From-chenyadong"><a href="#Conference-From-chenyadong" class="headerlink" title="Conference From chenyadong"></a>Conference From <a href="www.cnblogs.com/chenyadong">chenyadong</a></h1><h2 id="A类："><a href="#A类：" class="headerlink" title="A类："></a>A类：</h2><ul>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">ACL(ACL) Meeting of the Association for Computational Linguistics </a></li>
@@ -529,6 +557,7 @@
 <li><a href="">WWW(ACM) International World Wide Web Conferences</a></li>
 <li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank" rel="external">ICDE(IEEE) International Conference on Data Engineering</a></li>
 </ul>
+<a id="more"></a>
 <h2 id="B类"><a href="#B类" class="headerlink" title="B类"></a>B类</h2><ul>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">EMNLP(ACL) Empirical Methods in Natural Language Processing</a></li>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">NAACL(ACL) North American Chapter of the Association for Computational Linguistics</a></li>
@@ -557,7 +586,16 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conferen
+      &lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conference From &lt;a href=&quot;www.cnblogs.com/chenyadong&quot;&gt;chenyadong&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&quot;A类：&quot;&gt;&lt;a href=&quot;#A类：&quot; class=&quot;headerlink&quot; title=&quot;A类：&quot;&gt;&lt;/a&gt;A类：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology-new/&quot;&gt;ACL(ACL) Meeting of the Association for Computational Linguistics &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;IJCAI(AAAI) International Joint Conference on Artificial Intelligence 国际人工智能联合会议&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.aaai.org/Library/IJCAI/ijcai-library.php&quot;&gt;IJCAI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.aaai.org/Library/AAAI/aaai-library.php&quot;&gt;AAAI(AAAI) National Conference on Artificial Intelligence&lt;/a&gt; &lt;a href=&quot;http://www.aaai.org/Library/conferences-library.php&quot;&gt;AAAI所有会议下载地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;SIGIR(ACM) International ACM SIGIR Conference on Research and Development in Information Retrieval&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;SIGKDD(ACM) Workshop on Large-Scale Parallel KDD Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;WWW(ACM) International World Wide Web Conferences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/Xplore/home.jsp&quot;&gt;ICDE(IEEE) International Conference on Data Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
