@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T05:24:38.000Z</updated>
+  <updated>2016-11-06T04:25:34.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,32 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>事理图谱标注</title>
-    <link href="http://yoursite.com/2016/11/06/%E4%BA%8B%E7%90%86%E5%9B%BE%E8%B0%B1%E6%A0%87%E6%B3%A8/"/>
-    <id>http://yoursite.com/2016/11/06/事理图谱标注/</id>
-    <published>2016-11-06T04:29:07.000Z</published>
-    <updated>2016-11-06T05:24:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="需要修改的例子"><a href="#需要修改的例子" class="headerlink" title="需要修改的例子"></a>需要修改的例子</h1><p>台阶上堆满蜡烛和乞讨的人</p>
-<p>累的半死<br>一起走<br>喘气</p>
-<p>待得心烦<br>先走</p>
-<p>看到游客经过</p>
-<p>目光交流<br>下山<br>坐缆车</p>
-<p>挥泪告别<br>自己攀登</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;需要修改的例子&quot;&gt;&lt;a href=&quot;#需要修改的例子&quot; class=&quot;headerlink&quot; title=&quot;需要修改的例子&quot;&gt;&lt;/a&gt;需要修改的例子&lt;/h1&gt;&lt;p&gt;台阶上堆满蜡烛和乞讨的人&lt;/p&gt;
-&lt;p&gt;累的半死&lt;br&gt;一起走&lt;br&gt;喘气&lt;/p&gt;
-&lt;p&gt;待得心烦&lt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -69,72 +43,18 @@
   </entry>
   
   <entry>
-    <title>事理图谱思考</title>
-    <link href="http://yoursite.com/2016/04/24/%E4%BA%8B%E7%90%86%E5%9B%BE%E8%B0%B1%E6%80%9D%E8%80%83-2016-04-24/"/>
-    <id>http://yoursite.com/2016/04/24/事理图谱思考-2016-04-24/</id>
-    <published>2016-04-24T09:28:05.000Z</published>
-    <updated>2016-11-06T04:34:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="研究意义"><a href="#研究意义" class="headerlink" title="研究意义"></a>研究意义</h1><p>事理图谱：以事件为元素的常识推理知识库<br>Open Information Extraction：Event Extraction<br>基于特定场景的事件链条：意义何在？<br>TDT：Topic Detection and Tracking</p>
-<p>现在的第一要务：<br>手工筛选500条问答对语料，400条训练，100条测试。<br>手工标注每个问答对可以构建的事件链条。<br>按照嘉伟的规则，以及我的问题的特殊性，完成完善的事件抽取模块。提高准确率和召回率。</p>
-<p>事件抽取的规则制定：<br>如果主语是人或者没有主语，则可以不要主语，否则的话应该加上主语 SBV<br>动词的修饰副词应该加上,如不，没等<br>并列结构应该要：COO</p>
-<p>事件最小单元：动宾短语-如果主语是人或者没有主语，则可以不要主语，否则的话应该加上主语 SBV</p>
-<p>段落分类，一个问答对是否可以满足构建</p>
-<p>动作动词和状态动词词表</p>
-<p>后续工作计划：<br>web端demo展示：出行类消费事理图谱<br>事理图谱的存储和查询：事件抽取然后进行相似度计算，找到最相似节点。为了加快相似度计算速度，可以做个事件聚类。<br>开放域大规模语料上构建事理图谱，用于对话系统和意图识别。</p>
-<p>先基于特定领域来做：股票涨跌的事理图谱-&gt;方法迁移-&gt;出行意图的事理图谱</p>
-<p>技术方案and实验：<br>1.找到句子；<br>2.识别句子之间的关系，即箭头方向；</p>
-<p>以上两步构建了单个句对的事理例子，下面进一步构建成为事理图谱：</p>
-<p>3.将句子进行抽象，去除无用成分；同一个句子中可能包含多个事件，应识别同一个句子中的事件之间的关系，和不同句子之间的关系。</p>
-<p>4.将成对的句子根据推理关系进行拼接，构建事件链条；<br>5.进行句子相似度计算，同一意思的句子进行规约，形成图谱形态；<br>6.领域迁移。</p>
-<p>不足之处：<br>1.方法可迁移吗？<br>2.人工参与多吗？<br>3.信息过滤自动化吗？如何高效判断句子的信息含量？或者是否含有因果关系？<br>4.需要规则吗？规则可以领域迁移吗？<br>5.如果用到了关键字匹配，如何为不同领域自动选择关键字？</p>
-<p>工作意义：<br>1.自动构建事理图谱：事件背后的道理<br>2.领域迁移<br>3.基于事件的预测可解释性更好</p>
-<p>相关工作：<br>1.事件抽取；<br>2.因果关系挖掘；<br>3.基于事件的预测；<br>4.事件的表示；<br>5.知识图谱；</p>
-<p>Title: Constructing Event Graph For (implicit) Consumption Intention Recognition (in dialogue system)</p>
-<p>Mining Consumption Intention From Online Q&amp;A Community   </p>
-<p>Author:<br>Zhongyang Li, Xiao Ding, and Ting Liu<br>Reseach Center for Social Computing and Information Retrieval,<br>Harbin Institute of Technology, Harbin, China<br>{zyli,xding,tliu}@ir.hit.edu.cn</p>
-<p>KeyWords:<br>事理图谱（事件网络），消费意图识别，网络构建，意图相关产品推荐，知乎，问答社区</p>
-<p>Abstract:</p>
-<p>Introduction:<br>the importance of Intention Recognition especially the Recognition of Consumption Intention.<br>two main kinds of Consumption Intention: explicit and implicit.<br>other Intention related work and related work.<br>contributions of this work:<br>    1.提出事理图谱的概念。<br>    2.用知乎数据构建出行类消费事理图谱：如何描述这个网络，节点和边如何定义。<br>    3.事件相关消费意图识别：搜索引擎，电商，淘宝，京东。</p>
-<p>Problem definition:<br>显式消费意图，隐式消费意图，事理图谱定义，消费意图跟事件紧密相关。<br>构建消费事理图谱，挖掘每一事件相关的消费行为。<br>    存在的问题：<br>如何进行事件抽取？<br>如何构建事件链条？<br>如何挖掘事件相关的消费意图？<br>如何处理同一事件的不同描述？<br>如何处理事件抽取造成的事件歧义？<br>如何描述每一个意图？只给出产品类别？<br>如何构建baseline？<br>如何评价？</p>
-<p>Methods:</p>
-<p>part1:<br>part2:</p>
-<p>Experiments:<br>dataset:<br>    知乎旅行数据集<br>    数据集上的统计:问题数，答案数，平均每个问题的回答数，平均答案长度<br>experiments setup:<br>    baseline methods：<br>    事件抽取<br>    事件相关的消费意图识别<br>evaluation metrics:<br>    准确率，召回率<br>results and analisys:<br>    抽取了多少个事件<br>    其中多少个事件是消费意图相关的<br>    事件链条的评价：多少个一阶，二阶，三阶，更多阶事件链条。图谱评价：定点数，边数，度数等（寻找评价图的完备性的指标）</p>
-<p>Realted work:</p>
-<p>Conclusion and Future Work:<br>我们论述了：意图识别尤其是消费意图识别具有极大的商业价值。传统基于分类的方法对于消费意图识别任务作用有限，尤其是难以准确识别隐式消费意图.<br>本文提出了事理图谱的概念，并针对于消费意图识别任务，提出并构建了消费事理图谱，进一步挖掘了事件相关的消费意图。<br>本文提出了解决消费意图识别的新方法，对于不同场景下的隐式消费意图识别具有重要意义。</p>
-<p>future work:<br>用更大的数据集构建具有实用意义的消费事理图谱，扩展到其他领域，探究通用消费事理图谱的构建方法，在实际商业场景中检验事理图谱的有效性。<br>Acknowledgement:</p>
-<p>References:</p>
-<p>从事专业关键词:顺序跟word文档不一致</p>
-<p>平台团队：删了一段最后一段</p>
-<p>第五篇论文word文档中是代表作</p>
-<p>错误原因：<br>句子不规则，缺少标点，如果加上标点，就可以句法分析正确。<br>分词，词性标注，句法分析错误。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;研究意义&quot;&gt;&lt;a href=&quot;#研究意义&quot; class=&quot;headerlink&quot; title=&quot;研究意义&quot;&gt;&lt;/a&gt;研究意义&lt;/h1&gt;&lt;p&gt;事理图谱：以事件为元素的常识推理知识库&lt;br&gt;Open Information Extraction：Event Extra
-    
-    </summary>
-    
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="研究" scheme="http://yoursite.com/tags/%E7%A0%94%E7%A9%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>网页-微信文章-科普文章阅读笔记</title>
-    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5-%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0-%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0-2016-04-02/"/>
-    <id>http://yoursite.com/2016/04/02/网页-微信文章-科普文章阅读笔记-2016-04-02/</id>
+    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5-%E5%BE%AE%E4%BF%A1%E6%96%87%E7%AB%A0-%E7%A7%91%E6%99%AE%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/04/02/网页-微信文章-科普文章阅读笔记/</id>
     <published>2016-04-02T14:20:41.000Z</published>
-    <updated>2016-11-06T04:34:40.000Z</updated>
+    <updated>2016-11-06T06:01:22.000Z</updated>
     
     <content type="html"><![CDATA[<ol>
-<li><p>机器学习那些事，刘知远<br>得到的经验就是：<br>特征工程很重要：特征选择，试错<br>训练多个不同模型集成很重要：bagging，boosting，stacking</p>
-</li>
-<li><p>深度学习：推动NLP领域发展的新引擎</p>
-</li>
+<li>机器学习那些事，刘知远<br>得到的经验就是：<br>特征工程很重要：特征选择，试错<br>训练多个不同模型集成很重要：bagging，boosting，stacking</li>
+</ol>
+<a id="more"></a>
+<ol>
+<li>深度学习：推动NLP领域发展的新引擎</li>
 </ol>
 <p>Word Embedding<br>引入词的关系<br>最常见的思路就是用Dependency Parser，把抽取出来的Relation作为词的Context。<br>改进Bag of Words<br>有人认为词（Word）的粒度也太大，可以到Character级别的，或者Morpheme级别的。<br>外部资源和知识库<br>Word2vec只使用了词的上下文的共现，没有使用外部的资源如词典知识库等，因此也有不少工作对此进行改进。</p>
 <p>RNN/LSTM/CNN<br>最近CNN相关的改进模型也被用于NLP领域。今年的ACL上有很多RNN/LSTM/CNN用来做机器翻译（Machine Translation）、语义角色标注（Sematic Role Labeling）等。</p>
@@ -215,10 +135,8 @@
     <summary type="html">
     
       &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;机器学习那些事，刘知远&lt;br&gt;得到的经验就是：&lt;br&gt;特征工程很重要：特征选择，试错&lt;br&gt;训练多个不同模型集成很重要：bagging，boosting，stacking&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;深度学习：推动NLP领域发展的新引擎&lt;/p&gt;
-&lt;/
+&lt;li&gt;机器学习那些事，刘知远&lt;br&gt;得到的经验就是：&lt;br&gt;特征工程很重要：特征选择，试错&lt;br&gt;训练多个不同模型集成很重要：bagging，boosting，stacking&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -231,10 +149,10 @@
   
   <entry>
     <title>论文阅读笔记</title>
-    <link href="http://yoursite.com/2016/01/14/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0-2016-01-14/"/>
-    <id>http://yoursite.com/2016/01/14/论文阅读笔记-2016-01-14/</id>
+    <link href="http://yoursite.com/2016/01/14/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/01/14/论文阅读笔记/</id>
     <published>2016-01-14T02:08:19.000Z</published>
-    <updated>2016-11-06T04:34:44.000Z</updated>
+    <updated>2016-11-06T06:00:17.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="深度学习相关论文"><a href="#深度学习相关论文" class="headerlink" title="深度学习相关论文"></a>深度学习相关论文</h1><ol>
 <li>机器学习系统，隐藏多少技术债？Hidden Technical Debt in Machine Learning Systems</li>
@@ -242,6 +160,7 @@
 <li>Human-level control through deep reinforcement</li>
 <li>Teaching Machines to Read and Comprehend</li>
 </ol>
+<a id="more"></a>
 <p>#其他论文</p>
 <ol>
 <li>Personalized Microtopic Recommendation on Microblogs,李洋，TIST</li>
@@ -449,7 +368,11 @@
     <summary type="html">
     
       &lt;h1 id=&quot;深度学习相关论文&quot;&gt;&lt;a href=&quot;#深度学习相关论文&quot; class=&quot;headerlink&quot; title=&quot;深度学习相关论文&quot;&gt;&lt;/a&gt;深度学习相关论文&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;机器学习系统，隐藏多少技术债？Hidden Technical Debt in 
+&lt;li&gt;机器学习系统，隐藏多少技术债？Hidden Technical Debt in Machine Learning Systems&lt;/li&gt;
+&lt;li&gt;Mastering the game of Go with deep neural networks and tree search_nature&lt;/li&gt;
+&lt;li&gt;Human-level control through deep reinforcement&lt;/li&gt;
+&lt;li&gt;Teaching Machines to Read and Comprehend&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -534,7 +457,7 @@
     <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC%E6%A0%87%E7%A8%8B%E8%87%AA%E5%B7%B1%E7%94%A8%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%8F%E5%85%B8%E4%BE%8B%E5%AD%90/"/>
     <id>http://yoursite.com/2015/04/15/shell脚本标程自己用过的一些经典例子/</id>
     <published>2015-04-15T05:37:48.000Z</published>
-    <updated>2016-11-06T04:34:59.000Z</updated>
+    <updated>2016-11-06T06:02:20.000Z</updated>
     
     <content type="html"><![CDATA[<p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
 <p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
@@ -565,116 +488,6 @@
     
     
       <category term="shell" scheme="http://yoursite.com/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的个人简历</title>
-    <link href="http://yoursite.com/2015/04/15/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/"/>
-    <id>http://yoursite.com/2015/04/15/我的个人简历/</id>
-    <published>2015-04-15T04:41:59.000Z</published>
-    <updated>2016-11-06T04:34:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>####教育经历</p>
-<ul>
-<li>2008.08-2011.06 河南省林州市林州一中-高中</li>
-<li>2011.08-至今 哈尔滨工业大学-本科</li>
-</ul>
-<p>####研究方向</p>
-<ul>
-<li>社会媒体处理</li>
-<li>自然语言处理</li>
-<li>机器学习</li>
-<li>数据挖掘</li>
-</ul>
-<a id="more"></a>
-<p>####我的个人信息</p>
-<ul>
-<li>哈尔滨工业大学本科在读，社会计算与信息检索实验室-SCIR</li>
-<li>家乡:河南省林州市</li>
-<li>手机:15629181795</li>
-<li>QQ:1482612462</li>
-<li>常用邮箱:elizhongyang@163.com</li>
-<li>工作邮箱:zyli@ir.hit.edu.cn</li>
-<li>新浪微博:<a href="http://weibo.com/u/2494805143" target="_blank" rel="external">我的新浪微博主页</a></li>
-<li>个人主页:<a href="http://ir.hit.edu.cn/~zyli" target="_blank" rel="external">我的实验室个人主页</a></li>
-<li>CSDN主页:<a href="http://blog.csdn.net/e6894853" target="_blank" rel="external">我的CSDN</a></li>
-<li>博客园主页:<a href="http://www.cnblogs.com/zzllzy" target="_blank" rel="external">zzllzy的园子</a></li>
-<li>github主页:<a href="https://github.com/eecrazy" target="_blank" rel="external">我的github</a></li>
-<li>豆瓣:<a href="http://www.douban.com/people/54858206" target="_blank" rel="external">我的豆瓣个人主页</a></li>
-</ul>
-<p>####技能</p>
-<ul>
-<li>c/c++</li>
-<li>python</li>
-<li>shell</li>
-<li>java</li>
-<li>statistical machine learning</li>
-<li>ruby on rails,css</li>
-<li>mysql</li>
-<li>hadoop</li>
-<li>vim,emacs,sublime</li>
-</ul>
-<p>####兴趣</p>
-<ul>
-<li>mongodb</li>
-<li>nodejs,javascripte,bootstrap</li>
-<li>lisp</li>
-<li>ios,swift</li>
-</ul>
-<p>####爱好</p>
-<ul>
-<li>游泳</li>
-<li>跑步</li>
-<li>LOL</li>
-<li>街舞:breaking</li>
-</ul>
-<p>####工作经历</p>
-<ul>
-<li>2014.03-2014.04 学工办助理</li>
-<li>2014.06.25-2014.09.30 百度NLP部门DQA小组实习生</li>
-<li>2012.02-2012.06 实验学院C语言助教</li>
-<li>2013.02-2013.06 软件学院C语言助教</li>
-</ul>
-<p>####项目经历</p>
-<ul>
-<li>百度知道问答对垃圾数据过滤系统</li>
-<li>负责维护实验室电影票房预测系统</li>
-<li>类Twitter微博系统</li>
-</ul>
-<p>####曾任职务</p>
-<ul>
-<li>班级团支书</li>
-<li>哈工大微软俱乐部技术部副部长</li>
-</ul>
-<p>####所获奖励</p>
-<ul>
-<li>2013国家励志奖学金</li>
-<li>校园机器人足球亚军</li>
-<li>2013黑龙江省ACM省赛一等奖</li>
-<li>2013ACM亚洲区预赛浙江邀请赛三等奖</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;####教育经历&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2008.08-2011.06 河南省林州市林州一中-高中&lt;/li&gt;
-&lt;li&gt;2011.08-至今 哈尔滨工业大学-本科&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;####研究方向&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;社会媒体处理&lt;/li&gt;
-&lt;li&gt;自然语言处理&lt;/li&gt;
-&lt;li&gt;机器学习&lt;/li&gt;
-&lt;li&gt;数据挖掘&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
-    
     
   </entry>
   
