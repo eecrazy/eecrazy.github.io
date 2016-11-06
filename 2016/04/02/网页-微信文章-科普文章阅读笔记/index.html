@@ -86,16 +86,19 @@
 
 
 
-<meta name="description" content="机器学习那些事，刘知远得到的经验就是：特征工程很重要：特征选择，试错训练多个不同模型集成很重要：bagging，boosting，stacking">
+<meta name="description" content="机器学习那些事，刘知远
+ 得到的经验就是： 特征工程很重要：特征选择，试错 训练多个不同模型集成很重要：bagging，boosting，stacking">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网页-微信文章-科普文章阅读笔记">
 <meta property="og:url" content="http://yoursite.com/2016/04/02/网页-微信文章-科普文章阅读笔记/index.html">
 <meta property="og:site_name" content="李忠阳的个人博客">
-<meta property="og:description" content="机器学习那些事，刘知远得到的经验就是：特征工程很重要：特征选择，试错训练多个不同模型集成很重要：bagging，boosting，stacking">
-<meta property="og:updated_time" content="2016-11-06T06:01:22.000Z">
+<meta property="og:description" content="机器学习那些事，刘知远
+ 得到的经验就是： 特征工程很重要：特征选择，试错 训练多个不同模型集成很重要：bagging，boosting，stacking">
+<meta property="og:updated_time" content="2016-11-06T06:46:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="网页-微信文章-科普文章阅读笔记">
-<meta name="twitter:description" content="机器学习那些事，刘知远得到的经验就是：特征工程很重要：特征选择，试错训练多个不同模型集成很重要：bagging，boosting，stacking">
+<meta name="twitter:description" content="机器学习那些事，刘知远
+ 得到的经验就是： 特征工程很重要：特征选择，试错 训练多个不同模型集成很重要：bagging，boosting，stacking">
 
 
 
@@ -326,85 +329,112 @@
 
       
         <ol>
-<li>机器学习那些事，刘知远<br>得到的经验就是：<br>特征工程很重要：特征选择，试错<br>训练多个不同模型集成很重要：bagging，boosting，stacking</li>
-</ol>
+<li><p>机器学习那些事，刘知远</p>
+<p> 得到的经验就是：<br> 特征工程很重要：特征选择，试错<br> 训练多个不同模型集成很重要：bagging，boosting，stacking</p>
 <a id="more"></a>
-<ol>
-<li>深度学习：推动NLP领域发展的新引擎</li>
-</ol>
-<p>Word Embedding<br>引入词的关系<br>最常见的思路就是用Dependency Parser，把抽取出来的Relation作为词的Context。<br>改进Bag of Words<br>有人认为词（Word）的粒度也太大，可以到Character级别的，或者Morpheme级别的。<br>外部资源和知识库<br>Word2vec只使用了词的上下文的共现，没有使用外部的资源如词典知识库等，因此也有不少工作对此进行改进。</p>
-<p>RNN/LSTM/CNN<br>最近CNN相关的改进模型也被用于NLP领域。今年的ACL上有很多RNN/LSTM/CNN用来做机器翻译（Machine Translation）、语义角色标注（Sematic Role Labeling）等。</p>
-<p>Multi-model Deep Learning<br>这是当下的一个热门，不只考虑文本，同时也考虑图像，比如给图片生成标题（Caption）。当然这和传统的NLP任务不太一样，但这是一个非常有趣的方向，有点像小朋友学习看图说话。</p>
-<p>Reasoning, Attention and Memory<br>前面说RNN/LSTM是试图模拟人类大脑的记忆机制，但除了记忆之外，Attention也是非常有用的机制。</p>
-<p>Attention<br>最早Attention是在《Recurrent Models of Visual Attention》这篇文章提出来的。关于Attention，Google DeepMind的一篇论文《DRAW：A Recurrent Neural Network For Image》有一段非常好的解释。Attention除了模仿人类视觉系统的认知过程，还可以减少计算量，因为它排除了不关心的内容。而传统的模型如CNN，其计算复杂度就非常高。另外除了计算减少的好处之外，有选择地把计算资源（注意力）放在关键的地方而不是其它（可能干扰）的地方，还有可能提高识别准确率。就像一个人注意力很分散，哪都想看，反而哪都看不清楚。</p>
-<p>Attention最早是在视觉领域应用，当然很快就扩展到NLP和Speech。<br>用来做机器翻译：Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio. Neural Machine Translation by Jointly Learning to Align and Translate. 2015. In Proceedings of ICLR.</p>
-<p>做Summary：Alexander M. Rush, Sumit Chopra, Jason Weston. A Neural Attention Model for Sentence Summarization. 2015. In Proceedings of EMNLP.</p>
-<p>Word Embedding: Not All Contexts Are Created Equal: Better Word Representations with Variable Attention. 2015. In Proceedings of EMNLP.</p>
-<p>Speech领域：Attention-Based Models for Speech Recognition. </p>
-<p>其它的应用，比如Multimodel，Image的Caption生成： Attend and Tell: Neural Image Caption Generation with Visual Attention. Teaching Machines to Read and Comprehend. 2015. In Proceedings of NIPS.</p>
-<p>前面最早的Attention Model是不可导的，只能用强化学习来优化，也被叫做Hard Attention，也就是把注意力集中在离散的区域；后来也有Soft的Attention，也就是在所有的区域都有Attention，但是连续分布的。Soft的好处是可导，因此可以用梯度下降这样的方法来训练模型，和传统的神经网络更加接近。但坏处就是因为所有的区域都有值（非零），这就增加了计算量。用个不恰当的比方，一个是稀疏矩阵，一个是稠密的矩阵，计算量当然差别就很大。</p>
-<p>也有一些工作尝试融合Soft和Hard Attention的优点。</p>
-<p>Memory的扩展<br>前面说到RNN，如LSTM，有Memory（记忆），很多模型对此也进行了拓展。</p>
-<p>比如Neural Turing Machine (Neural Turing Machines. Alex Graves, Greg Wayne, Ivo Danihelka. arXiv Pre-Print, 2014)，NTM用一句话描述就是有外部存储的神经网络。</p>
-<p>Language的复杂性<br>深度学习的一个方向Representation Learning其实就是有这个想法，不过目前更多关注的是一些具体任务的Feature的表示。更多是在Image和Speech领域，用在Language的较少，Word2vec等也可以看成表示概念的方式，不过这种向量的表示太过简单且没有结构化。更少有工作考虑用神经网络怎么表示人类已有的复杂知识。现在的知识表示还是以几十年前基于符号的形式逻辑的为主。</p>
-<p>我们现在甚至有很多结构化的数据，比如企业数据库、维基百科的、Google的Freebase以及内部的Knowledge Graph。但目前都是用人类习惯的表示方式，比如三元组、图或者实体关系。但这样的表示方式是高层的抽象的，大脑里的神经元似乎不能处理，因此现在的Deep Neural Network很难整合已有的这些知识库进行推理等更有用的事情。</p>
-<p>总结<br>从上面的分析我们大致可以看到最近NLP的发展趋势：深度神经网络尤其是RNN的改进，模拟人脑的Attention和Memory，更加结构化的Word Embedding或者说Knowledge Representation。</p>
-<ol>
-<li><p>sed百度百科阅读学习<br>sed -n ‘s/ID/&amp;id/p’ true.csv |more<br>sed /100/d true.csv |wc -l</p>
 </li>
-<li><p>如何判断一篇论文是否被SCI收录？<br>有人说IDS number就是SCI检索号，而也有很多人说SCI检索号是UT ISI号(15位)。不知谁的说法对？认为是后一种的人更多。<br>IDS 在sci数据库中是这样的解释的：Thomson Reuters Document Solution® 编号。此号码是识别期刊和期号的唯一编号，用于订阅 Document Solution 中的文献的全文。也就是说该号是论文发表刊和所在期的编号。由此可知同一期的所有的论文IDS号是一样的。UT ISI号是Unique Article Identifier，是文章的唯一识别符。<br>规律：<br>看ids号<br>数字在前  字母在后 SCI<br>字母在前  数字在后  ISTP</p>
+<li><p>深度学习：推动NLP领域发展的新引擎</p>
+<p> Word Embedding<br> 引入词的关系<br> 最常见的思路就是用Dependency Parser，把抽取出来的Relation作为词的Context。<br> 改进Bag of Words<br> 有人认为词（Word）的粒度也太大，可以到Character级别的，或者Morpheme级别的。<br> 外部资源和知识库<br> Word2vec只使用了词的上下文的共现，没有使用外部的资源如词典知识库等，因此也有不少工作对此进行改进。</p>
+<p> RNN/LSTM/CNN<br> 最近CNN相关的改进模型也被用于NLP领域。今年的ACL上有很多RNN/LSTM/CNN用来做机器翻译（Machine Translation）、语义角色标注（Sematic Role Labeling）等。</p>
 </li>
 </ol>
-<p>“SCI、EI和ISTP收录号的查询方法（总结）”：<br><a href="http://emuch.net/bbs/viewthread.php?tid=660421" target="_blank" rel="external">http://emuch.net/bbs/viewthread.php?tid=660421</a><br>“GA  BHE43 ”这栏里的“BHE43”字母在前数字在后就是ISTP检索，如果数字在前字母在后就是SCI检索。当然要注意一个特殊的情况，有些会议文章被期刊收录后，即使该期刊是SCI检索，查询检索时“GA  BHE43 ”这栏里的“BHE43”情形还是和ISTP检索类似，即字母在前数字在后。</p>
-<ol>
-<li>原问题：如何查询一篇文献的影响因子<br>亲。文献是没有影响因子的。有影响因子的那个是期刊。你直接查到期刊的主页，上面会有影响因子的。或者期刊名加上impact factor直接上Google上搜就能搜到。</li>
-</ol>
-<p>影响因子（Impact Factor,IF)是美国ISI（科学信息研究所）的JCR(期刊引证报告）中的一项数据。<br>  即某期刊前两年发表的论文在统计当年的被引用总次数除以该期刊在前两年内发表的论文总数。这是一个国际上通行的期刊评价指标。<br>意义：该指标是相对统计值，可克服大小期刊由于载文量不同所带来的偏差。一般来说，影响因子越大，其学术影响力也越大。<br>影响因子查询系统<br><a href="http://emuch.net/sciif/" target="_blank" rel="external">http://emuch.net/sciif/</a><br><a href="http://www.proteomics.com.cn/sci-if/" target="_blank" rel="external">http://www.proteomics.com.cn/sci-if/</a></p>
-<ol>
-<li>Michael Jordan推荐的机器学习书籍<br>“I now tend to add some books that dig still further into foundational topics. In particular, I recommend A. Tsybakov’s book “Introduction to Nonparametric Estimation” as a very readable source for the tools for obtaining lower bounds on estimators, and Y. Nesterov’s very readable “Introductory Lectures on Convex Optimization” as a way to start to understand lower bounds in optimization. I also recommend A. van der Vaart’s “Asymptotic Statistics”, a book that we often teach from at Berkeley, as a book that shows how many ideas in inference (M estimation—which includes maximum likelihood and empirical risk minimization—the bootstrap, semiparametrics, etc) repose on top of empirical process theory. I’d also include B. Efron’s “Large-Scale Inference: Empirical Bayes Methods for Estimation, Testing, and Prediction”, as a thought-provoking book”<br>Introduction to Nonparametric Estimation<br>Introductory Lectures on Convex Optimization<br>Asymptotic Statistics<br>Large-Scale Inference: Empirical Bayes Methods for Estimation, Testing, and Prediction</li>
-</ol>
-<p>Tsybakov’s book is available online at Springer if your University has access to it: <a href="http://link.springer.com/book/10.1007%2Fb13794" target="_blank" rel="external">http://link.springer.com/book/10.1007%2Fb13794</a></p>
-<p>Nesterov’s books is also available: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8853-9" target="_blank" rel="external">http://link.springer.com/book/10.1007%2F978-1-4419-8853-9</a></p>
-<p>Thanks a lot! BTW, I gathered your recommendations on Goodreads: <a href="https://www.goodreads.com/review/list/6324945-nikita-zhiltsov?shelf=m-jordan-s-list" target="_blank" rel="external">https://www.goodreads.com/review/list/6324945-nikita-zhiltsov?shelf=m-jordan-s-list</a></p>
-<p>In this post, I would like to blend together recommendations from academic and industry researchers: <a href="http://nzhiltsov.blogspot.com/2014/09/highly-recommended-books-for-machine-learning-researchers.html" target="_blank" rel="external">http://nzhiltsov.blogspot.com/2014/09/highly-recommended-books-for-machine-learning-researchers.html</a></p>
-<p>Other comprehensive list of video lectures and some books. <a href="http://dk-techlogic.blogspot.in/2012/05/best-machine-learning-resources.html" target="_blank" rel="external">http://dk-techlogic.blogspot.in/2012/05/best-machine-learning-resources.html</a></p>
-<ol>
-<li><p>SCI论文发表过程分析<br>论文写作<br>论文定位<br>选定期刊<br>在线投稿<br>文章审理<br>文章接收</p>
+<pre><code>Multi-model Deep Learning
+这是当下的一个热门，不只考虑文本，同时也考虑图像，比如给图片生成标题（Caption）。当然这和传统的NLP任务不太一样，但这是一个非常有趣的方向，有点像小朋友学习看图说话。
+
+Reasoning, Attention and Memory
+前面说RNN/LSTM是试图模拟人类大脑的记忆机制，但除了记忆之外，Attention也是非常有用的机制。
+
+Attention
+最早Attention是在《Recurrent Models of Visual Attention》这篇文章提出来的。关于Attention，Google DeepMind的一篇论文《DRAW：A Recurrent Neural Network For Image》有一段非常好的解释。Attention除了模仿人类视觉系统的认知过程，还可以减少计算量，因为它排除了不关心的内容。而传统的模型如CNN，其计算复杂度就非常高。另外除了计算减少的好处之外，有选择地把计算资源（注意力）放在关键的地方而不是其它（可能干扰）的地方，还有可能提高识别准确率。就像一个人注意力很分散，哪都想看，反而哪都看不清楚。
+
+Attention最早是在视觉领域应用，当然很快就扩展到NLP和Speech。
+用来做机器翻译：Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio. Neural Machine Translation by Jointly Learning to Align and Translate. 2015. In Proceedings of ICLR.
+
+做Summary：Alexander M. Rush, Sumit Chopra, Jason Weston. A Neural Attention Model for Sentence Summarization. 2015. In Proceedings of EMNLP.
+
+Word Embedding: Not All Contexts Are Created Equal: Better Word Representations with Variable Attention. 2015. In Proceedings of EMNLP.
+
+Speech领域：Attention-Based Models for Speech Recognition. 
+
+其它的应用，比如Multimodel，Image的Caption生成： Attend and Tell: Neural Image Caption Generation with Visual Attention. Teaching Machines to Read and Comprehend. 2015. In Proceedings of NIPS.
+
+前面最早的Attention Model是不可导的，只能用强化学习来优化，也被叫做Hard Attention，也就是把注意力集中在离散的区域；后来也有Soft的Attention，也就是在所有的区域都有Attention，但是连续分布的。Soft的好处是可导，因此可以用梯度下降这样的方法来训练模型，和传统的神经网络更加接近。但坏处就是因为所有的区域都有值（非零），这就增加了计算量。用个不恰当的比方，一个是稀疏矩阵，一个是稠密的矩阵，计算量当然差别就很大。
+
+也有一些工作尝试融合Soft和Hard Attention的优点。
+
+Memory的扩展
+前面说到RNN，如LSTM，有Memory（记忆），很多模型对此也进行了拓展。
+
+比如Neural Turing Machine (Neural Turing Machines. Alex Graves, Greg Wayne, Ivo Danihelka. arXiv Pre-Print, 2014)，NTM用一句话描述就是有外部存储的神经网络。
+
+Language的复杂性
+深度学习的一个方向Representation Learning其实就是有这个想法，不过目前更多关注的是一些具体任务的Feature的表示。更多是在Image和Speech领域，用在Language的较少，Word2vec等也可以看成表示概念的方式，不过这种向量的表示太过简单且没有结构化。更少有工作考虑用神经网络怎么表示人类已有的复杂知识。现在的知识表示还是以几十年前基于符号的形式逻辑的为主。
+
+我们现在甚至有很多结构化的数据，比如企业数据库、维基百科的、Google的Freebase以及内部的Knowledge Graph。但目前都是用人类习惯的表示方式，比如三元组、图或者实体关系。但这样的表示方式是高层的抽象的，大脑里的神经元似乎不能处理，因此现在的Deep Neural Network很难整合已有的这些知识库进行推理等更有用的事情。
+
+总结
+从上面的分析我们大致可以看到最近NLP的发展趋势：深度神经网络尤其是RNN的改进，模拟人脑的Attention和Memory，更加结构化的Word Embedding或者说Knowledge Representation。
+</code></pre><ol>
+<li><p>sed百度百科阅读学习</p>
+<p> sed -n ‘s/ID/&amp;id/p’ true.csv |more<br> sed /100/d true.csv |wc -l</p>
 </li>
-<li><p>搜索需要一场变革<br>在万维网诞生20周年之际,奥伦·艾齐厄尼(OrenEtzioni)号召研究者开始思考比关键 词框更好的互联网搜索方式。<br>互联网搜索正处于从简单的文档检索走向问题 回答深刻变革的风口浪尖上。用户在进行搜索时真正想要的并<br>不是一串长长的包含关键词的文档列 表,而是他们所提问题的直接答案。</p>
+<li><p>如何判断一篇论文是否被SCI收录？</p>
+<p> 有人说IDS number就是SCI检索号，而也有很多人说SCI检索号是UT ISI号(15位)。不知谁的说法对？认为是后一种的人更多。<br> IDS 在sci数据库中是这样的解释的：Thomson Reuters Document Solution® 编号。此号码是识别期刊和期号的唯一编号，用于订阅 Document Solution 中的文献的全文。也就是说该号是论文发表刊和所在期的编号。由此可知同一期的所有的论文IDS号是一样的。UT ISI号是Unique Article Identifier，是文章的唯一识别符。<br> 规律：<br> 看ids号<br> 数字在前  字母在后 SCI<br> 字母在前  数字在后  ISTP</p>
+<p> “SCI、EI和ISTP收录号的查询方法（总结）”：<br> <a href="http://emuch.net/bbs/viewthread.php?tid=660421" target="_blank" rel="external">http://emuch.net/bbs/viewthread.php?tid=660421</a><br> “GA  BHE43 ”这栏里的“BHE43”字母在前数字在后就是ISTP检索，如果数字在前字母在后就是SCI检索。当然要注意一个特殊的情况，有些会议文章被期刊收录后，即使该期刊是SCI检索，查询检索时“GA  BHE43 ”这栏里的“BHE43”情形还是和ISTP检索类似，即字母在前数字在后。</p>
 </li>
 </ol>
-<p>由网页 构成的海量语料库是高度冗余的,也就是说一个断 言会以不同形式被多次表达。这样一来,当系统从 独立撰写的不同句子中多次抽取出相同的断言时, 它以此推导出一个正确事实的可能性便得到了成倍的提高。</p>
-<p>开放式信息抽取或许能够从实质上扩大这些工 具的使用范围。我们系统的开源代码可以通过http:// go.nature.com/ei3p4f获取。</p>
-<p>信息抽取不仅需要能够推 导由动词表达的关系,还要能够推导由名词或形容 词表达的关系。同时,信息往往要通过其<br>来源、目 的和上下文才能充分体现,因此系统需要建立检测 这些因素或者其他更微妙因素的能力。最后,信息 抽取方法<br>还需要扩展到其他语言中去,这也将面临 各种特殊的挑战。</p>
-<p>实现从信息检索到问答系统的范式转变所遇到的 最大障碍似乎是我们令人惊异地缺乏某种雄心和想象力。</p>
-<p>大多数自然语言处理研究聚焦于有限的几个任务 上。例如,它们关注如何分析句子的句法结构,却很 少关注如何揭示<br>它们的意义;由于对人工标注数据的依赖,其方法无法适应大规模文档集合和任意主题的文本;所提出算法的计算<br>花销也可能是随着数据的规模呈指数增长的。</p>
-<p>无论是检索文献的科学家,还是迅速增长的小屏幕手机用户(需要从互联网中撷取简洁回答),均将 受惠于通用<br>的问答系统。没有它,我们将会冒被淹没 于信息汪洋大海之中的危险。</p>
 <ol>
-<li><p>特征工程方法<br>特征提取<br>特征构造<br>特征工程</p>
+<li><p>原问题：如何查询一篇文献的影响因子</p>
+<p> 亲。文献是没有影响因子的。有影响因子的那个是期刊。你直接查到期刊的主页，上面会有影响因子的。或者期刊名加上impact factor直接上Google上搜就能搜到。</p>
+<p> 影响因子（Impact Factor,IF)是美国ISI（科学信息研究所）的JCR(期刊引证报告）中的一项数据。<br>   即某期刊前两年发表的论文在统计当年的被引用总次数除以该期刊在前两年内发表的论文总数。这是一个国际上通行的期刊评价指标。<br> 意义：该指标是相对统计值，可克服大小期刊由于载文量不同所带来的偏差。一般来说，影响因子越大，其学术影响力也越大。<br> 影响因子查询系统<br> <a href="http://emuch.net/sciif/" target="_blank" rel="external">http://emuch.net/sciif/</a><br> <a href="http://www.proteomics.com.cn/sci-if/" target="_blank" rel="external">http://www.proteomics.com.cn/sci-if/</a></p>
+</li>
+<li><p>Michael Jordan推荐的机器学习书籍 </p>
+<p> “I now tend to add some books that dig still further into foundational topics. In particular, I recommend A. Tsybakov’s book “Introduction to Nonparametric Estimation” as a very readable source for the tools for obtaining lower bounds on estimators, and Y. Nesterov’s very readable “Introductory Lectures on Convex Optimization” as a way to start to understand lower bounds in optimization. I also recommend A. van der Vaart’s “Asymptotic Statistics”, a book that we often teach from at Berkeley, as a book that shows how many ideas in inference (M estimation—which includes maximum likelihood and empirical risk minimization—the bootstrap, semiparametrics, etc) repose on top of empirical process theory. I’d also include B. Efron’s “Large-Scale Inference: Empirical Bayes Methods for Estimation, Testing, and Prediction”, as a thought-provoking book”<br> Introduction to Nonparametric Estimation<br> Introductory Lectures on Convex Optimization<br> Asymptotic Statistics<br> Large-Scale Inference: Empirical Bayes Methods for Estimation, Testing, and Prediction</p>
+<p> Tsybakov’s book is available online at Springer if your University has access to it: <a href="http://link.springer.com/book/10.1007%2Fb13794" target="_blank" rel="external">http://link.springer.com/book/10.1007%2Fb13794</a></p>
+<p> Nesterov’s books is also available: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8853-9" target="_blank" rel="external">http://link.springer.com/book/10.1007%2F978-1-4419-8853-9</a></p>
+<p> Thanks a lot! BTW, I gathered your recommendations on Goodreads: <a href="https://www.goodreads.com/review/list/6324945-nikita-zhiltsov?shelf=m-jordan-s-list" target="_blank" rel="external">https://www.goodreads.com/review/list/6324945-nikita-zhiltsov?shelf=m-jordan-s-list</a></p>
+<p> In this post, I would like to blend together recommendations from academic and industry researchers: <a href="http://nzhiltsov.blogspot.com/2014/09/highly-recommended-books-for-machine-learning-researchers.html" target="_blank" rel="external">http://nzhiltsov.blogspot.com/2014/09/highly-recommended-books-for-machine-learning-researchers.html</a></p>
+<p> Other comprehensive list of video lectures and some books. <a href="http://dk-techlogic.blogspot.in/2012/05/best-machine-learning-resources.html" target="_blank" rel="external">http://dk-techlogic.blogspot.in/2012/05/best-machine-learning-resources.html</a></p>
+</li>
+<li><p>SCI论文发表过程分析</p>
+<p> 论文写作<br> 论文定位<br> 选定期刊<br> 在线投稿<br> 文章审理<br> 文章接收</p>
+</li>
+<li><p>搜索需要一场变革</p>
+<p> 在万维网诞生20周年之际,奥伦·艾齐厄尼(OrenEtzioni)号召研究者开始思考比关键 词框更好的互联网搜索方式。<br> 互联网搜索正处于从简单的文档检索走向问题 回答深刻变革的风口浪尖上。用户在进行搜索时真正想要的并<br> 不是一串长长的包含关键词的文档列 表,而是他们所提问题的直接答案。</p>
+<p> 由网页 构成的海量语料库是高度冗余的,也就是说一个断 言会以不同形式被多次表达。这样一来,当系统从 独立撰写的不同句子中多次抽取出相同的断言时, 它以此推导出一个正确事实的可能性便得到了成倍的提高。</p>
+<p> 开放式信息抽取或许能够从实质上扩大这些工 具的使用范围。我们系统的开源代码可以通过http:// go.nature.com/ei3p4f获取。</p>
+<p> 信息抽取不仅需要能够推 导由动词表达的关系,还要能够推导由名词或形容 词表达的关系。同时,信息往往要通过其<br> 来源、目 的和上下文才能充分体现,因此系统需要建立检测 这些因素或者其他更微妙因素的能力。最后,信息 抽取方法<br> 还需要扩展到其他语言中去,这也将面临 各种特殊的挑战。</p>
+<p> 实现从信息检索到问答系统的范式转变所遇到的 最大障碍似乎是我们令人惊异地缺乏某种雄心和想象力。</p>
+<p> 大多数自然语言处理研究聚焦于有限的几个任务 上。例如,它们关注如何分析句子的句法结构,却很 少关注如何揭示<br> 它们的意义;由于对人工标注数据的依赖,其方法无法适应大规模文档集合和任意主题的文本;所提出算法的计算<br> 花销也可能是随着数据的规模呈指数增长的。</p>
+<p> 无论是检索文献的科学家,还是迅速增长的小屏幕手机用户(需要从互联网中撷取简洁回答),均将 受惠于通用<br> 的问答系统。没有它,我们将会冒被淹没 于信息汪洋大海之中的危险。</p>
+</li>
+<li><p>特征工程方法</p>
+<p> 特征提取<br> 特征构造<br> 特征工程</p>
 </li>
 <li><p>kaggle特点</p>
 </li>
 <li><p>计算机科学的发展趋势，刘知远</p>
 </li>
 <li><p>复旦大学，GDM团队，肖仰化，崔万云（博三），图数据管理研究室</p>
-</li>
-</ol>
 <p>页面上有很多十分有用的信息，学生都很厉害！！<br>verb pattern demo，AAAI2016，崔万云</p>
-<ol>
-<li>senticNet 网页阅读-信息丰富</li>
-</ol>
+</li>
+<li><p>senticNet 网页阅读-信息丰富</p>
 <p>Sentic Team-Projects:</p>
 <p>KNOWLEDGE REPRESENTATION<br>SUBJECTIVITY DETECTION<br>MULTIMODAL SENTIMENT ANALYSIS<br>MULTILINGUAL SENTIMENT ANALYSIS<br>AUTOMATIC SPEECH RECOGNITION<br>STOCK MARKET PREDICTION</p>
-<ol>
-<li>了解各个大型知识库的情况</li>
-</ol>
-<p>15.降低知识图谱的构造成本 文因互联 鲍捷</p>
+</li>
+<li><p>了解各个大型知识库的情况</p>
+</li>
+<li><p>降低知识图谱的构造成本 文因互联 鲍捷</p>
 <p>轻重型知识项目随着成本提升，回报的提升</p>
-<p>降低成本：<br>    依托成熟技术：知识表示，提取，存储，检索，人机交互（每个阶段都涉及到一定的成本）<br>    迭代构建：data-idea-code</p>
-<p>降低成本的核心是人：知识是写给人读的,只是碰巧能被机器执行</p>
-<ol>
-<li>李飞飞做研究的建议<br>important problem (inspiring idea) + solid and novel theory + convincing and analytical experiments + good writing = seminal research + excellent paper.<br>重要的问题 + 坚固而新颖的理论 + 令人信服的分析实验 + 一流的写作 = 开创性的研究 + 出色的论文</li>
+<p>降低成本：</p>
+<pre><code>依托成熟技术：知识表示，提取，存储，检索，人机交互（每个阶段都涉及到一定的成本）
+迭代构建：data-idea-code
+</code></pre><p>降低成本的核心是人：知识是写给人读的,只是碰巧能被机器执行</p>
+</li>
+<li><p>李飞飞做研究的建议</p>
+<p>important problem (inspiring idea) + solid and novel theory + convincing and analytical experiments + good writing = seminal research + excellent paper.</p>
+<p>重要的问题 + 坚固而新颖的理论 + 令人信服的分析实验 + 一流的写作 = 开创性的研究 + 出色的论文</p>
+</li>
 </ol>
 
       

@@ -100,7 +100,7 @@ Teach">
 Mastering the game of Go with deep neural networks and tree search_nature
 Human-level control through deep reinforcement
 Teach">
-<meta property="og:updated_time" content="2016-11-06T06:00:17.000Z">
+<meta property="og:updated_time" content="2016-11-06T06:40:23.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="论文阅读笔记">
 <meta name="twitter:description" content="深度学习相关论文
@@ -344,93 +344,126 @@ Teach">
 <li>Teaching Machines to Read and Comprehend</li>
 </ol>
 <a id="more"></a>
-<p>#其他论文</p>
-<ol>
+<h1 id="其他论文"><a href="#其他论文" class="headerlink" title="其他论文"></a>其他论文</h1><ol>
 <li>Personalized Microtopic Recommendation on Microblogs,李洋，TIST</li>
 <li>GraphX: Graph Processing in a Distributed Dataflow Framework</li>
 <li>An Experimental Comparison of Pregel-like Graph Processing Systems</li>
 </ol>
-<h1 id="事理图谱-EventNet-调研工作："><a href="#事理图谱-EventNet-调研工作：" class="headerlink" title="事理图谱(EventNet)调研工作："></a>事理图谱(EventNet)调研工作：</h1><p>Title : Another Commonsense Knowledge Base: EventNet<br>构建事理图谱需要解决的问题：<br>如何精确定义事件顺承关系，事件因果关系？<br>如何检测两个事件之间是否有关系？如果有关系，是属于顺承还是属于因果？<br>如何判断多个事件之间的顺承，因果依赖次序？<br>事理图谱的应用</p>
-<ol>
-<li>Diamonds in the Rough: Event Extraction from Imperfect Microblog Data  2015 NAACL</li>
-</ol>
-<p>地震事件抽取，CRF序列标注模型，20个事件参数<br>为了克服微博数据的不准确和短文本造成的模棱两可特点(会给评估和系统开发造成困难），使用了两个方法:approximate(模糊匹配) distant supervision和feature aggregation（聚合多条微博数据的特征）来解决这两个问题。<br>公开了地震数据集，来自维基百科和tweet.</p>
-<p>提出了一个新颖的评估方法（Lenient evaluation），更适合于这种不十分精确的实验结果评估。</p>
-<p>distant supervision方法用于自动构造训练数据,不用手工标注训练数据，值得注意这种方法的使用。</p>
-<p>使用的是非结构化，信息繁杂的微博数据，而不是干净整洁的新闻报道数据。</p>
-<p>当时这篇论文看的不仔细，CRF具体如何用于实验当中，还得细看。</p>
-<ol>
-<li>An Overview of Event Extraction from Text 2011<br>2011年以前的事件抽取综述</li>
-</ol>
-<p>主要介绍了3类方法：数据驱动的方法，基于专家知识的模板匹配方法，杂交方法</p>
-<p>表格列出了论文参考文献中的方法，比较了各类方法的优缺点。</p>
-<p>当时本文都是基于干净的在线新闻文本做事件抽取，很少在微博这种短小不精确的文本上做事件抽取。 </p>
-<ol>
-<li>Cross-document Event Extraction and Tracking-Task, Evaluation, Techniques and Challenges_RANLP2009</li>
-</ol>
-<p>跨文档的事件链条构建，以人名为中心词，跨文档事件聚合，融入背景知识的时间参数纠正，并按照时间排序各个事件。</p>
-<p>介绍了ACE任务中的名词术语和工作目标。提出了跨文档事件抽取的任务，融入了背景知识（相关文档和维基百科数据）来纠正事件参数（时间），并且提出了新的评价方法（Browshing cost，tempotal correlation），最后构建了一个以单文档事件抽取为基础的跨文档事件抽取系统。</p>
-<p>需要详细了解ACE任务：Automatic Content Extraction, 引用量最高的论文。</p>
-<ol>
-<li>SenticNet 3: A Common and Common-Sense Knowledge Base for Cognition-Driven Sentiment Analysis 2014 AAAI<br>是一个情感极性分析，观点挖掘的知识库。结合预处理，语义分析，观点目标词检测，能够组成一个完整的认知驱动的观点挖掘系统。<br>现在有三个版本，公开了数据资源，用xml格式存储，数据库支持。<br>energy flow能量子流动，情感分类模型：Hourglass of Emotions，RDF－XML数据库存储，SBoCs。<br>情感极性分类：<br> 1:keyword spotting<br> 2:lexical affinity<br> 3:statistical methods<br> 4:concept-level approaches</li>
-</ol>
-<p>公共知识库：<br>DBPedia,Freebase,YAGO,WiKipedia,NELL,Probase.</p>
-<p>常识知识库：<br>Cyc,Open Mind Commom Sense(OMCS),ConceptNet,WordNet,WNA.</p>
-<p>UK－national health service(NHS),PatientOpinion,英国公共医疗服务评价。</p>
-<ol>
-<li>Towards a Chinese Common and Common Sense Knowledge Base for Sentiment Analysis LNAI 2012<br>先分析了互联网上中文使用者和数据量将超越英文，然后说了构建中文情感分析知识库的必要性。</li>
-</ol>
-<p>混合Probase and ConceptNet来构建情感分析知识库，然后运用机器翻译方法（模糊匹配）将其翻译为中文。<br>短文</p>
-<p>没有做evaluation。Conclusion写的很好。</p>
-<ol>
-<li>Isanette: A Common and Common Sense Knowledge Base for Opinion Mining 2011 ICDM_wordshop</li>
-</ol>
-<p>混合Probase and ConceptNet来构建情感分析(观点挖掘)知识库，并解决了两个问题：1，多个词表示同一个意思（这个很有启发，事理图谱也会遇到同样的问题）2，降低数据的稀疏性，并用降维技术检测了含有的否定形式。<br>最终知识库的形式：<br>    a matrix 340,000 × 200,000 whose rows are instances such as ‘birthday party’ and ‘china’, whose columns are concepts like ‘special occasion’ and ‘country’, and whose values indicate truth values of assertions.</p>
-<p>然后利用该知识库做reasoning和opinion mining：<br>reasoning：1将知识库用向量空间进行表示（Vector Space Representation），2进行<br>语义聚类（Semantic Clustering）</p>
-<p>opinion mining：1观点挖掘引擎（Opinion Mining Engine），2评价（Evaluation）</p>
-<p>结论：混合Probase and ConceptNet构建了开放领域的知识库，可以有效进行reasoning，进而完成观点挖掘，<br>情感分析，文本自动分类等任务。</p>
-<p>好像没有开放资源：Isanette。<br>利用该知识库做reasoning和opinion mining的部分有待细读。</p>
-<p>7：A Survey on Truth Discovery SIGKDD,韩家炜<br>有待精读。</p>
-<p>任务定义：<br>principle：<br>input：<br>output：<br>data：</p>
-<p>8：中文社交媒体谣言统计语义分析_rumor2015，中国科学，刘知远，张乐，涂存超</p>
-<p>微博谣言影响力，产生与消亡的特点，谣言分类，时序分析，自动辟谣框架（贝叶斯公式，专家发现）<br>具体专家发现方法见2012年的草考文献17</p>
-<p>9：知识表示学习研究进展 刘知远，计算机研究与发展，2015</p>
-<p>知识表示学习简介：基本概念（独热表示，大量相关研究），理论基础（模拟人类大脑，多个突触状态表示复杂知识），典型应用，主要优点（相似度计算效率高，有效缓解数据稀疏，异质信息融合）</p>
-<p>知识表示学习主要方法：<br>距离模型：SE<br>单层神经网络模型：SLM<br>能量模型：SME<br>双线性模型：LFM，效果较好<br>张量神经网络模型：NTN<br>矩阵分解模型：与LFM思想类似，具有长处<br>翻译模型：TransE，主流模型<br>其他模型：全息表示模型</p>
-<p>主要挑战与已有解决方案：<br>复杂关系建模：多个针对transE的改进方案<br>多源信息融合：<br>关系路径建模：多条路径推理</p>
-<p>未来研究方向展望：<br>面向不同知识类型的知识表示学习<br>多源信息融合的知识表示学习<br>考虑复杂推理模式的知识表示学习<br>其他研究方向：面向大规模知识库的在线学习和快速学习，知识分布式表示的应用</p>
-<p>启发idea：词向量为什么必须是同一维度的？复杂向量维度长，简单向量维度短。是否有一种度量方法可以有效度量不同维度文本之间的相似性-是否仍可以采用余弦相似度？</p>
-<p>science-认知科学研究成果将知识类型分为四类：树状关系（生物分类系统），二维网格关系（地理位置），单维顺序关系（偏序关系），有向网络关系（关联或因果关系）<br>事理图谱是否是专门面向第四种知识类型的知识库？</p>
-<ol>
-<li>The Weltmodell: A Data-Driven Commonsense Knowledge Base，2014，短文,德国<br>大数据驱动的常识知识库</li>
-</ol>
-<p>知识获取：<br>所使用数据集，事实抽取方法，互信息计算，相似度计算（concept，statement）,知识库构建结果。</p>
+<h1 id="事理图谱写作相关思考"><a href="#事理图谱写作相关思考" class="headerlink" title="事理图谱写作相关思考"></a>事理图谱写作相关思考</h1><ul>
+<li>Title : Another Commonsense Knowledge Base: EventNet</li>
+<li>构建事理图谱需要解决的问题：</li>
+<li>如何精确定义事件顺承关系，事件因果关系？</li>
+<li>如何检测两个事件之间是否有关系？如果有关系，是属于顺承还是属于因果？</li>
+<li>如何判断多个事件之间的顺承，因果依赖次序？</li>
+<li>事理图谱的应用</li>
+</ul>
+<h1 id="事理图谱-EventNet-调研工作："><a href="#事理图谱-EventNet-调研工作：" class="headerlink" title="事理图谱(EventNet)调研工作："></a>事理图谱(EventNet)调研工作：</h1><ol>
+<li><p>Diamonds in the Rough: Event Extraction from Imperfect Microblog Data  2015 NAACL</p>
+<p> 地震事件抽取，CRF序列标注模型，20个事件参数</p>
+<p> 为了克服微博数据的不准确和短文本造成的模棱两可特点(会给评估和系统开发造成困难），使用了两个方法:approximate(模糊匹配) distant supervision和feature aggregation（聚合多条微博数据的特征）来解决这两个问题。</p>
+<p> 公开了地震数据集，来自维基百科和tweet.</p>
+<p> 提出了一个新颖的评估方法（Lenient evaluation），更适合于这种不十分精确的实验结果评估。</p>
+<p> distant supervision方法用于自动构造训练数据,不用手工标注训练数据，值得注意这种方法的使用。</p>
+<p> 使用的是非结构化，信息繁杂的微博数据，而不是干净整洁的新闻报道数据。</p>
+<p> 当时这篇论文看的不仔细，CRF具体如何用于实验当中，还得细看。</p>
+</li>
+<li><p>An Overview of Event Extraction from Text 2011<br> 2011年以前的事件抽取综述</p>
+<p> 主要介绍了3类方法：数据驱动的方法，基于专家知识的模板匹配方法，杂交方法</p>
+<p> 表格列出了论文参考文献中的方法，比较了各类方法的优缺点。</p>
+<p> 当时本文都是基于干净的在线新闻文本做事件抽取，很少在微博这种短小不精确的文本上做事件抽取。 </p>
+</li>
+<li><p>Cross-document Event Extraction and Tracking-Task, Evaluation, Techniques and Challenges_RANLP2009</p>
+<p> 跨文档的事件链条构建，以人名为中心词，跨文档事件聚合，融入背景知识的时间参数纠正，并按照时间排序各个事件。</p>
+<p> 介绍了ACE任务中的名词术语和工作目标。提出了跨文档事件抽取的任务，融入了背景知识（相关文档和维基百科数据）来纠正事件参数（时间），并且提出了新的评价方法（Browshing cost，tempotal correlation），最后构建了一个以单文档事件抽取为基础的跨文档事件抽取系统。</p>
+<p> 需要详细了解ACE任务：Automatic Content Extraction, 引用量最高的论文。</p>
+</li>
+<li><p>SenticNet 3: A Common and Common-Sense Knowledge Base for Cognition-Driven Sentiment Analysis 2014 AAAI</p>
+<p> 是一个情感极性分析，观点挖掘的知识库。结合预处理，语义分析，观点目标词检测，能够组成一个完整的认知驱动的观点挖掘系统。</p>
+<p> 现在有三个版本，公开了数据资源，用xml格式存储，数据库支持。</p>
+<p> energy flow能量子流动，情感分类模型：Hourglass of Emotions，RDF－XML数据库存储，SBoCs。</p>
+<p> 情感极性分类：</p>
+<pre><code>1. keyword spotting
+2. lexical affinity
+3. statistical methods
+4. concept-level approaches
+</code></pre><p> 公共知识库：<br> DBPedia,Freebase,YAGO,WiKipedia,NELL,Probase.</p>
+<p> 常识知识库：<br> Cyc,Open Mind Commom Sense(OMCS),ConceptNet,WordNet,WNA.</p>
+<p> UK－national health service(NHS),PatientOpinion,英国公共医疗服务评价。</p>
+</li>
+<li><p>Towards a Chinese Common and Common Sense Knowledge Base for Sentiment Analysis LNAI 2012</p>
+<p> 先分析了互联网上中文使用者和数据量将超越英文，然后说了构建中文情感分析知识库的必要性。</p>
+<p> 混合Probase and ConceptNet来构建情感分析知识库，然后运用机器翻译方法（模糊匹配）将其翻译为中文。<br> 短文</p>
+<p> 没有做evaluation。Conclusion写的很好。</p>
+</li>
+<li><p>Isanette: A Common and Common Sense Knowledge Base for Opinion Mining 2011 ICDM_wordshop</p>
+<p> 混合Probase and ConceptNet来构建情感分析(观点挖掘)知识库，并解决了两个问题：1，多个词表示同一个意思（这个很有启发，事理图谱也会遇到同样的问题）2，降低数据的稀疏性，并用降维技术检测了含有的否定形式。</p>
+<p> 最终知识库的形式：</p>
+<pre><code>a matrix 340,000 × 200,000 whose rows are instances such as ‘birthday party’ and ‘china’, whose columns are concepts like ‘special occasion’ and ‘country’, and whose values indicate truth values of assertions.
+</code></pre><p> 然后利用该知识库做reasoning和opinion mining：</p>
+<p> reasoning：1将知识库用向量空间进行表示（Vector Space Representation），2进行<br> 语义聚类（Semantic Clustering）</p>
+<p> opinion mining：1观点挖掘引擎（Opinion Mining Engine），2评价（Evaluation）</p>
+<p> 结论：混合Probase and ConceptNet构建了开放领域的知识库，可以有效进行reasoning，进而完成观点挖掘，<br> 情感分析，文本自动分类等任务。</p>
+<p> 好像没有开放资源：Isanette。<br> 利用该知识库做reasoning和opinion mining的部分有待细读。</p>
+</li>
+<li><p>A Survey on Truth Discovery SIGKDD,韩家炜</p>
+<p> 有待精读。</p>
+<p> 任务定义：<br> principle：<br> input：<br> output：<br> data：</p>
+</li>
+<li><p>中文社交媒体谣言统计语义分析_rumor2015，中国科学，刘知远，张乐，涂存超</p>
+<p> 微博谣言影响力，产生与消亡的特点，谣言分类，时序分析，自动辟谣框架（贝叶斯公式，专家发现）</p>
+<p> 具体专家发现方法见2012年的草考文献17</p>
+</li>
+<li><p>知识表示学习研究进展 刘知远，计算机研究与发展，2015</p>
+<p> 知识表示学习简介：基本概念（独热表示，大量相关研究），理论基础（模拟人类大脑，多个突触状态表示复杂知识），典型应用，主要优点（相似度计算效率高，有效缓解数据稀疏，异质信息融合）</p>
+<p> 知识表示学习主要方法：<br> 距离模型：SE<br> 单层神经网络模型：SLM<br> 能量模型：SME<br> 双线性模型：LFM，效果较好<br> 张量神经网络模型：NTN<br> 矩阵分解模型：与LFM思想类似，具有长处<br> 翻译模型：TransE，主流模型<br> 其他模型：全息表示模型</p>
+<p> 主要挑战与已有解决方案：<br> 复杂关系建模：多个针对transE的改进方案<br> 多源信息融合：<br> 关系路径建模：多条路径推理</p>
+<p> 未来研究方向展望：<br> 面向不同知识类型的知识表示学习<br> 多源信息融合的知识表示学习<br> 考虑复杂推理模式的知识表示学习<br> 其他研究方向：面向大规模知识库的在线学习和快速学习，知识分布式表示的应用</p>
+<p> 启发idea：词向量为什么必须是同一维度的？复杂向量维度长，简单向量维度短。是否有一种度量方法可以有效度量不同维度文本之间的相似性-是否仍可以采用余弦相似度？</p>
+<p> science-认知科学研究成果将知识类型分为四类：树状关系（生物分类系统），二维网格关系（地理位置），单维顺序关系（偏序关系），有向网络关系（关联或因果关系）<br> 事理图谱是否是专门面向第四种知识类型的知识库？</p>
+</li>
+<li><p>The Weltmodell: A Data-Driven Commonsense Knowledge Base，2014，短文,德国<br>大数据驱动的常识知识库</p>
+<p>知识获取：</p>
+<p>所使用数据集，事实抽取方法，互信息计算，相似度计算（concept，statement）,知识库构建结果。</p>
 <p>展示：web</p>
-<p>前景与展望：<br>改进事实抽取模块，集成外部知识库，增加可视化展示选项，加入用户反馈。<br>需要改进的：事实消歧，知识库补全，常识推理-不仅仅实现尝试推理，而且让人可以理解推理过程</p>
-<ol>
-<li>A Dataset of Syntactic-Ngrams over Time from a Very Large Corpus of English Books,2013,google</li>
-</ol>
+<p>前景与展望：</p>
+<p>改进事实抽取模块，集成外部知识库，增加可视化展示选项，加入用户反馈。</p>
+<p>需要改进的：事实消歧，知识库补全，常识推理-不仅仅实现尝试推理，而且让人可以理解推理过程</p>
+</li>
+<li><p>A Dataset of Syntactic-Ngrams over Time from a Very Large Corpus of English Books,2013,google</p>
 <p>介绍了谷歌的公布的一个Syntactic-Ngrams语料库，这个语料库体积非常大，适合用来做各种nlp任务。</p>
-<ol>
-<li>Verb Pattern: A Probabilistic Semantic Representation on Verbs，2016AAAI,复旦大学GBM lab，cuiwanyun</li>
-</ol>
+</li>
+<li><p>Verb Pattern: A Probabilistic Semantic Representation on Verbs，2016AAAI,复旦大学GBM lab，cuiwanyun</p>
 <p>本工作针对英语动词的一词多义现象进行研究，提出了一种动词一词多义现象的表示方法：抽象出动词搭配的概念和特定搭配两种形式作为动词一词多义的表示。<br>动词：概念<br>动词：特定搭配<br>训练语料用的就是上面谷歌公布的Syntactic-Ngrams语料以及Probase知识库。</p>
-<ol>
-<li>KRAKEN: N-ary Facts in Open Information Extraction,Weltmodell作者，NAACL，2012</li>
-</ol>
+</li>
+<li><p>KRAKEN: N-ary Facts in Open Information Extraction,Weltmodell作者，NAACL，2012</p>
 <p>提出了一个开放信息抽取系统，可以抽取多元知识，知识的完整性更好，准确率更高，每句话知识抽取率更高。<br>基于传统的分词，词性标注，句法依存分析，然后提出一个规则集合来抽取知识。   对噪声数据（语法不合规则）抽取质量不高，因为依存分析的准确率会下降。</p>
-<ol>
-<li>Learning from the Web: Extracting General World Knowledge from Noisy Text，AAAI，2010<br>本工作对于构建事理图谱是一个很好的借鉴。</li>
+</li>
 </ol>
+<ol>
+<li><p>Learning from the Web: Extracting General World Knowledge from Noisy Text，AAAI，2010</p>
+<p>本工作对于构建事理图谱是一个很好的借鉴。</p>
 <p>USA罗切斯特大学,从大规模网页博客和维基百科数据中抽取常识知识，是一个系列工作，从2001年到2012年一直在做的一个工作。<br>开发了一个英文常识知识抽取系统：Knext。<br>本文定义了常识知识的形式：</p>
 <p>Information extraction efforts, e. g. Banko et al. (2007), have focused on learning facts about specific entities, such as that Alan Turing died in 1954 or that the capital of Bahrain is Manama. Knowledge bases of such facts are quite useful, but getting to human-level AI seems to depend less on this specific knowledge than it does on the most basic world knowledge – our commonsense un- derstanding of the world.</p>
 <p>for the Wikipedia sentence “The emperor was succeeded by his son, Akihito”, what we seek to (and do) learn is that ‘AN EMPEROR MAY BE SUCCEED -ED BY A SON’ and ‘A MALE MAY HAVE A SON’ – not the specific information about Emperor Sho ̄wa and his son. Thus, hav- ing been written as a repository of information, which most weblogs are not, is not a clear advantage for Wikipedia as a resource for extracting background knowledge. </p>
-<p>本文回到了四个问题：<br>    随着输入语料的不断增加，抽取到的知识量也在不断增加<br>    尽管博客和维基百科数据质量不同，抽取到的知识质量却大致相同<br>    对抽取到的原始知识进行规则过滤，可以大幅度提高知识质量<br>    从博客和维基百科抽取到的常识知识互相的覆盖率很小，尽管随着数据规模增加覆盖率也在不断缓慢增加</p>
-<p>本文还提供了一个可借鉴的知识库评价方法：<br>手工评价，随机抽取一定量的知识，将每一条知识根据一定的标准评价为5个分值，然后计算平均得分来衡量知识的质量。</p>
-<p>一个有用的考虑：对于超大规模的数据来说，知识抽取更加注重准确率，而不是recall。</p>
-<p>最后一点：论文并没有说明所构建的知识库在实际AI系统当中的用处，所以我们应该注重事理图谱在工业中的应用价值，而不仅仅是想当然构建出一个玩物知识库。</p>
-<ol>
-<li><p>Learning Textual Graph Patterns to Detect Causal Event Relations,AAAI,2010<br>事件因果关系检测，提出了一种新的特征模板，利用SVM作为分类器，打败了前一个代表性工作的实验结果。<br>数据集已经标注好了两个事件之间是否有因果关系，且整个数据集只有1000条，对事理图谱构建帮助不大。</p>
+</li>
+</ol>
+<pre><code>本文回到了四个问题：
+
+    随着输入语料的不断增加，抽取到的知识量也在不断增加
+    尽管博客和维基百科数据质量不同，抽取到的知识质量却大致相同
+    对抽取到的原始知识进行规则过滤，可以大幅度提高知识质量
+    从博客和维基百科抽取到的常识知识互相的覆盖率很小，尽管随着数据规模增加覆盖率也在不断缓慢增加
+
+本文还提供了一个可借鉴的知识库评价方法：
+手工评价，随机抽取一定量的知识，将每一条知识根据一定的标准评价为5个分值，然后计算平均得分来衡量知识的质量。
+
+一个有用的考虑：对于超大规模的数据来说，知识抽取更加注重准确率，而不是recall。
+
+最后一点：论文并没有说明所构建的知识库在实际AI系统当中的用处，所以我们应该注重事理图谱在工业中的应用价值，而不仅仅是想当然构建出一个玩物知识库。
+</code></pre><ol>
+<li><p>Learning Textual Graph Patterns to Detect Causal Event Relations,AAAI,2010</p>
+<p>事件因果关系检测，提出了一种新的特征模板，利用SVM作为分类器，打败了前一个代表性工作的实验结果。</p>
+<p>数据集已经标注好了两个事件之间是否有因果关系，且整个数据集只有1000条，对事理图谱构建帮助不大。</p>
 </li>
 <li><p>Mining Commonsense Knowledge From Personal Stories in Internet Weblogs，AKBC,2010</p>
 </li>
@@ -446,9 +479,6 @@ Teach">
 </li>
 <li><p>KELVIN: a tool for automated knowledge base construction,NAACL,2013</p>
 </li>
-</ol>
-<p>下面几篇论文需要总结：</p>
-<ol>
 <li><p>Advances in Automated Knowledge Base Construction,2013,AKBC</p>
 </li>
 <li><p>Deep Learning for Event-Driven Stock Prediction，dingxiao,IJCAI,2015</p>
@@ -457,28 +487,44 @@ Teach">
 </li>
 <li><p>Mining the Web to Predict Future Events,WSDM,2013,Kira Radinsky</p>
 </li>
-<li><p>Learning Causality for News Events Prediction,WWW,2012,Kira Radinsky<br>非常重要：<br>用因果模板构建因果关系对作为训练数据，构建因果事件图谱，实现事件泛化<br>用多种评价方法从多个角度对事件预测模型进行了评价。需要人工评价</p>
+<li><p>Learning Causality for News Events Prediction,WWW,2012,Kira Radinsky</p>
+<p>非常重要：</p>
+<p>用因果模板构建因果关系对作为训练数据，构建因果事件图谱，实现事件泛化</p>
+<p>用多种评价方法从多个角度对事件预测模型进行了评价。需要人工评价</p>
 </li>
-<li><p>因果关系及其在社会媒体上的应用研究综述,赵森栋，2014<br>因果分类：常识因果，浅层因果，深层因果</p>
-</li>
-</ol>
+<li><p>因果关系及其在社会媒体上的应用研究综述,赵森栋，2014</p>
+<p>因果分类：常识因果，浅层因果，深层因果</p>
 <p>重要问题：学习词或短语语义之间的逻辑关系(尤其是 因果关系)进而表示成知识库的形式,与不断地优化因果抽取算法相比更有意义.</p>
-<p>本质因果推断的三类方法：<br>    1.随机对照实验<br>    2.准实验设计方法<br>    3.联合模型方法：图模型和虚拟事实模型</p>
-<p>问题与挑战：<br>    因果对识别：模板匹配和规则（常识因果）<br>    因果模型的适用性-泛化能力<br>    客观的评价指标<br>    社会媒体上的因果分析-值得做</p>
-<p>未来研究方向：社会媒体上的因果知识的识别和抽取，基于因果图模型的应用研究（贝叶斯网络）<br>    1.理论创新：<br>    2.社会媒体上的应用：因果分析，基于因果知识的预测和推理</p>
-<p>29.Event causality extraction based on connectives analysis，赵森栋，2015，neurocomputing<br>这是森栋师兄的第二个工作，从单个句子中抽取因果关系。第一步是识别句子内的因果单元，第二步确定两个单元之间有无因果关系，以及因果关系的方向。<br>创新之处在于1.引入了一个新的因果关联类别特征特征，2.提出了一个新的模型Hidden Naive Bayes model,可以识别特征之间的互相作用关系，降低过拟合。</p>
-<ol>
-<li><p>事件常识的获取方法研究，王亚，曹存根，计算机科学，2015<br>事件分类，框架表示，事件常识知识获取，事件公理获取，与FrameNet的比较。<br>整个工作都是基于手工标注的，耗费大量人力物力。<br>需要一个自动事件挖掘系统来挖掘相应的事件常识。</p>
+<p>本质因果推断的三类方法：</p>
+<pre><code>1.随机对照实验
+2.准实验设计方法
+3.联合模型方法：图模型和虚拟事实模型
+</code></pre><p>问题与挑战：</p>
+<pre><code>因果对识别：模板匹配和规则（常识因果）
+因果模型的适用性-泛化能力
+客观的评价指标
+社会媒体上的因果分析-值得做
+</code></pre><p>未来研究方向：社会媒体上的因果知识的识别和抽取，基于因果图模型的应用研究（贝叶斯网络）</p>
+<pre><code>1.理论创新：
+2.社会媒体上的应用：因果分析，基于因果知识的预测和推理
+</code></pre></li>
+<li><p>Event causality extraction based on connectives analysis，赵森栋，2015，neurocomputing</p>
+<p>这是森栋师兄的第二个工作，从单个句子中抽取因果关系。第一步是识别句子内的因果单元，第二步确定两个单元之间有无因果关系，以及因果关系的方向。<br>创新之处在于1.引入了一个新的因果关联类别特征特征，2.提出了一个新的模型Hidden Naive Bayes model,可以识别特征之间的互相作用关系，降低过拟合。</p>
 </li>
-<li><p>微博知识图谱构建方法研究，杜亚军，2015，西华大学<br>本文是对知识图谱构建的一个很好的综述文章，相关研究描述的很清楚。尤其写明了知识图谱的评价方法。<br>[62],[63],[64],[65],[66],[67]<br>提出了微博知识图谱构建需要解决什么问题，但是并没有给出任何解决方案。但是本文提出的问题也是消费事理图谱构建的<br>面临的问题，所以十分具有借鉴意义。<br>概念对象：人物，事物，地点，事件，话题<br>概念、关系重复，一词多义，同义扩展，多义扩展，知识图谱的更新<br>分析：part3.4<br>应用：part3.5</p>
+<li><p>事件常识的获取方法研究，王亚，曹存根，计算机科学，2015</p>
+<p>事件分类，框架表示，事件常识知识获取，事件公理获取，与FrameNet的比较。<br>整个工作都是基于手工标注的，耗费大量人力物力。<br>需要一个自动事件挖掘系统来挖掘相应的事件常识。</p>
 </li>
-<li><p>基于层叠条件随机场的事件因果关系抽取*，PR &amp; AI,付 剑 锋<br>重要参考文献：[15]。<br>这篇文章的借鉴意义也很大，利用CRF建模事件之间的关系。可以作为消费事理图谱构建的一个可选方法。<br>需要标注语料，标注事件之间的关系。但是本文没有进行事件抽取，标注好事件以及因果关系，然后进行因果关系识别。<br>本文也定义了事件的概念。这里的事件只是一个事件触发词。</p>
+<li><p>微博知识图谱构建方法研究，杜亚军，2015，西华大学</p>
+<p>本文是对知识图谱构建的一个很好的综述文章，相关研究描述的很清楚。尤其写明了知识图谱的评价方法。<br>[62],[63],[64],[65],[66],[67]<br>提出了微博知识图谱构建需要解决什么问题，但是并没有给出任何解决方案。但是本文提出的问题也是消费事理图谱构建的<br>面临的问题，所以十分具有借鉴意义。<br>概念对象：人物，事物，地点，事件，话题<br>概念、关系重复，一词多义，同义扩展，多义扩展，知识图谱的更新<br>分析：part3.4<br>应用：part3.5</p>
 </li>
-<li><p>从大规模web语料中获取常识语料，朱耀，曹存根，2008<br>p2 </p>
+<li><p>基于层叠条件随机场的事件因果关系抽取*，PR &amp; AI,付 剑 锋</p>
+<p>重要参考文献：[15]。<br>这篇文章的借鉴意义也很大，利用CRF建模事件之间的关系。可以作为消费事理图谱构建的一个可选方法。<br>需要标注语料，标注事件之间的关系。但是本文没有进行事件抽取，标注好事件以及因果关系，然后进行因果关系识别。<br>本文也定义了事件的概念。这里的事件只是一个事件触发词。</p>
 </li>
-<li><p>事件时序关系建模的研究与实现，张绍臣，2009 </p>
+<li><p>从大规模web语料中获取常识语料，朱耀，曹存根，2008</p>
 </li>
 </ol>
+<ol>
+<li><p>事件时序关系建模的研究与实现，张绍臣，2009 </p>
 <p>文景转换：参考文献</p>
 <p>国内外很多项目已经对文景转换进行了研究,AT&amp;T 实验室研究开发的<br>WordsEye 系统[1],能够根据简单的文本描述,通过对含有几千个三维图形<br>的模型库查找,生成静态的三维图像;隆德大学开发的 CarSim  系统能够处<br>理交通领域的真实事故报告,生成交通事故报告描述的动态场景[2],具有很<br>高的实用价值;我国中科院陆汝钤院士带领开发的“天鹅”系统[3]实现中文<br>故事到动画片,全自动辅助动画的自动生成。</p>
 <p>几年来哈尔滨工业大学机器智能与翻译实验室在文景转换方面也取得了一些成果,尤其在三维空间物体摆放以及基于文本到动画的生成都有所收获[4]。</p>
@@ -486,65 +532,93 @@ Teach">
 <p>本研究使用 TimeBank 1.2 语料 182 篇文章。在本文的后续研究中使用到<br>Evita 来识别事件和 Classifier,BLinker 来识别和提取事件的时序关系。在<br>后边的章节中会对这几个工具进行进一步的说明。 </p>
 <p>ACE 对时序关系的定义,主要集中在事件与时间表达式的关系,很少<br>涉及事件与事件之间的时序关系,而且多数关系相互区别度不高,主要依靠<br>是否存在明显的标记来区分不同的时序关系。 </p>
 <p>综合 TimeML 和 ACE 对时序关系的定义,将区别度很小的不同时序关<br>系 进 行 归 类 , 得 到 本 课 题 定 义 的 3 类 时 序 关 系 : Before , After ,Simultaneous,分别表示两个事件之间发生的“前”,“后”和同时发生的时序关系。 </p>
-<p>事件的识别（动词名词）和抽取（受事者抽取）：</p>
-<p>事件合并：（完全相同的事件和相似事件，事件相似度计算方法）</p>
-<p>待解决的问题：<br>中文处理<br>受事者提取<br>高频噪音事件节点删除<br>评测方法</p>
-<ol>
-<li>事件时序关系识别的研究与实现，孙辉，2010</li>
+</li>
 </ol>
+<pre><code>事件的识别（动词名词）和抽取（受事者抽取）：
+
+事件合并：（完全相同的事件和相似事件，事件相似度计算方法）
+
+待解决的问题：
+中文处理
+受事者提取
+高频噪音事件节点删除
+评测方法
+</code></pre><ol>
+<li><p>事件时序关系识别的研究与实现，孙辉，2010</p>
 <p>本课题中中文研究现状以及分析部分特别有帮助，需要找到相关论文来看。</p>
 <p>事件关系抽取是该项目的主要研究内容，而事件时序关系作为事件关系的<br>一种，旨在研究事件在时间上的先后顺序关系。本研究课题希望通过结合计算<br>语言学知识与统计机器学习方法，搭建事件时序关系机器自动识别平台。</p>
 <p>本研究课题以英文为语言基础，以事件时序关系作为研究内容，将事件时<br>序关系知识库作为语义资源，以搭建事件时序关系识别模型作为研究目的。 </p>
-<p>（1）应对事件时序关系识别模型的特征空间进一步细化。本研究只对每个<br>特征对模型的影响给出评价，并未考虑特征组合对模型的影响。<br>（2）用统计机器学习方法搭建基于中文的事件时序关系识别模型。<br>（3）本研究用 VerbNet 词汇资源搭建句法框架构造规则进行事件受事者识<br>别，效果不是很理想，可以考虑用基于统计机器学习的方法构造识别模型。</p>
-<p>Evita(Events in text Analyzer)是 ARDA 资助的 TARSQI 研究框架下的事件识<br>别工具<br>[27]<br>。Evita 作为 TTK(Tarsqi Toolkit)工具包中的一个组件，它主要用来<br>进行事件识别和事件关联语法特征分且没有应用领域的限制，只需在事件标注<br>前用 AlembicWorkbench 标注器和 Chunker 工具对文本进行词性标注和 Chunk<br>预处理。Evita 的识别性能达到 80.12%的 F-measure。</p>
-<p>如果不是动词性事件，直接断定事件受事者为空。 </p>
-<p>从表 4-2 中可以看出，该模块的平均准确率为 57.00%。性能低下的原因在<br>于 VerbNet 句法框架的匹配率很低，Wiki 中编写者多用复杂句，而 VerbNet 中<br>的句法框架则是根据简单句建立起来的，这用情况下的事件受事者很难提取。</p>
-<p>学者们一般将基于本体的语义相似度计算方法划分为 4 类[31]：基于距离的<br>语义相似度计算（Edge  Counting  Measures）、基于内容的语义相似度计算<br>（Information Content Measures）、基于属性点的语义相似度计算（Feature-based<br>Measures）和混合式语义相似度计算（Hybrid Measures）。</p>
-<ol>
-<li><p>基于语义依存线索的事件关系识别方法研究，马彬 洪宇† 杨雪蓉 姚建民 朱巧明，2013<br>话题检测与跟踪，事件关系识别，具有参考价值<br>还没看完</p>
 </li>
-<li><p>BUEES: a Bottom-Up Event Extraction System,Xiao Ding<br>包含两个工作：<br>First：事件类型自动抽取。动词细分类。   Trigger抽取，Clustering，Filter。<br>Second：事件arguments抽取。</p>
+</ol>
+<pre><code>（1）应对事件时序关系识别模型的特征空间进一步细化。本研究只对每个
+特征对模型的影响给出评价，并未考虑特征组合对模型的影响。 
+（2）用统计机器学习方法搭建基于中文的事件时序关系识别模型。 
+（3）本研究用 VerbNet 词汇资源搭建句法框架构造规则进行事件受事者识
+别，效果不是很理想，可以考虑用基于统计机器学习的方法构造识别模型。
+
+Evita(Events in text Analyzer)是 ARDA 资助的 TARSQI 研究框架下的事件识
+别工具
+[27]
+。Evita 作为 TTK(Tarsqi Toolkit)工具包中的一个组件，它主要用来
+进行事件识别和事件关联语法特征分且没有应用领域的限制，只需在事件标注
+前用 AlembicWorkbench 标注器和 Chunker 工具对文本进行词性标注和 Chunk
+预处理。Evita 的识别性能达到 80.12%的 F-measure。
+
+如果不是动词性事件，直接断定事件受事者为空。 
+
+从表 4-2 中可以看出，该模块的平均准确率为 57.00%。性能低下的原因在
+于 VerbNet 句法框架的匹配率很低，Wiki 中编写者多用复杂句，而 VerbNet 中
+的句法框架则是根据简单句建立起来的，这用情况下的事件受事者很难提取。
+
+学者们一般将基于本体的语义相似度计算方法划分为 4 类[31]：基于距离的
+语义相似度计算（Edge  Counting  Measures）、基于内容的语义相似度计算
+（Information Content Measures）、基于属性点的语义相似度计算（Feature-based 
+Measures）和混合式语义相似度计算（Hybrid Measures）。
+</code></pre><ol>
+<li><p>基于语义依存线索的事件关系识别方法研究，马彬 洪宇† 杨雪蓉 姚建民 朱巧明，2013</p>
+<p>话题检测与跟踪，事件关系识别，具有参考价值<br>还没看完</p>
 </li>
-<li><p>Building Chinese Event Type Paradigm Based on Trigger Clustering，Xiao Ding<br>本文工作包含在上一篇论文中，是BUEES的一个子工作。</p>
+<li><p>BUEES: a Bottom-Up Event Extraction System,Xiao Ding</p>
+<p>包含两个工作：<br>First：事件类型自动抽取。动词细分类。   Trigger抽取，Clustering，Filter。<br>Second：事件arguments抽取。</p>
+</li>
+<li><p>Building Chinese Event Type Paradigm Based on Trigger Clustering，Xiao Ding</p>
+<p>本文工作包含在上一篇论文中，是BUEES的一个子工作。</p>
 </li>
 <li><p>ZORE: A Syntax-based System for Chinese Open Relation Extraction</p>
-</li>
-</ol>
 <p>关系抽取，弱动词结构的提取。<br>关系抽取的候选：三种类型。<br>语法语义模板匹配。<br>LR置信度结果过滤。<br>跟事件抽取本质是不一样的，事件抽取要有事件触发词。关系抽取关注两个NP之间的关系，最少要有两个NP结构。或者更多的NP结构则称为<br>N-ary facts。</p>
-<ol>
-<li>Rule-based Information Extraction is Dead! Long Live Rule-based Information Extraction Systems!,IBM,EMNLP,2013<br>在学术界和工业界使用rule_based方法差异很大，主要在于两个社区的的评价指标存在巨大差异：方法是否耗时费力的定义有所不同，所耗费的软件硬件资源学术界一般不报告。作者很担心在大数据信息抽取时代这种gap会越来越扩大，最终对两个社区都没有好处，最后提出了3个设想来缓解这种gap。</li>
-</ol>
+</li>
+<li><p>Rule-based Information Extraction is Dead! Long Live Rule-based Information Extraction Systems!,IBM,EMNLP,2013</p>
+<p>在学术界和工业界使用rule_based方法差异很大，主要在于两个社区的的评价指标存在巨大差异：方法是否耗时费力的定义有所不同，所耗费的软件硬件资源学术界一般不报告。作者很担心在大数据信息抽取时代这种gap会越来越扩大，最终对两个社区都没有好处，最后提出了3个设想来缓解这种gap。</p>
 <p>最后作者提出的方法还没认真看。</p>
-<ol>
-<li>A Domain-independent Rule-based Framework for Event Extraction，University of Arizona, Tucson, AZ, USA，<br>IJCNLP，2015</li>
-</ol>
+</li>
+<li><p>A Domain-independent Rule-based Framework for Event Extraction，University of Arizona, Tucson, AZ, USA，<br>IJCNLP，2015</p>
 <p>构建了一个领域独立的基于规则的开源事件抽取框架，有web界面，可视化匹配结果。<br>可以基于api编写抽取规则。</p>
-<ol>
-<li><p>Storybase: Towards Building a Knowledge Base for News Events,The Pennsylvania State University<br>University Park, PA 16802, USA, ACL IJCNLP 2015<br>写作的参考论文。<br>这篇论文构建新闻事件的知识库，提供了检索界面。<br>本文结构可以作为很好的参考，还有图形图标的绘制。<br>参考价值较大。<br>related work列出的几篇参考文献值得看看。</p>
+</li>
+<li><p>Storybase: Towards Building a Knowledge Base for News Events,The Pennsylvania State University<br>University Park, PA 16802, USA, ACL IJCNLP 2015</p>
+<p>写作的参考论文。<br>这篇论文构建新闻事件的知识库，提供了检索界面。<br>本文结构可以作为很好的参考，还有图形图标的绘制。<br>参考价值较大。<br>related work列出的几篇参考文献值得看看。</p>
 </li>
 <li><p>MPQA 3.0: An Entity/Event-Level Sentiment Corpus,Lingjia Deng,Intelligent Systems Program , University of Pittsburgh,NAACL,2015 </p>
-</li>
-</ol>
 <p>MPQA是一个知识库，从实体，事件层次上来构建一个情感分析知识库。文本介绍了在MPQA2.0的基础上添加此信息的标注体系。<br>并分析了该知识库对于情感分析的作用。</p>
-<ol>
-<li><p>Research on Event Prediction Algorithm Based on Event Sequence Semantic, 西北大学，2009,FSKD<br>该研究质量比较低</p>
+</li>
+<li><p>Research on Event Prediction Algorithm Based on Event Sequence Semantic, 西北大学，2009,FSKD</p>
+<p>该研究质量比较低</p>
 </li>
 <li><p>Liu Ting et al. - 2007 - Subdividing verbs to improve syntactic parsing,电子学报</p>
-</li>
-</ol>
 <p>最大熵模型实现动词细分类：8个类别。<br>然后细分类结果用于句法分析任务，发现动词细分类可以提高句法分析的性能。<br>2007年马金山，早期工作，需要找实验室车老师，或者哪位师兄问一问相关工作的实现。</p>
-<ol>
-<li><p>The Annotation of Event Schema in Chinese，北语，杨尔宏老师。<br>中文事件标注体系。<br>参考价值不大。</p>
 </li>
-<li><p>Using Textual Patterns to Learn Expected Event Frequencies, Jonathan Gordon,Department of Computer Science University of Rochester Rochester,2012, AKBC<br>从文本中匹配获取常识事件发生的频率。</p>
+<li><p>The Annotation of Event Schema in Chinese，北语，杨尔宏老师。</p>
+<p>中文事件标注体系。<br>参考价值不大。</p>
+</li>
+<li><p>Using Textual Patterns to Learn Expected Event Frequencies, Jonathan Gordon,Department of Computer Science University of Rochester Rochester,2012, AKBC </p>
+<p>从文本中匹配获取常识事件发生的频率。</p>
 </li>
 </ol>
 <ol>
-<li>Web mining for event-based commonsense knowledge using lexico-syntactic pattern matching and semantic role labeling, Expert Systems with Applications journal,2010, taiwan</li>
-</ol>
+<li><p>Web mining for event-based commonsense knowledge using lexico-syntactic pattern matching and semantic role labeling, Expert Systems with Applications journal,2010, taiwan</p>
 <p>构造query，输入搜索引擎，处理返回的文本。<br>常识事件的定义和我们不同。<br>更像自动构造的concept net。<br>典型事件比如：Dog Eat Foods。</p>
-<ol>
-<li>Ranking Multidocument Event Descriptions for Building Thematic Timelines, coling 2014,法国</li>
+</li>
+<li><p>Ranking Multidocument Event Descriptions for Building Thematic Timelines, coling 2014,法国</p>
+</li>
 </ol>
 
       
@@ -746,7 +820,7 @@ Teach">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#深度学习相关论文"><span class="nav-number">1.</span> <span class="nav-text">深度学习相关论文</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#事理图谱-EventNet-调研工作："><span class="nav-number">2.</span> <span class="nav-text">事理图谱(EventNet)调研工作：</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#深度学习相关论文"><span class="nav-number">1.</span> <span class="nav-text">深度学习相关论文</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他论文"><span class="nav-number">2.</span> <span class="nav-text">其他论文</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#事理图谱写作相关思考"><span class="nav-number">3.</span> <span class="nav-text">事理图谱写作相关思考</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#事理图谱-EventNet-调研工作："><span class="nav-number">4.</span> <span class="nav-text">事理图谱(EventNet)调研工作：</span></a></li></ol></div>
             
           </div>
         </section>
