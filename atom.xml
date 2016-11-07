@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-06T13:07:20.000Z</updated>
+  <updated>2016-11-07T07:23:49.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,182 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信息理论与编码</title>
+    <link href="http://yoursite.com/2016/11/07/%E4%BF%A1%E6%81%AF%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81/"/>
+    <id>http://yoursite.com/2016/11/07/信息理论与编码/</id>
+    <published>2016-11-07T05:47:14.000Z</published>
+    <updated>2016-11-07T07:23:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="考试备战"><a href="#考试备战" class="headerlink" title="考试备战"></a>考试备战</h1><h2 id="知识点整理"><a href="#知识点整理" class="headerlink" title="知识点整理"></a>知识点整理</h2><pre><code>一、信源熵与信道容量（计算，难度：中）
+二、山农公式（计算，难度：易）
+三、马尔科夫（计算，难度：易）
+四、霍夫曼（计算，难度：易）
+五、译码准则（证明，难度：中）
+六、线性分组码（1）（计算，难度：易）
+七、线性分组码（2）（证明，难度：中-难）
+八、循环码（计算，难度：中）
+九、BCH码（计算，难度：难）
+十、卷积码(电路)（综合，难度：中）
+</code></pre><a id="more"></a>
+<pre><code>循环码编码、译码电路（梅吉特、捕错、大数逻辑）无考点，R-S码无考点，卷积码电路为考点，卷积码译码（维特比、序列）无考点。
+卷积码原理电路图、编码方法、状态图需要掌握，译码技术不作为本次考点。
+</code></pre><h2 id="题型分类"><a href="#题型分类" class="headerlink" title="题型分类"></a>题型分类</h2><pre><code>试卷形式：
+
+    一、选择，2分*8题；
+    二、填空，2分*7题；
+    三、四，简单计算，各10分；
+    五、证明，10分；
+    六、电路设计，10分；
+    七、八，计算，各15分。
+
+请大家注意，在题签、答题册、草稿纸（可能是2张）都要写序号与姓名，并且都要交回，交回材料不足或信息不全会影响大家成绩。
+
+二、考试题型：
+        （1）填空题，7道题*2分/题=14分；
+        （2）选择题，8道题*2分/题=16分；
+        （3）计算（证明）题，7道题*10分=70分；
+    还是那句话，题型转变是件利弊参半的事情，15道小题，涉及的知识点的确增多了，但是很多题都是“送分”型的。我也不清楚小题和大题的时间分布，很有可能明天最终定稿的时候，把大题变为6道，10*4+15*2=70分，这种结构。
+    填空和选择题涉及的都是基础概念与公式。计算证明题涵盖信道与信源、译码准则、循环码、BCH码、卷积码。没有任何超出讲授范围的试题。
+</code></pre><h2 id="提醒"><a href="#提醒" class="headerlink" title="提醒"></a>提醒</h2><pre><code>记得带 **计算器** 和 **学生卡**
+考试时间：下下周(12周)三 11月23日 下午4点到6点
+</code></pre><h1 id="石硕老师几封历史邮件"><a href="#石硕老师几封历史邮件" class="headerlink" title="石硕老师几封历史邮件"></a>石硕老师几封历史邮件</h1><h2 id="主题：2013-满纸荒唐言，挑拣有用的看看吧。"><a href="#主题：2013-满纸荒唐言，挑拣有用的看看吧。" class="headerlink" title="主题：2013 满纸荒唐言，挑拣有用的看看吧。"></a>主题：2013 满纸荒唐言，挑拣有用的看看吧。</h2><pre><code>各位同学好:
+    （1）考试时间地点：2013.11.22（周五），13:30---15:30，地点A12。
+    （2）余素慵懒，终于今日早起，把题出完了，特奉上出题心得，供大家复习参考——
+    如往年，十道大题，每题十分，试卷结构如下： 
+
+     一、信源熵与信道容量（计算，难度：中）
+     二、山农公式（计算，难度：易）
+     三、马尔科夫（计算，难度：易）
+     四、霍夫曼（计算，难度：易）
+     五、译码准则（证明，难度：中）
+     六、线性分组码（1）（计算，难度：易）
+     七、线性分组码（2）（证明，难度：中-难）
+     八、循环码（计算，难度：中）
+     九、BCH码（计算，难度：难）
+     十、卷积码（综合，难度：中）
+
+    （3）循环码编、译码电路（梅吉特、捕错、大数逻辑）无考点，R-S码无考点，卷积码电路为考点，卷积码译码（维特比、序列）无考点。
+
+    （4）关于补课：上周实在没能找到公共时间，加之截止今日，面告或邮件通知我需要补课的同学共3位，请此3位同学约时间前来，如3位实在没有共同时间，分别找我亦无不可。若甚，请3位自修最后一堂内容：卷积码相关知识以及实验安排，其中卷积码原理电路图、编码方法、状态图需要掌握，译码技术不作为本次考点。
+        特别说明：补课仅为最后一堂课因时间冲突未能参加之同学而安排，无其他内容。信息与编码理论不设答疑已有纪年，请大家不必浪费时间周折，自误误人。
+
+    （5）实验提交时间为12月9日（周一）、10日（周二），为减少工作量，烦请班长或各系负责同学帮助收起，实验程序包、实验报告纸质版，请在上述时间交至本课程助教许恩玮博士生处（电话15645630008，实验室2A-1109），请尽量不要提前或延迟提交，谢谢。
+
+    （6）考试需用计算器，请自备，原则上不许在考场上借用，严禁用手机或pad等代替！（喜欢脑算对数的天才可忽略此条）。同时请大家注意考试纪律，莫忘携带学生证（卡）。
+
+    （7）关于对教材、讲义得勘误补缺，希望得到大家的指正、反馈，在适当范围内，会按顾老师的建议，将此部分作为实验成绩的参考。
+
+    此致，
+敬礼！
+身体健康！
+万事如意！
+哈尔滨工业大学
+电子与信息工程学院
+通信技术研究所
+石硕 敬上
+TEL：86-451-86413513-8224 
+M.P.：159-4519-1498
+</code></pre><h2 id="主题：2015-考试信息"><a href="#主题：2015-考试信息" class="headerlink" title="主题：2015 考试信息"></a>主题：2015 考试信息</h2><pre><code>各位同学好！
+
+    一、信息论考试时间、地点：第12周周一（2015.11.30），13:30-15:30，A22教室。
+    二、考试题型：
+        （1）填空题，7道题*2分/题=14分；
+        （2）选择题，8道题*2分/题=16分；
+        （3）计算（证明）题，7道题*10分=70分；
+    还是那句话，题型转变是件利弊参半的事情，15道小题，涉及的知识点的确增多了，但是很多题都是“送分”型的。我也不清楚小题和大题的时间分布，很有可能明天最终定稿的时候，把大题变为6道，10*4+15*2=70分，这种结构。
+    填空和选择题涉及的都是基础概念与公式。计算证明题涵盖信道与信源、译码准则、循环码、BCH码、卷积码。没有任何超出讲授范围的试题。
+    三、实验任务书待整理后再发信箱。实验报告12月中旬提交。  
+
+    请大家注意序号与考场纪律，并请随时留意信箱，直至试前。
+
+    网络实在不行，传不了附件，第8章ppt晚上传。
+
+    此致，
+敬礼！
+
+身体健康！
+万事如意！
+哈尔滨工业大学
+电子与信息工程学院
+通信技术研究所
+石硕 敬上 2015-11-24
+TEL：86-451-86413513-8224 
+M.P.：177-0364-7986；159-4519-1498。
+</code></pre><h2 id="主题：2015-试卷形式及注意。"><a href="#主题：2015-试卷形式及注意。" class="headerlink" title="主题：2015 试卷形式及注意。"></a>主题：2015 试卷形式及注意。</h2><pre><code>大家好！
+
+    这两天网络较差，这次试一试。第8章还是不成，今晚发。
+
+    试卷形式：
+    一、选择，2分*8题；
+    二、填空，2分*7题；
+    三、四，简单计算，各10分；
+    五、证明，10分；
+    六、电路设计，10分；
+    七、八，计算，各15分。 
+
+    请大家注意，在题签、答题册、草稿纸（可能是2张）都要写序号与姓名，并且都要交回，交回材料不足或信息不全会影响大家成绩。
+
+    此致，
+敬礼！
+
+身体健康！
+万事如意！
+哈尔滨工业大学
+电子与信息工程学院
+通信技术研究所
+石硕 敬上 2015-11-26
+TEL：86-451-86413513-8224 
+M.P.：177-0364-7986；159-4519-1498。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;考试备战&quot;&gt;&lt;a href=&quot;#考试备战&quot; class=&quot;headerlink&quot; title=&quot;考试备战&quot;&gt;&lt;/a&gt;考试备战&lt;/h1&gt;&lt;h2 id=&quot;知识点整理&quot;&gt;&lt;a href=&quot;#知识点整理&quot; class=&quot;headerlink&quot; title=&quot;知识点整理&quot;&gt;&lt;/a&gt;知识点整理&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;一、信源熵与信道容量（计算，难度：中）
+二、山农公式（计算，难度：易）
+三、马尔科夫（计算，难度：易）
+四、霍夫曼（计算，难度：易）
+五、译码准则（证明，难度：中）
+六、线性分组码（1）（计算，难度：易）
+七、线性分组码（2）（证明，难度：中-难）
+八、循环码（计算，难度：中）
+九、BCH码（计算，难度：难）
+十、卷积码(电路)（综合，难度：中）
+&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+      <category term="课程" scheme="http://yoursite.com/categories/%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+      <category term="信息论" scheme="http://yoursite.com/tags/%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论文句子摘抄</title>
+    <link href="http://yoursite.com/2016/11/07/%E8%AE%BA%E6%96%87%E5%8F%A5%E5%AD%90%E6%91%98%E6%8A%84/"/>
+    <id>http://yoursite.com/2016/11/07/论文句子摘抄/</id>
+    <published>2016-11-07T05:03:45.000Z</published>
+    <updated>2016-11-07T05:04:39.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="信息整理" scheme="http://yoursite.com/categories/%E4%BF%A1%E6%81%AF%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="英文论文好句子摘抄" scheme="http://yoursite.com/tags/%E8%8B%B1%E6%96%87%E8%AE%BA%E6%96%87%E5%A5%BD%E5%8F%A5%E5%AD%90%E6%91%98%E6%8A%84/"/>
+    
+  </entry>
   
   <entry>
     <title>科研</title>
@@ -499,10 +675,9 @@
     <link href="http://yoursite.com/2016/11/06/%E5%AD%A6%E8%80%85/"/>
     <id>http://yoursite.com/2016/11/06/学者/</id>
     <published>2016-11-06T09:09:17.000Z</published>
-    <updated>2016-11-06T13:07:42.000Z</updated>
+    <updated>2016-11-07T08:49:35.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#国内</p>
-<ul>
+    <content type="html"><![CDATA[<h1 id="国内"><a href="#国内" class="headerlink" title="国内"></a>国内</h1><ul>
 <li><a href="">刘知远</a></li>
 <li><a href="">张梅山</a></li>
 <li><a href="">丁效</a></li>
@@ -511,8 +686,7 @@
 <li><a href="">唐都钰</a></li>
 </ul>
 <a id="more"></a>
-<p>#国外</p>
-<ul>
+<h1 id="国外"><a href="#国外" class="headerlink" title="国外"></a>国外</h1><ul>
 <li><a href="">Heng Ji</a></li>
 <li><a href="">张越</a></li>
 <li><a href="">韩家炜</a></li>
@@ -521,8 +695,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;#国内&lt;/p&gt;
-&lt;ul&gt;
+      &lt;h1 id=&quot;国内&quot;&gt;&lt;a href=&quot;#国内&quot; class=&quot;headerlink&quot; title=&quot;国内&quot;&gt;&lt;/a&gt;国内&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;刘知远&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;张梅山&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;丁效&lt;/a&gt;&lt;/li&gt;
@@ -1150,7 +1323,7 @@ Measures）和混合式语义相似度计算（Hybrid Measures）。
     <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC/"/>
     <id>http://yoursite.com/2015/04/15/shell脚本/</id>
     <published>2015-04-15T05:37:48.000Z</published>
-    <updated>2016-11-06T12:51:32.000Z</updated>
+    <updated>2016-11-07T08:49:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
 <p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
