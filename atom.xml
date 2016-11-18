@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-07T07:23:49.000Z</updated>
+  <updated>2016-11-16T07:15:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>CCIR2016参会记录</title>
+    <link href="http://yoursite.com/2016/11/14/CCIR2016%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2016/11/14/CCIR2016参会记录/</id>
+    <published>2016-11-14T11:33:51.000Z</published>
+    <updated>2016-11-16T07:15:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="会议日期"><a href="#会议日期" class="headerlink" title="会议日期"></a>会议日期</h2><p>11月11日到11月13日</p>
+<h2 id="地点"><a href="#地点" class="headerlink" title="地点"></a>地点</h2><p>广州华南理工大学，大学城中心酒店<br><a id="more"></a></p>
+<h2 id="程序"><a href="#程序" class="headerlink" title="程序"></a>程序</h2><p>11号上午报到，下午青年论坛和tutorial</p>
+<p>12号上午开幕式和两个特邀报告，以及Panel-Is IR shrinking or not？，下午sessionA和sessionB</p>
+<p>13号上午两个特邀报告，下午session，评测和闭幕式</p>
+<h2 id="此次参会想到的idea"><a href="#此次参会想到的idea" class="headerlink" title="此次参会想到的idea"></a>此次参会想到的idea</h2><p>用然后因为所以等等关联词构造大规模训练数据  并构造反例  这样的话可以用深度学习  相似度匹配（利用徐君tutorial中提到的方法）<br>利用大规模新闻语料构建模型，领域迁移，到旅行语料上，在旅行语料的小规模样本上进行优化训练，得到适用于旅行语料的模型，判断pair语义相关性。</p>
+<p>Boosting   LSTM  CNN  相融合   可以用简单任务比如句子分类验证boosting在deeplearning上的有效性</p>
+<p>基于事理图谱的应用问题，或者conceptnet </p>
+<p>Query意图分析，意图识别</p>
+<p>One shot learning &amp; Unsupervised learning </p>
+<h2 id="游玩"><a href="#游玩" class="headerlink" title="游玩"></a>游玩</h2><p>小蛮腰-广州塔</p>
+<p>夜游珠江</p>
+<p>上下九-广州小吃</p>
+<p>大学城骑行</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;会议日期&quot;&gt;&lt;a href=&quot;#会议日期&quot; class=&quot;headerlink&quot; title=&quot;会议日期&quot;&gt;&lt;/a&gt;会议日期&lt;/h2&gt;&lt;p&gt;11月11日到11月13日&lt;/p&gt;
+&lt;h2 id=&quot;地点&quot;&gt;&lt;a href=&quot;#地点&quot; class=&quot;headerlink&quot; title=&quot;地点&quot;&gt;&lt;/a&gt;地点&lt;/h2&gt;&lt;p&gt;广州华南理工大学，大学城中心酒店&lt;br&gt;
+    
+    </summary>
+    
+      <category term="参会记录" scheme="http://yoursite.com/categories/%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>信息理论与编码</title>
     <link href="http://yoursite.com/2016/11/07/%E4%BF%A1%E6%81%AF%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81/"/>
     <id>http://yoursite.com/2016/11/07/信息理论与编码/</id>
     <published>2016-11-07T05:47:14.000Z</published>
-    <updated>2016-11-07T07:23:49.000Z</updated>
+    <updated>2016-11-14T13:05:38.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="考试备战"><a href="#考试备战" class="headerlink" title="考试备战"></a>考试备战</h1><h2 id="知识点整理"><a href="#知识点整理" class="headerlink" title="知识点整理"></a>知识点整理</h2><pre><code>一、信源熵与信道容量（计算，难度：中）
 二、山农公式（计算，难度：易）
@@ -565,7 +602,7 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
     <id>http://yoursite.com/2016/11/06/博主/</id>
     <published>2016-11-06T09:11:45.000Z</published>
-    <updated>2016-11-07T16:04:07.000Z</updated>
+    <updated>2016-11-18T01:15:28.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
 <li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
@@ -582,6 +619,11 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://karpathy.github.io/" target="_blank" rel="external">karpathy</a></li>
 <li><a href="https://colah.github.io/" target="_blank" rel="external">colah</a></li>
 <li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
+</ul>
+<h2 id="工具博客"><a href="#工具博客" class="headerlink" title="工具博客"></a>工具博客</h2><ul>
+<li><a href="http://kateto.net/" target="_blank" rel="external">kateto.net/</a></li>
+<li><a href="https://briatte.github.io/" target="_blank" rel="external">briatte</a></li>
+<li><a href="http://x-wei.github.io/" target="_blank" rel="external">x-wei</a></li>
 </ul>
 ]]></content>
     
@@ -612,19 +654,28 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E9%A1%B9%E7%9B%AE/"/>
     <id>http://yoursite.com/2016/11/06/项目/</id>
     <published>2016-11-06T09:10:09.000Z</published>
-    <updated>2016-11-06T10:59:12.000Z</updated>
+    <updated>2016-11-17T02:18:11.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<h1 id="软件包"><a href="#软件包" class="headerlink" title="软件包"></a>软件包</h1><ul>
 <li><a href="https://xgboost.readthedocs.io/en/latest/" target="_blank" rel="external">xgboost doc</a></li>
 <li><a href="https://www.tensorflow.org/" target="_blank" rel="external">tensorflow</a></li>
+</ul>
+<h1 id="可视化软件"><a href="#可视化软件" class="headerlink" title="可视化软件"></a>可视化软件</h1><ul>
+<li><a href="http://www.texmacs.org/" target="_blank" rel="external">texmacs</a></li>
+</ul>
+<h1 id="network可视化"><a href="#network可视化" class="headerlink" title="network可视化"></a>network可视化</h1><ul>
+<li><a href="https://github.com/networkx/networkx" target="_blank" rel="external">networkx</a></li>
+<li><a href="https://nodexl.codeplex.com/" target="_blank" rel="external">nodeXL for windows</a></li>
+<li><a href="http://www.cytoscape.org/what_is_cytoscape.html" target="_blank" rel="external">cytoscape</a></li>
+<li><a href="https://gephi.org/" target="_blank" rel="external">gephi</a></li>
+<li><a href="http://schoolofdata.org/2014/08/20/4-network-visualisation-tools/" target="_blank" rel="external">4-network-visualisation-tools</a></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://xgboost.readthedocs.io/en/latest/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;xgboost doc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.te
+      &lt;h1 id=&quot;软件包&quot;&gt;&lt;a href=&quot;#软件包&quot; class=&quot;headerlink&quot; title=&quot;软件包&quot;&gt;&lt;/a&gt;软件包&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://xgboost.readthedocs.io/en/latest/&quot; target=&quot;
     
     </summary>
     
@@ -640,19 +691,30 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2016/11/06/博客/</id>
     <published>2016-11-06T09:09:26.000Z</published>
-    <updated>2016-11-07T16:03:41.000Z</updated>
+    <updated>2016-11-17T02:18:12.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="http://www.cnblogs.com/kaituorensheng/p/3569436.html" target="_blank" rel="external">Wordnet 与 Hownet 比较</a></li>
 <li><a href="http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html" target="_blank" rel="external">《Using Cross-Entity Inference to Improve Event Extraction》读书笔记</a></li>
 <li><a href="http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/" target="_blank" rel="external">GBM之GBRT总结</a></li>
 <li><a href="https://www.nervanasys.com/deep-reinforcement-learning-with-neon/" target="_blank" rel="external">Guest Post (Part II): Deep Reinforcement Learning with Neon</a></li>
+<li><a href="http://x-wei.github.io/TeXmacs_intro.html" target="_blank" rel="external">学术文章写作利器: TeXmacs介绍</a></li>
 </ul>
 <a id="more"></a>
 <ul>
 <li><a href="https://www.nervanasys.com/openai/" target="_blank" rel="external">Blog Post (Part III): Deep Reinforcement Learning with OpenAI Gym</a></li>
 <li><a href="http://www.cnblogs.com/peghoty/p/3857839.html" target="_blank" rel="external">word2vec 中的数学原理详解</a></li>
 <li><a href="http://www.jianshu.com/p/9dc9f41f0b29" target="_blank" rel="external">理解LSTM网络</a></li>
+</ul>
+<h1 id="微信文章"><a href="#微信文章" class="headerlink" title="微信文章"></a>微信文章</h1><ul>
+<li><a href="">NAACL2016年度论文：无监督神经网络理解虚构人物关系</a></li>
+<li><a href="">Facebook AI实验室最新论文：图像检测的无监督学习(下载)</a></li>
+<li><a href="">【深度】LeCun解读Facebook人工智能最新进展：最大挑战是无监督学习</a></li>
+<li><a href="">无监督学习：从基本概念到四种实现模型</a></li>
+<li><a href="">Open AI 研究主管：实现无监督学习的最佳路径或是聚焦模型</a></li>
+<li><a href="">深度 | 一篇文章带你进入无监督学习：从基本概念到四种实现模型（附论文）</a></li>
+<li><a href="">【趋势】Yoshua Bengio: 机器的梦可以让我们实现无监督学习</a></li>
+<li><a href="">深度思考｜人工智能、机器学习以及无监督学习的现在和未来</a></li>
 </ul>
 ]]></content>
     
@@ -663,6 +725,7 @@ M.P.：177-0364-7986；159-4519-1498。
 &lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html&quot;&gt;《Using Cross-Entity Inference to Improve Event Extraction》读书笔记&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/&quot;&gt;GBM之GBRT总结&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.nervanasys.com/deep-reinforcement-learning-with-neon/&quot;&gt;Guest Post (Part II): Deep Reinforcement Learning with Neon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://x-wei.github.io/TeXmacs_intro.html&quot;&gt;学术文章写作利器: TeXmacs介绍&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
