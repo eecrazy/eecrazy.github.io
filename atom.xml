@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-16T07:15:54.000Z</updated>
+  <updated>2016-11-22T09:59:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>event_graph_visualization</title>
+    <link href="http://yoursite.com/2016/11/22/event-graph-visualization/"/>
+    <id>http://yoursite.com/2016/11/22/event-graph-visualization/</id>
+    <published>2016-11-22T09:53:24.000Z</published>
+    <updated>2016-11-22T09:59:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="事件网络可视化"><a href="#事件网络可视化" class="headerlink" title="事件网络可视化"></a>事件网络可视化</h1><ul>
+<li>第一版本<a href="img/event_graph1.svg">SVG格式</a>，<a href="img/event_graph1.png">PNG格式</a></li>
+</ul>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;事件网络可视化&quot;&gt;&lt;a href=&quot;#事件网络可视化&quot; class=&quot;headerlink&quot; title=&quot;事件网络可视化&quot;&gt;&lt;/a&gt;事件网络可视化&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;第一版本&lt;a href=&quot;img/event_graph1.svg&quot;&gt;SVG格式&lt;/a&gt;，&lt;a href=&quot;img/event_graph1.png&quot;&gt;PNG格式&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>CCIR2016参会记录</title>
@@ -57,10 +81,10 @@
     <link href="http://yoursite.com/2016/11/07/%E4%BF%A1%E6%81%AF%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81/"/>
     <id>http://yoursite.com/2016/11/07/信息理论与编码/</id>
     <published>2016-11-07T05:47:14.000Z</published>
-    <updated>2016-11-14T13:05:38.000Z</updated>
+    <updated>2016-11-21T03:48:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="考试备战"><a href="#考试备战" class="headerlink" title="考试备战"></a>考试备战</h1><h2 id="知识点整理"><a href="#知识点整理" class="headerlink" title="知识点整理"></a>知识点整理</h2><pre><code>一、信源熵与信道容量（计算，难度：中）
-二、山农公式（计算，难度：易）
+二、山农公式（计算，难度：易）？？？
 三、马尔科夫（计算，难度：易）
 四、霍夫曼（计算，难度：易）
 五、译码准则（证明，难度：中）
@@ -184,7 +208,7 @@ M.P.：177-0364-7986；159-4519-1498。
     <summary type="html">
     
       &lt;h1 id=&quot;考试备战&quot;&gt;&lt;a href=&quot;#考试备战&quot; class=&quot;headerlink&quot; title=&quot;考试备战&quot;&gt;&lt;/a&gt;考试备战&lt;/h1&gt;&lt;h2 id=&quot;知识点整理&quot;&gt;&lt;a href=&quot;#知识点整理&quot; class=&quot;headerlink&quot; title=&quot;知识点整理&quot;&gt;&lt;/a&gt;知识点整理&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;一、信源熵与信道容量（计算，难度：中）
-二、山农公式（计算，难度：易）
+二、山农公式（计算，难度：易）？？？
 三、马尔科夫（计算，难度：易）
 四、霍夫曼（计算，难度：易）
 五、译码准则（证明，难度：中）
@@ -602,7 +626,7 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
     <id>http://yoursite.com/2016/11/06/博主/</id>
     <published>2016-11-06T09:11:45.000Z</published>
-    <updated>2016-11-18T01:15:28.000Z</updated>
+    <updated>2016-11-22T03:27:23.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
 <li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
@@ -619,6 +643,9 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://karpathy.github.io/" target="_blank" rel="external">karpathy</a></li>
 <li><a href="https://colah.github.io/" target="_blank" rel="external">colah</a></li>
 <li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
+<li><a href="http://rakeshagrawal.org/" target="_blank" rel="external">rakeshagrawal</a></li>
+<li><a href="http://ai.stanford.edu/~zayd/" target="_blank" rel="external">zayd</a></li>
+<li><a href="http://blog.aylien.com/" target="_blank" rel="external">aylien</a></li>
 </ul>
 <h2 id="工具博客"><a href="#工具博客" class="headerlink" title="工具博客"></a>工具博客</h2><ul>
 <li><a href="http://kateto.net/" target="_blank" rel="external">kateto.net/</a></li>
