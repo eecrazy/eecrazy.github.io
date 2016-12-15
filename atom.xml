@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-22T09:59:02.000Z</updated>
+  <updated>2016-11-29T07:44:49.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,83 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>组织</title>
+    <link href="http://yoursite.com/2016/11/29/%E7%BB%84%E7%BB%87/"/>
+    <id>http://yoursite.com/2016/11/29/组织/</id>
+    <published>2016-11-29T07:43:24.000Z</published>
+    <updated>2016-11-29T07:44:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="国外大学"><a href="#国外大学" class="headerlink" title="国外大学"></a>国外大学</h1><ul>
+<li><a href="https://cogcomp.cs.illinois.edu/" target="_blank" rel="external">Cognitive Computation Group</a></li>
+</ul>
+<a id="more"></a>
+<h1 id="国外公司"><a href="#国外公司" class="headerlink" title="国外公司"></a>国外公司</h1><h1 id="国内大学"><a href="#国内大学" class="headerlink" title="国内大学"></a>国内大学</h1><h1 id="国内公司"><a href="#国内公司" class="headerlink" title="国内公司"></a>国内公司</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;国外大学&quot;&gt;&lt;a href=&quot;#国外大学&quot; class=&quot;headerlink&quot; title=&quot;国外大学&quot;&gt;&lt;/a&gt;国外大学&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cogcomp.cs.illinois.edu/&quot;&gt;Cognitive Computation Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据集</title>
+    <link href="http://yoursite.com/2016/11/24/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    <id>http://yoursite.com/2016/11/24/数据集/</id>
+    <published>2016-11-24T05:47:58.000Z</published>
+    <updated>2016-12-13T02:50:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://ir.hit.edu.cn/hit-cdtb/" target="_blank" rel="external">hit-cdtb</a></li>
+<li><a href="">大词林</a></li>
+<li><a href=""></a></li>
+<li><a href="">LDC</a></li>
+<li><a href="">北大</a></li>
+<li><a href="https://www.seas.upenn.edu/~pdtb/" target="_blank" rel="external">pdtb</a></li>
+<li><a href="">数据堂</a></li>
+<li><a href="">微博名人堂</a></li>
+<li><a href="">谣言数据集</a></li>
+<li><a href="http://kevinchai.net/datasets" target="_blank" rel="external">kevin chai</a></li>
+<li><a href="http://snap.stanford.edu/data/" target="_blank" rel="external">SNAP-Stanford Large Network Dataset Collection非常好的网络数据大集合</a></li>
+<li><a href="http://socialcomputing.asu.edu/pages/datasets" target="_blank" rel="external">socialcomputing datasets</a></li>
+<li><a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset" target="_blank" rel="external">foursquare-dataset</a></li>
+</ul>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ir.hit.edu.cn/hit-cdtb/&quot;&gt;hit-cdtb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;大词林&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;LDC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;北大&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.seas.upenn.edu/~pdtb/&quot;&gt;pdtb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;数据堂&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;微博名人堂&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;谣言数据集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kevinchai.net/datasets&quot;&gt;kevin chai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://snap.stanford.edu/data/&quot;&gt;SNAP-Stanford Large Network Dataset Collection非常好的网络数据大集合&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://socialcomputing.asu.edu/pages/datasets&quot;&gt;socialcomputing datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/yangdingqi/home/foursquare-dataset&quot;&gt;foursquare-dataset&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>event_graph_visualization</title>
     <link href="http://yoursite.com/2016/11/22/event-graph-visualization/"/>
     <id>http://yoursite.com/2016/11/22/event-graph-visualization/</id>
     <published>2016-11-22T09:53:24.000Z</published>
-    <updated>2016-11-22T09:59:02.000Z</updated>
+    <updated>2016-11-22T10:00:52.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="事件网络可视化"><a href="#事件网络可视化" class="headerlink" title="事件网络可视化"></a>事件网络可视化</h1><ul>
 <li>第一版本<a href="img/event_graph1.svg">SVG格式</a>，<a href="img/event_graph1.png">PNG格式</a></li>
@@ -340,11 +412,14 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E4%B9%A6%E7%B1%8D/"/>
     <id>http://yoursite.com/2016/11/06/书籍/</id>
     <published>2016-11-06T09:34:11.000Z</published>
-    <updated>2016-11-06T13:08:19.000Z</updated>
+    <updated>2016-11-25T03:14:59.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="在线书籍"><a href="#在线书籍" class="headerlink" title="在线书籍"></a>在线书籍</h1><ul>
 <li><a href="http://iissnan.com/progit/index.html" target="_blank" rel="external">progit</a></li>
 <li><a href="http://www.deeplearningbook.org" target="_blank" rel="external">deeplearningbook</a></li>
+<li><a href="http://www.scheme.com/tspl4/" target="_blank" rel="external">The Scheme Programming Language</a></li>
+<li><a href="http://www.shido.info/lisp/idx_scm_e.html" target="_blank" rel="external">Yet Another Scheme Tutorial</a></li>
+<li><a href="http://deathking.github.io/yast-cn" target="_blank" rel="external">Yet Another Scheme Tutorial中文版</a></li>
 </ul>
 <a id="more"></a>
 <h1 id="我的书单"><a href="#我的书单" class="headerlink" title="我的书单"></a>我的书单</h1><h2 id="Kindle-Top-100人气小说第二期："><a href="#Kindle-Top-100人气小说第二期：" class="headerlink" title="Kindle Top 100人气小说第二期："></a>Kindle Top 100人气小说第二期：</h2><ul>
@@ -582,6 +657,9 @@ M.P.：177-0364-7986；159-4519-1498。
       &lt;h1 id=&quot;在线书籍&quot;&gt;&lt;a href=&quot;#在线书籍&quot; class=&quot;headerlink&quot; title=&quot;在线书籍&quot;&gt;&lt;/a&gt;在线书籍&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/index.html&quot;&gt;progit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.deeplearningbook.org&quot;&gt;deeplearningbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.scheme.com/tspl4/&quot;&gt;The Scheme Programming Language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.shido.info/lisp/idx_scm_e.html&quot;&gt;Yet Another Scheme Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://deathking.github.io/yast-cn&quot;&gt;Yet Another Scheme Tutorial中文版&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
@@ -626,7 +704,7 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
     <id>http://yoursite.com/2016/11/06/博主/</id>
     <published>2016-11-06T09:11:45.000Z</published>
-    <updated>2016-11-22T03:27:23.000Z</updated>
+    <updated>2016-12-07T07:59:09.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
 <li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
@@ -637,20 +715,28 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://www.cnblogs.com/edwardbi/tag/深度学习/" target="_blank" rel="external">edwardbi tensorflow 深度学习</a></li>
 <li><a href="http://www.jerryfu.net/" target="_blank" rel="external">jerryfu</a></li>
 <li><a href="http://luuman.github.io/" target="_blank" rel="external">luuman</a></li>
+<li><a href="http://www.cnblogs.com/yao62995/p/5773578.html" target="_blank" rel="external">yao62995 tensorflow源码</a></li>
+<li><a href="http://www.cnblogs.com/sea-wind/p/4187588.html" target="_blank" rel="external">sea-wind ml 概率图模型 矩阵分析 指数分布族</a></li>
+<li><a href="http://yanran.li/categories/" target="_blank" rel="external">yanran.li</a><a id="more"></a>
+</li>
 </ul>
-<a id="more"></a>
 <h2 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h2><ul>
+<li><a href="https://sites.google.com/site/stephenclark609/publica" target="_blank" rel="external">stephenclark609</a></li>
 <li><a href="http://karpathy.github.io/" target="_blank" rel="external">karpathy</a></li>
 <li><a href="https://colah.github.io/" target="_blank" rel="external">colah</a></li>
 <li><a href="https://handong1587.github.io/archives.html" target="_blank" rel="external">handong1587</a></li>
 <li><a href="http://rakeshagrawal.org/" target="_blank" rel="external">rakeshagrawal</a></li>
-<li><a href="http://ai.stanford.edu/~zayd/" target="_blank" rel="external">zayd</a></li>
+<li><a href="http://ai.stanford.edu/~zayd/" target="_blank" rel="external">zayd stanford</a></li>
 <li><a href="http://blog.aylien.com/" target="_blank" rel="external">aylien</a></li>
+<li><a href="http://rakeshagrawal.org/" target="_blank" rel="external">rakeshagrawal</a></li>
+<li><a href="http://homes.cs.washington.edu/~yejin/cse599.html" target="_blank" rel="external">yejin</a></li>
+<li><a href="http://www.geekonomics10000.com/" target="_blank" rel="external">geekonomics10000</a></li>
 </ul>
 <h2 id="工具博客"><a href="#工具博客" class="headerlink" title="工具博客"></a>工具博客</h2><ul>
 <li><a href="http://kateto.net/" target="_blank" rel="external">kateto.net/</a></li>
 <li><a href="https://briatte.github.io/" target="_blank" rel="external">briatte</a></li>
 <li><a href="http://x-wei.github.io/" target="_blank" rel="external">x-wei</a></li>
+<li><a href="http://www.pythonchallenge.com/pc/return/5808.html" target="_blank" rel="external">pythonchallenge</a></li>
 </ul>
 ]]></content>
     
@@ -665,7 +751,9 @@ M.P.：177-0364-7986；159-4519-1498。
 &lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/edwardbi/tag/深度学习/&quot;&gt;edwardbi tensorflow 深度学习&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.jerryfu.net/&quot;&gt;jerryfu&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://luuman.github.io/&quot;&gt;luuman&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/yao62995/p/5773578.html&quot;&gt;yao62995 tensorflow源码&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/sea-wind/p/4187588.html&quot;&gt;sea-wind ml 概率图模型 矩阵分析 指数分布族&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://yanran.li/categories/&quot;&gt;yanran.li&lt;/a&gt;
     
     </summary>
     
@@ -769,7 +857,7 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E5%AD%A6%E8%80%85/"/>
     <id>http://yoursite.com/2016/11/06/学者/</id>
     <published>2016-11-06T09:09:17.000Z</published>
-    <updated>2016-11-07T08:49:35.000Z</updated>
+    <updated>2016-12-15T04:17:13.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="国内"><a href="#国内" class="headerlink" title="国内"></a>国内</h1><ul>
 <li><a href="">刘知远</a></li>
@@ -778,12 +866,140 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">周志华</a></li>
 <li><a href="">郭江</a></li>
 <li><a href="">唐都钰</a></li>
+<li><a href="http://playbigdata.com/batmanfly/" target="_blank" rel="external">赵鑫batmanfly</a></li>
+<li><a href="">葛涛</a></li>
 </ul>
 <a id="more"></a>
+<h1 id="Script-Learning"><a href="#Script-Learning" class="headerlink" title="Script Learning"></a>Script Learning</h1><ol>
+<li>斯坦福大学</li>
+</ol>
+<ul>
+<li><a href="http://cs.stanford.edu/people/nc/" target="_blank" rel="external">Nate Chambers</a></li>
+<li><a href="http://web.stanford.edu/~jurafsky/" target="_blank" rel="external">Dan Jurafsky</a></li>
+</ul>
+<ol>
+<li>德国萨尔大学 Saarland University</li>
+</ol>
+<ul>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=59" target="_blank" rel="external">Saarland Projects</a></li>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=2582" target="_blank" rel="external">Recourses</a></li>
+<li><a href="http://www.coli.uni-saarland.de/~zarcone/page.php?id=index" target="_blank" rel="external">Alessandra Zarcone</a></li>
+<li><a href="http://www.coli.uni-saarland.de/~ashutosh/" target="_blank" rel="external">Ashutosh Modi</a></li>
+<li><a href="http://www.coli.uni-saarland.de/~pinkal/en/page.php?id=index" target="_blank" rel="external">Manfred Pinkal</a></li>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=52" target="_blank" rel="external">Members</a></li>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=1847" target="_blank" rel="external">Simon Ostermann</a></li>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=1606" target="_blank" rel="external">Lilian D. A. Wanzare</a></li>
+<li><a href="http://www.sfb1102.uni-saarland.de/?page_id=1608" target="_blank" rel="external">Alessandra Zarcone</a></li>
+<li><a href="http://www.coli.uni-saarland.de/~stth/" target="_blank" rel="external">Stefan Thater</a></li>
+<li><p><a href="http://www.coli.uni-saarland.de/~vera/" target="_blank" rel="external">Vera Demberg</a></p>
+</li>
+<li><p><a href="">Tatjana Anikina</a></p>
+</li>
+<li><a href="">Alexander Koller</a></li>
+</ul>
+<ol>
+<li>约翰霍普金斯大学</li>
+</ol>
+<ul>
+<li><a href="http://www.clsp.jhu.edu/people/graduate-students/rachel-rudinger/" target="_blank" rel="external">Rachel Rudinger</a></li>
+<li><a href="http://rudinger.github.io/" target="_blank" rel="external">Rachel Rudinger githubio</a></li>
+<li><a href="https://scholar.google.com/citations?user=QKCHaHUAAAAJ&amp;hl=zh-CN" target="_blank" rel="external">Rachel Rudinger google citation</a></li>
+<li><a href="https://www.linkedin.com/in/rachel-rudinger-21814820" target="_blank" rel="external">Rachel Rudinger linkedin</a></li>
+<li><a href="https://github.com/rudinger" target="_blank" rel="external">Rachel Rudinger github</a></li>
+<li><a href="http://dblp.uni-trier.de/pers/hd/r/Rudinger:Rachel" target="_blank" rel="external">Rachel Rudinger DBLP</a></li>
+<li><a href="http://cs.jhu.edu/~ferraro/" target="_blank" rel="external">Francis Ferraro</a></li>
+<li><a href="https://scholar.google.com/citations?user=UB5EoOEAAAAJ&amp;hl=en" target="_blank" rel="external">Francis Ferraro google citation</a></li>
+<li><a href="http://www.cs.jhu.edu/~vandurme/" target="_blank" rel="external">Benjamin Van Durme</a></li>
+</ul>
+<ol>
+<li>佐治亚理工学院</li>
+</ol>
+<ul>
+<li><a href="http://boyangli.co/index.php" target="_blank" rel="external">boyangli</a></li>
+<li><a href="">Stephen Lee-Urban</a></li>
+<li><a href="">Darren Scott Appling</a></li>
+<li><a href="">Mark O. Riedl</a></li>
+<li><a href="">Fatima A. Boujarwah</a></li>
+</ul>
+<ol>
+<li>德克萨斯大学，奥斯汀</li>
+</ol>
+<ul>
+<li><a href="http://www.cs.utexas.edu/~pichotta/" target="_blank" rel="external">Karl Pichotta</a></li>
+<li><a href="http://www.cs.utexas.edu/users/ai-lab/?mooney" target="_blank" rel="external">Raymond J. Mooney</a></li>
+<li><a href="http://dblp.uni-trier.de/pers/hd/m/Mooney:Raymond_J=" target="_blank" rel="external">Mooney DBLP</a></li>
+</ul>
+<ol>
+<li>俄勒冈州立大学</li>
+</ol>
+<ul>
+<li><a href="https://www.linkedin.com/in/walker-orr-2871157" target="_blank" rel="external">Walker Orr linkedin</a></li>
+<li><a href="http://research.engr.oregonstate.edu/dral/" target="_blank" rel="external">Deep Reading and Learning lab</a></li>
+<li><a href="">Stephen Lee-Urban</a></li>
+<li><a href="">Darren Scott Appling</a></li>
+<li><a href="">Mark O. Riedl</a></li>
+</ul>
+<ol>
+<li>英国爱丁堡大学</li>
+</ol>
+<ul>
+<li><a href="">Lea Frermann</a></li>
+<li><a href="">Neil McIntyre</a></li>
+<li><a href="">Mirella Lapata</a></li>
+</ul>
+<ol>
+<li>荷兰阿姆斯特丹大学</li>
+</ol>
+<ul>
+<li><a href="">Ivan Titov</a></li>
+</ul>
+<ol>
+<li>剑桥大学</li>
+</ol>
+<ul>
+<li><a href="">Mark Granroth-Wilding</a></li>
+<li><a href="">Stephen Clark</a></li>
+</ul>
+<ol>
+<li>日本</li>
+</ol>
+<ul>
+<li><a href="">Toshiaki Fujiki</a></li>
+<li><a href="">Hidetsugu Nanba</a></li>
+</ul>
+<ol>
+<li>比利时</li>
+</ol>
+<ul>
+<li><a href="">Bram Jans</a></li>
+<li><a href="">Ivan Vuli´c,Marie Francine Moens,KU Leuven Leuven</a></li>
+<li><a href="">Marie Francine Moens</a></li>
+<li><a href="">KU Leuven Leuven</a></li>
+</ul>
+<ol>
+<li>美国科罗拉多</li>
+</ol>
+<ul>
+<li><a href="">Steven Bethard</a></li>
+</ul>
+<h1 id="Extracting-Temporal-and-Causal-Relations-between-Events"><a href="#Extracting-Temporal-and-Causal-Relations-between-Events" class="headerlink" title="Extracting Temporal and Causal Relations between Events"></a>Extracting Temporal and Causal Relations between Events</h1><ul>
+<li><a href="http://people.mpi-inf.mpg.de/~paramita/" target="_blank" rel="external">Paramita Mirza 刚毕业的博士，目前在德国</a></li>
+<li><a href="http://paramitamirza.com/" target="_blank" rel="external">Paramita Mirza 的个人博客</a></li>
+<li><a href="http://dh.fbk.eu/people/profile/satonelli" target="_blank" rel="external">Sara Tonelli DH.FBK，意大利的科研机构 参加过NewsReader</a></li>
+</ul>
 <h1 id="国外"><a href="#国外" class="headerlink" title="国外"></a>国外</h1><ul>
 <li><a href="">Heng Ji</a></li>
 <li><a href="">张越</a></li>
 <li><a href="">韩家炜</a></li>
+<li><a href="https://people.eecs.berkeley.edu/~jordan/publications.html" target="_blank" rel="external">jordan</a></li>
+<li><a href="http://l2r.cs.illinois.edu/tutorials.html" target="_blank" rel="external">Dan Roth</a></li>
+<li><a href="http://kevinchai.net/datasets" target="_blank" rel="external">kevinchai</a></li>
+<li><a href="https://sites.google.com/site/yangdingqi/home" target="_blank" rel="external">yangdingqi</a></li>
+<li><a href="http://sebastianruder.com/publications/" target="_blank" rel="external">Sebastian Ruder</a></li>
+<li><a href="http://homepages.inf.ed.ac.uk/clucas2/" target="_blank" rel="external">Christopher G Lucas 因果推断</a></li>
+</ul>
+<h1 id="微软"><a href="#微软" class="headerlink" title="微软"></a>微软</h1><ul>
+<li><a href="http://research.microsoft.com/en-us/um/people/horvitz/" target="_blank" rel="external">horvitz</a></li>
 </ul>
 ]]></content>
     
@@ -796,6 +1012,8 @@ M.P.：177-0364-7986；159-4519-1498。
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;周志华&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;郭江&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;唐都钰&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://playbigdata.com/batmanfly/&quot;&gt;赵鑫batmanfly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;葛涛&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
     
     </summary>
@@ -812,9 +1030,12 @@ M.P.：177-0364-7986；159-4519-1498。
     <link href="http://yoursite.com/2016/11/06/%E4%BC%9A%E8%AE%AE/"/>
     <id>http://yoursite.com/2016/11/06/会议/</id>
     <published>2016-11-06T09:09:01.000Z</published>
-    <updated>2016-11-06T13:08:11.000Z</updated>
+    <updated>2016-12-13T02:50:23.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Conference-From-chenyadong"><a href="#Conference-From-chenyadong" class="headerlink" title="Conference From chenyadong"></a>Conference From <a href="www.cnblogs.com/chenyadong">chenyadong</a></h1><h2 id="A类："><a href="#A类：" class="headerlink" title="A类："></a>A类：</h2><ul>
+    <content type="html"><![CDATA[<h1 id="其他会议信息"><a href="#其他会议信息" class="headerlink" title="其他会议信息"></a>其他会议信息</h1><ul>
+<li><a href="https://openreview.net/" target="_blank" rel="external">openreview</a><br>  公开审稿的几个会议</li>
+</ul>
+<h1 id="Conference-From-chenyadong"><a href="#Conference-From-chenyadong" class="headerlink" title="Conference From chenyadong"></a>Conference From <a href="www.cnblogs.com/chenyadong">chenyadong</a></h1><h2 id="A类："><a href="#A类：" class="headerlink" title="A类："></a>A类：</h2><ul>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">ACL(ACL) Meeting of the Association for Computational Linguistics </a></li>
 <li><a href="">IJCAI(AAAI) International Joint Conference on Artificial Intelligence 国际人工智能联合会议</a></li>
 <li><a href="http://www.aaai.org/Library/IJCAI/ijcai-library.php" target="_blank" rel="external">IJCAI</a></li>
@@ -853,7 +1074,10 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conference From &lt;a href=&quot;www.cnblogs.com/chenyadong&quot;&gt;chenyadong&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&quot;A类：&quot;&gt;&lt;a href=&quot;#A类：&quot; class=&quot;headerlink&quot; title=&quot;A类：&quot;&gt;&lt;/a&gt;A类：&lt;/h2&gt;&lt;ul&gt;
+      &lt;h1 id=&quot;其他会议信息&quot;&gt;&lt;a href=&quot;#其他会议信息&quot; class=&quot;headerlink&quot; title=&quot;其他会议信息&quot;&gt;&lt;/a&gt;其他会议信息&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://openreview.net/&quot;&gt;openreview&lt;/a&gt;&lt;br&gt;  公开审稿的几个会议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conference From &lt;a href=&quot;www.cnblogs.com/chenyadong&quot;&gt;chenyadong&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&quot;A类：&quot;&gt;&lt;a href=&quot;#A类：&quot; class=&quot;headerlink&quot; title=&quot;A类：&quot;&gt;&lt;/a&gt;A类：&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology-new/&quot;&gt;ACL(ACL) Meeting of the Association for Computational Linguistics &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;&quot;&gt;IJCAI(AAAI) International Joint Conference on Artificial Intelligence 国际人工智能联合会议&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.aaai.org/Library/IJCAI/ijcai-library.php&quot;&gt;IJCAI&lt;/a&gt;&lt;/li&gt;
