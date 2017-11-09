@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>李忠阳的个人博客</title>
+  <title>Zhongyang Li&#39;s blog</title>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-29T07:44:49.000Z</updated>
+  <updated>2017-11-09T09:43:38.428Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>组织</title>
-    <link href="http://yoursite.com/2016/11/29/%E7%BB%84%E7%BB%87/"/>
-    <id>http://yoursite.com/2016/11/29/组织/</id>
+    <title>结构化感知器</title>
+    <link href="http://yoursite.com/2017/11/09/%E7%BB%93%E6%9E%84%E5%8C%96%E6%84%9F%E7%9F%A5%E5%99%A8/"/>
+    <id>http://yoursite.com/2017/11/09/结构化感知器/</id>
+    <published>2017-11-09T08:48:16.000Z</published>
+    <updated>2017-11-09T09:43:38.428Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学术机构</title>
+    <link href="http://yoursite.com/2016/11/29/%E5%AD%A6%E6%9C%AF%E6%9C%BA%E6%9E%84/"/>
+    <id>http://yoursite.com/2016/11/29/学术机构/</id>
     <published>2016-11-29T07:43:24.000Z</published>
-    <updated>2016-11-29T07:44:49.000Z</updated>
+    <updated>2017-11-09T09:33:48.777Z</updated>
     
     <content type="html"><![CDATA[<h1 id="国外大学"><a href="#国外大学" class="headerlink" title="国外大学"></a>国外大学</h1><ul>
 <li><a href="https://cogcomp.cs.illinois.edu/" target="_blank" rel="external">Cognitive Computation Group</a></li>
@@ -41,15 +61,15 @@
   
   <entry>
     <title>数据集</title>
-    <link href="http://yoursite.com/2016/11/24/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
-    <id>http://yoursite.com/2016/11/24/数据集/</id>
+    <link href="http://yoursite.com/2016/11/24/%E5%85%AC%E5%BC%80%E6%95%B0%E6%8D%AE/"/>
+    <id>http://yoursite.com/2016/11/24/公开数据/</id>
     <published>2016-11-24T05:47:58.000Z</published>
-    <updated>2016-12-13T02:50:38.000Z</updated>
+    <updated>2017-11-09T09:40:04.336Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
 <li><a href="http://ir.hit.edu.cn/hit-cdtb/" target="_blank" rel="external">hit-cdtb</a></li>
 <li><a href="">大词林</a></li>
-<li><a href=""></a></li>
 <li><a href="">LDC</a></li>
 <li><a href="">北大</a></li>
 <li><a href="https://www.seas.upenn.edu/~pdtb/" target="_blank" rel="external">pdtb</a></li>
@@ -61,26 +81,40 @@
 <li><a href="http://socialcomputing.asu.edu/pages/datasets" target="_blank" rel="external">socialcomputing datasets</a></li>
 <li><a href="https://sites.google.com/site/yangdingqi/home/foursquare-dataset" target="_blank" rel="external">foursquare-dataset</a></li>
 </ul>
-<a id="more"></a>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://ir.hit.edu.cn/hit-cdtb/&quot;&gt;hit-cdtb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;大词林&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;LDC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;北大&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.seas.upenn.edu/~pdtb/&quot;&gt;pdtb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;数据堂&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;微博名人堂&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;谣言数据集&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://kevinchai.net/datasets&quot;&gt;kevin chai&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://snap.stanford.edu/data/&quot;&gt;SNAP-Stanford Large Network Dataset Collection非常好的网络数据大集合&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://socialcomputing.asu.edu/pages/datasets&quot;&gt;socialcomputing datasets&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/yangdingqi/home/foursquare-dataset&quot;&gt;foursquare-dataset&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://ir.hit.edu.cn/hit-cdtb/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hit-cdtb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;大词林&lt;/a&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="数据集" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>事理图谱可视化</title>
+    <link href="http://yoursite.com/2016/11/22/%E4%BA%8B%E7%90%86%E5%9B%BE%E8%B0%B1/"/>
+    <id>http://yoursite.com/2016/11/22/事理图谱/</id>
+    <published>2016-11-22T09:53:24.000Z</published>
+    <updated>2017-11-09T09:44:09.449Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="事理图谱可视化"><a href="#事理图谱可视化" class="headerlink" title="事理图谱可视化"></a>事理图谱可视化</h2><ul>
+<li>第一版本<a href="img/event_graph1.svg">SVG格式</a>，<a href="img/event_graph1.png">PNG格式</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;事理图谱可视化&quot;&gt;&lt;a href=&quot;#事理图谱可视化&quot; class=&quot;headerlink&quot; title=&quot;事理图谱可视化&quot;&gt;&lt;/a&gt;事理图谱可视化&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;第一版本&lt;a href=&quot;img/event_gra
     
     </summary>
     
@@ -88,38 +122,42 @@
   </entry>
   
   <entry>
-    <title>event_graph_visualization</title>
-    <link href="http://yoursite.com/2016/11/22/event-graph-visualization/"/>
-    <id>http://yoursite.com/2016/11/22/event-graph-visualization/</id>
-    <published>2016-11-22T09:53:24.000Z</published>
-    <updated>2016-11-22T10:00:52.000Z</updated>
+    <title>SMP_2017参会记录</title>
+    <link href="http://yoursite.com/2016/11/14/SMP_2017%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2016/11/14/SMP_2017参会记录/</id>
+    <published>2016-11-14T11:33:51.000Z</published>
+    <updated>2017-11-09T09:48:36.504Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="事件网络可视化"><a href="#事件网络可视化" class="headerlink" title="事件网络可视化"></a>事件网络可视化</h1><ul>
-<li>第一版本<a href="img/event_graph1.svg">SVG格式</a>，<a href="img/event_graph1.png">PNG格式</a></li>
-</ul>
-<a id="more"></a>
-]]></content>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="会议日期"><a href="#会议日期" class="headerlink" title="会议日期"></a>会议日期</h2><p>9月14日到9月17日</p>
+<h2 id="地点"><a href="#地点" class="headerlink" title="地点"></a>地点</h2><p>北京友谊宾馆</p>
+<h2 id="程序"><a href="#程序" class="headerlink" title="程序"></a>程序</h2><h2 id="此次参会想到的idea"><a href="#此次参会想到的idea" class="headerlink" title="此次参会想到的idea"></a>此次参会想到的idea</h2>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;事件网络可视化&quot;&gt;&lt;a href=&quot;#事件网络可视化&quot; class=&quot;headerlink&quot; title=&quot;事件网络可视化&quot;&gt;&lt;/a&gt;事件网络可视化&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;第一版本&lt;a href=&quot;img/event_graph1.svg&quot;&gt;SVG格式&lt;/a&gt;，&lt;a href=&quot;img/event_graph1.png&quot;&gt;PNG格式&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;会议日期&quot;&gt;&lt;a href=&quot;#会议日期&quot; class=&quot;headerlink&quot; title=&quot;会议日期&quot;&gt;&lt;/a&gt;会议日期&lt;/h2&gt;&lt;p&gt;9月14日到9月17日&lt;/p&gt;
+&lt;h2 id=&quot;地点&quot;&gt;&lt;a href=&quot;#地点&quot; cl
     
     </summary>
     
+      <category term="参会记录" scheme="http://yoursite.com/categories/%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>CCIR2016参会记录</title>
-    <link href="http://yoursite.com/2016/11/14/CCIR2016%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
-    <id>http://yoursite.com/2016/11/14/CCIR2016参会记录/</id>
+    <link href="http://yoursite.com/2016/11/14/CCIR_2016%E5%8F%82%E4%BC%9A%E8%AE%B0%E5%BD%95/"/>
+    <id>http://yoursite.com/2016/11/14/CCIR_2016参会记录/</id>
     <published>2016-11-14T11:33:51.000Z</published>
-    <updated>2016-11-16T07:15:54.000Z</updated>
+    <updated>2017-11-09T09:47:48.196Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="会议日期"><a href="#会议日期" class="headerlink" title="会议日期"></a>会议日期</h2><p>11月11日到11月13日</p>
-<h2 id="地点"><a href="#地点" class="headerlink" title="地点"></a>地点</h2><p>广州华南理工大学，大学城中心酒店<br><a id="more"></a></p>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="会议日期"><a href="#会议日期" class="headerlink" title="会议日期"></a>会议日期</h2><p>11月11日到11月13日</p>
+<h2 id="地点"><a href="#地点" class="headerlink" title="地点"></a>地点</h2><p>广州华南理工大学，大学城中心酒店</p>
 <h2 id="程序"><a href="#程序" class="headerlink" title="程序"></a>程序</h2><p>11号上午报到，下午青年论坛和tutorial</p>
 <p>12号上午开幕式和两个特邀报告，以及Panel-Is IR shrinking or not？，下午sessionA和sessionB</p>
 <p>13号上午两个特邀报告，下午session，评测和闭幕式</p>
@@ -136,8 +174,9 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;会议日期&quot;&gt;&lt;a href=&quot;#会议日期&quot; class=&quot;headerlink&quot; title=&quot;会议日期&quot;&gt;&lt;/a&gt;会议日期&lt;/h2&gt;&lt;p&gt;11月11日到11月13日&lt;/p&gt;
-&lt;h2 id=&quot;地点&quot;&gt;&lt;a href=&quot;#地点&quot; class=&quot;headerlink&quot; title=&quot;地点&quot;&gt;&lt;/a&gt;地点&lt;/h2&gt;&lt;p&gt;广州华南理工大学，大学城中心酒店&lt;br&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;会议日期&quot;&gt;&lt;a href=&quot;#会议日期&quot; class=&quot;headerlink&quot; title=&quot;会议日期&quot;&gt;&lt;/a&gt;会议日期&lt;/h2&gt;&lt;p&gt;11月11日到11月13日&lt;/p&gt;
+&lt;h2 id=&quot;地点&quot;&gt;&lt;a href=&quot;#地点&quot; 
     
     </summary>
     
@@ -150,12 +189,13 @@
   
   <entry>
     <title>信息理论与编码</title>
-    <link href="http://yoursite.com/2016/11/07/%E4%BF%A1%E6%81%AF%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BC%96%E7%A0%81/"/>
-    <id>http://yoursite.com/2016/11/07/信息理论与编码/</id>
+    <link href="http://yoursite.com/2016/11/07/%E4%BF%A1%E6%81%AF%E7%BC%96%E7%A0%81/"/>
+    <id>http://yoursite.com/2016/11/07/信息编码/</id>
     <published>2016-11-07T05:47:14.000Z</published>
-    <updated>2016-11-21T03:48:54.000Z</updated>
+    <updated>2017-11-09T09:44:35.975Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="考试备战"><a href="#考试备战" class="headerlink" title="考试备战"></a>考试备战</h1><h2 id="知识点整理"><a href="#知识点整理" class="headerlink" title="知识点整理"></a>知识点整理</h2><pre><code>一、信源熵与信道容量（计算，难度：中）
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="考试备战"><a href="#考试备战" class="headerlink" title="考试备战"></a>考试备战</h1><h2 id="知识点整理"><a href="#知识点整理" class="headerlink" title="知识点整理"></a>知识点整理</h2><pre><code>一、信源熵与信道容量（计算，难度：中）
 二、山农公式（计算，难度：易）？？？
 三、马尔科夫（计算，难度：易）
 四、霍夫曼（计算，难度：易）
@@ -165,8 +205,8 @@
 八、循环码（计算，难度：中）
 九、BCH码（计算，难度：难）
 十、卷积码(电路)（综合，难度：中）
-</code></pre><a id="more"></a>
-<pre><code>循环码编码、译码电路（梅吉特、捕错、大数逻辑）无考点，R-S码无考点，卷积码电路为考点，卷积码译码（维特比、序列）无考点。
+
+循环码编码、译码电路（梅吉特、捕错、大数逻辑）无考点，R-S码无考点，卷积码电路为考点，卷积码译码（维特比、序列）无考点。
 卷积码原理电路图、编码方法、状态图需要掌握，译码技术不作为本次考点。
 </code></pre><h2 id="题型分类"><a href="#题型分类" class="headerlink" title="题型分类"></a>题型分类</h2><pre><code>试卷形式：
 
@@ -279,17 +319,8 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;h1 id=&quot;考试备战&quot;&gt;&lt;a href=&quot;#考试备战&quot; class=&quot;headerlink&quot; title=&quot;考试备战&quot;&gt;&lt;/a&gt;考试备战&lt;/h1&gt;&lt;h2 id=&quot;知识点整理&quot;&gt;&lt;a href=&quot;#知识点整理&quot; class=&quot;headerlink&quot; title=&quot;知识点整理&quot;&gt;&lt;/a&gt;知识点整理&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;一、信源熵与信道容量（计算，难度：中）
-二、山农公式（计算，难度：易）？？？
-三、马尔科夫（计算，难度：易）
-四、霍夫曼（计算，难度：易）
-五、译码准则（证明，难度：中）
-六、线性分组码（1）（计算，难度：易）
-七、线性分组码（2）（证明，难度：中-难）
-八、循环码（计算，难度：中）
-九、BCH码（计算，难度：难）
-十、卷积码(电路)（综合，难度：中）
-&lt;/code&gt;&lt;/pre&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;考试备战&quot;&gt;&lt;a href=&quot;#考试备战&quot; class=&quot;headerlink&quot; title=&quot;考试备战&quot;&gt;&lt;/a&gt;考试备战&lt;/h1&gt;&lt;h2 id=&quot;知识点整理&quot;&gt;&lt;a href=&quot;#知识点整理&quot; class=&quot;headerli
     
     </summary>
     
@@ -302,10 +333,10 @@ M.P.：177-0364-7986；159-4519-1498。
   
   <entry>
     <title>论文句子摘抄</title>
-    <link href="http://yoursite.com/2016/11/07/%E8%AE%BA%E6%96%87%E5%8F%A5%E5%AD%90%E6%91%98%E6%8A%84/"/>
-    <id>http://yoursite.com/2016/11/07/论文句子摘抄/</id>
+    <link href="http://yoursite.com/2016/11/07/%E8%AE%BA%E6%96%87%E6%91%98%E6%8A%84/"/>
+    <id>http://yoursite.com/2016/11/07/论文摘抄/</id>
     <published>2016-11-07T05:03:45.000Z</published>
-    <updated>2016-11-07T05:04:39.000Z</updated>
+    <updated>2017-11-09T09:46:12.526Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 ]]></content>
@@ -325,13 +356,13 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>科研</title>
-    <link href="http://yoursite.com/2016/11/06/%E7%A7%91%E7%A0%94/"/>
-    <id>http://yoursite.com/2016/11/06/科研/</id>
+    <title>科研项目</title>
+    <link href="http://yoursite.com/2016/11/06/%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://yoursite.com/2016/11/06/科研项目/</id>
     <published>2016-11-06T09:48:16.000Z</published>
-    <updated>2016-11-06T13:07:20.000Z</updated>
+    <updated>2017-11-09T09:32:47.170Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<h2 id="学术搜索"><a href="#学术搜索" class="headerlink" title="学术搜索"></a>学术搜索</h2><ul>
 <li><a href="http://www.aclweb.org/anthology/index.html" target="_blank" rel="external">ACL Anthology</a></li>
 <li><a href="https://www.google.com" target="_blank" rel="external">谷歌</a></li>
 <li><a href="https://scholar.google.com" target="_blank" rel="external">谷歌学术</a></li>
@@ -347,7 +378,7 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;ul&gt;
+      &lt;h2 id=&quot;学术搜索&quot;&gt;&lt;a href=&quot;#学术搜索&quot; class=&quot;headerlink&quot; title=&quot;学术搜索&quot;&gt;&lt;/a&gt;学术搜索&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology/index.html&quot;&gt;ACL Anthology&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.google.com&quot;&gt;谷歌&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://scholar.google.com&quot;&gt;谷歌学术&lt;/a&gt;&lt;/li&gt;
@@ -363,13 +394,14 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>兴趣</title>
-    <link href="http://yoursite.com/2016/11/06/%E5%85%B4%E8%B6%A3/"/>
-    <id>http://yoursite.com/2016/11/06/兴趣/</id>
+    <title>技术兴趣</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD/"/>
+    <id>http://yoursite.com/2016/11/06/兴趣爱好/</id>
     <published>2016-11-06T09:38:02.000Z</published>
-    <updated>2016-11-06T13:08:03.000Z</updated>
+    <updated>2017-11-09T09:51:00.340Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="常访问的网站"><a href="#常访问的网站" class="headerlink" title="常访问的网站"></a>常访问的网站</h2><ul>
 <li><a href="https://www.kaggle.com/" target="_blank" rel="external">kaggle</a></li>
 <li><a href="https://tianchi.shuju.aliyun.com/competition/index.htm" target="_blank" rel="external">tianchi</a></li>
 <li><a href="https://www.tensorflow.org/" target="_blank" rel="external">tensorflow</a></li>
@@ -377,8 +409,7 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://weibo.com/u/2494805143" target="_blank" rel="external">weibo</a></li>
 <li><a href="https://www.douban.com" target="_blank" rel="external">douban</a></li>
 </ul>
-<a id="more"></a>
-<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><ul>
+<h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><ul>
 <li><a href="http://python.freelycode.com" target="_blank" rel="external">python部落</a></li>
 <li><a href="http://www.numpy.org" target="_blank" rel="external">numpy</a></li>
 <li><a href="http://www.scipy.org" target="_blank" rel="external">Scipy</a></li>
@@ -389,14 +420,9 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;kaggle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://tianchi.shuju.aliyun.com/competition/index.htm&quot;&gt;tianchi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;tensorflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zhihu.com&quot;&gt;zhihu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weibo.com/u/2494805143&quot;&gt;weibo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.douban.com&quot;&gt;douban&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;常访问的网站&quot;&gt;&lt;a href=&quot;#常访问的网站&quot; class=&quot;headerlink&quot; title=&quot;常访问的网站&quot;&gt;&lt;/a&gt;常访问的网站&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.co
     
     </summary>
     
@@ -408,20 +434,20 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>书籍</title>
-    <link href="http://yoursite.com/2016/11/06/%E4%B9%A6%E7%B1%8D/"/>
-    <id>http://yoursite.com/2016/11/06/书籍/</id>
+    <title>书籍阅读</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%B9%A6%E7%B1%8D%E9%98%85%E8%AF%BB/"/>
+    <id>http://yoursite.com/2016/11/06/书籍阅读/</id>
     <published>2016-11-06T09:34:11.000Z</published>
-    <updated>2016-11-25T03:14:59.000Z</updated>
+    <updated>2017-11-09T09:07:59.413Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="在线书籍"><a href="#在线书籍" class="headerlink" title="在线书籍"></a>在线书籍</h1><ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="在线书籍"><a href="#在线书籍" class="headerlink" title="在线书籍"></a>在线书籍</h1><ul>
 <li><a href="http://iissnan.com/progit/index.html" target="_blank" rel="external">progit</a></li>
 <li><a href="http://www.deeplearningbook.org" target="_blank" rel="external">deeplearningbook</a></li>
 <li><a href="http://www.scheme.com/tspl4/" target="_blank" rel="external">The Scheme Programming Language</a></li>
 <li><a href="http://www.shido.info/lisp/idx_scm_e.html" target="_blank" rel="external">Yet Another Scheme Tutorial</a></li>
 <li><a href="http://deathking.github.io/yast-cn" target="_blank" rel="external">Yet Another Scheme Tutorial中文版</a></li>
 </ul>
-<a id="more"></a>
 <h1 id="我的书单"><a href="#我的书单" class="headerlink" title="我的书单"></a>我的书单</h1><h2 id="Kindle-Top-100人气小说第二期："><a href="#Kindle-Top-100人气小说第二期：" class="headerlink" title="Kindle Top 100人气小说第二期："></a>Kindle Top 100人气小说第二期：</h2><ul>
 <li>三体</li>
 <li>无声告白</li>
@@ -654,13 +680,9 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;h1 id=&quot;在线书籍&quot;&gt;&lt;a href=&quot;#在线书籍&quot; class=&quot;headerlink&quot; title=&quot;在线书籍&quot;&gt;&lt;/a&gt;在线书籍&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/index.html&quot;&gt;progit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.deeplearningbook.org&quot;&gt;deeplearningbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.scheme.com/tspl4/&quot;&gt;The Scheme Programming Language&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.shido.info/lisp/idx_scm_e.html&quot;&gt;Yet Another Scheme Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://deathking.github.io/yast-cn&quot;&gt;Yet Another Scheme Tutorial中文版&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;在线书籍&quot;&gt;&lt;a href=&quot;#在线书籍&quot; class=&quot;headerlink&quot; title=&quot;在线书籍&quot;&gt;&lt;/a&gt;在线书籍&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://iissnan.com/progit/ind
     
     </summary>
     
@@ -672,11 +694,11 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>知乎</title>
-    <link href="http://yoursite.com/2016/11/06/%E7%9F%A5%E4%B9%8E/"/>
-    <id>http://yoursite.com/2016/11/06/知乎/</id>
+    <title>知乎问答</title>
+    <link href="http://yoursite.com/2016/11/06/%E7%9F%A5%E4%B9%8E%E9%97%AE%E7%AD%94/"/>
+    <id>http://yoursite.com/2016/11/06/知乎问答/</id>
     <published>2016-11-06T09:31:00.000Z</published>
-    <updated>2016-11-06T13:07:27.000Z</updated>
+    <updated>2017-11-09T09:33:19.767Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><a href="https://www.zhihu.com/question/35758158" target="_blank" rel="external">multi-task深度神经网络如何实现，优化？</a></li>
@@ -700,11 +722,11 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>博主</title>
-    <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E4%B8%BB/"/>
-    <id>http://yoursite.com/2016/11/06/博主/</id>
+    <title>知名博主</title>
+    <link href="http://yoursite.com/2016/11/06/%E7%9F%A5%E5%90%8D%E5%8D%9A%E4%B8%BB/"/>
+    <id>http://yoursite.com/2016/11/06/知名博主/</id>
     <published>2016-11-06T09:11:45.000Z</published>
-    <updated>2016-12-25T14:48:38.000Z</updated>
+    <updated>2017-11-09T09:34:31.073Z</updated>
     
     <content type="html"><![CDATA[<h2 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h2><ul>
 <li><a href="http://2hwp.com/archives/" target="_blank" rel="external">wepon</a></li>
@@ -732,6 +754,8 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://rakeshagrawal.org/" target="_blank" rel="external">rakeshagrawal</a></li>
 <li><a href="http://homes.cs.washington.edu/~yejin/cse599.html" target="_blank" rel="external">yejin</a></li>
 <li><a href="http://www.geekonomics10000.com/" target="_blank" rel="external">geekonomics10000</a></li>
+<li><a href="https://blogs.princeton.edu/imabandit/archives/" target="_blank" rel="external">imabandit</a></li>
+<li><a href="http://deliprao.com/" target="_blank" rel="external">deliprao</a></li>
 </ul>
 <h2 id="工具博客"><a href="#工具博客" class="headerlink" title="工具博客"></a>工具博客</h2><ul>
 <li><a href="http://kateto.net/" target="_blank" rel="external">kateto.net/</a></li>
@@ -767,20 +791,21 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>项目</title>
-    <link href="http://yoursite.com/2016/11/06/%E9%A1%B9%E7%9B%AE/"/>
-    <id>http://yoursite.com/2016/11/06/项目/</id>
+    <title>软件项目</title>
+    <link href="http://yoursite.com/2016/11/06/%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://yoursite.com/2016/11/06/软件项目/</id>
     <published>2016-11-06T09:10:09.000Z</published>
-    <updated>2016-11-17T02:18:11.000Z</updated>
+    <updated>2017-11-09T09:50:39.957Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="软件包"><a href="#软件包" class="headerlink" title="软件包"></a>软件包</h1><ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="软件包"><a href="#软件包" class="headerlink" title="软件包"></a>软件包</h2><ul>
 <li><a href="https://xgboost.readthedocs.io/en/latest/" target="_blank" rel="external">xgboost doc</a></li>
 <li><a href="https://www.tensorflow.org/" target="_blank" rel="external">tensorflow</a></li>
 </ul>
-<h1 id="可视化软件"><a href="#可视化软件" class="headerlink" title="可视化软件"></a>可视化软件</h1><ul>
+<h2 id="可视化软件"><a href="#可视化软件" class="headerlink" title="可视化软件"></a>可视化软件</h2><ul>
 <li><a href="http://www.texmacs.org/" target="_blank" rel="external">texmacs</a></li>
 </ul>
-<h1 id="network可视化"><a href="#network可视化" class="headerlink" title="network可视化"></a>network可视化</h1><ul>
+<h2 id="Network可视化"><a href="#Network可视化" class="headerlink" title="Network可视化"></a>Network可视化</h2><ul>
 <li><a href="https://github.com/networkx/networkx" target="_blank" rel="external">networkx</a></li>
 <li><a href="https://nodexl.codeplex.com/" target="_blank" rel="external">nodeXL for windows</a></li>
 <li><a href="http://www.cytoscape.org/what_is_cytoscape.html" target="_blank" rel="external">cytoscape</a></li>
@@ -791,8 +816,9 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;h1 id=&quot;软件包&quot;&gt;&lt;a href=&quot;#软件包&quot; class=&quot;headerlink&quot; title=&quot;软件包&quot;&gt;&lt;/a&gt;软件包&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://xgboost.readthedocs.io/en/latest/&quot; target=&quot;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;软件包&quot;&gt;&lt;a href=&quot;#软件包&quot; class=&quot;headerlink&quot; title=&quot;软件包&quot;&gt;&lt;/a&gt;软件包&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://xgboost.readthedocs.io/en
     
     </summary>
     
@@ -804,26 +830,24 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>博客</title>
-    <link href="http://yoursite.com/2016/11/06/%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2016/11/06/博客/</id>
+    <title>优秀博文</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%BC%98%E7%A7%80%E5%8D%9A%E6%96%87/"/>
+    <id>http://yoursite.com/2016/11/06/优秀博文/</id>
     <published>2016-11-06T09:09:26.000Z</published>
-    <updated>2016-11-17T02:18:12.000Z</updated>
+    <updated>2017-11-09T09:43:26.451Z</updated>
     
-    <content type="html"><![CDATA[<ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="博文"><a href="#博文" class="headerlink" title="博文"></a>博文</h2><ul>
 <li><a href="http://www.cnblogs.com/kaituorensheng/p/3569436.html" target="_blank" rel="external">Wordnet 与 Hownet 比较</a></li>
 <li><a href="http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html" target="_blank" rel="external">《Using Cross-Entity Inference to Improve Event Extraction》读书笔记</a></li>
 <li><a href="http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/" target="_blank" rel="external">GBM之GBRT总结</a></li>
 <li><a href="https://www.nervanasys.com/deep-reinforcement-learning-with-neon/" target="_blank" rel="external">Guest Post (Part II): Deep Reinforcement Learning with Neon</a></li>
 <li><a href="http://x-wei.github.io/TeXmacs_intro.html" target="_blank" rel="external">学术文章写作利器: TeXmacs介绍</a></li>
-</ul>
-<a id="more"></a>
-<ul>
 <li><a href="https://www.nervanasys.com/openai/" target="_blank" rel="external">Blog Post (Part III): Deep Reinforcement Learning with OpenAI Gym</a></li>
 <li><a href="http://www.cnblogs.com/peghoty/p/3857839.html" target="_blank" rel="external">word2vec 中的数学原理详解</a></li>
 <li><a href="http://www.jianshu.com/p/9dc9f41f0b29" target="_blank" rel="external">理解LSTM网络</a></li>
 </ul>
-<h1 id="微信文章"><a href="#微信文章" class="headerlink" title="微信文章"></a>微信文章</h1><ul>
+<h2 id="微信文章"><a href="#微信文章" class="headerlink" title="微信文章"></a>微信文章</h2><ul>
 <li><a href="">NAACL2016年度论文：无监督神经网络理解虚构人物关系</a></li>
 <li><a href="">Facebook AI实验室最新论文：图像检测的无监督学习(下载)</a></li>
 <li><a href="">【深度】LeCun解读Facebook人工智能最新进展：最大挑战是无监督学习</a></li>
@@ -837,13 +861,9 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/kaituorensheng/p/3569436.html&quot;&gt;Wordnet 与 Hownet 比较&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/chenyadong/archive/2013/01/04/2844138.html&quot;&gt;《Using Cross-Entity Inference to Improve Event Extraction》读书笔记&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://nanjunxiao.github.io/2015/08/05/GBM%E4%B9%8BGBRT%E6%80%BB%E7%BB%93/&quot;&gt;GBM之GBRT总结&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nervanasys.com/deep-reinforcement-learning-with-neon/&quot;&gt;Guest Post (Part II): Deep Reinforcement Learning with Neon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://x-wei.github.io/TeXmacs_intro.html&quot;&gt;学术文章写作利器: TeXmacs介绍&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;博文&quot;&gt;&lt;a href=&quot;#博文&quot; class=&quot;headerlink&quot; title=&quot;博文&quot;&gt;&lt;/a&gt;博文&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cnblogs.com/kaituorensheng
     
     </summary>
     
@@ -855,11 +875,11 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>学者</title>
-    <link href="http://yoursite.com/2016/11/06/%E5%AD%A6%E8%80%85/"/>
-    <id>http://yoursite.com/2016/11/06/学者/</id>
+    <title>关注学者</title>
+    <link href="http://yoursite.com/2016/11/06/%E5%85%B3%E6%B3%A8%E5%AD%A6%E8%80%85/"/>
+    <id>http://yoursite.com/2016/11/06/关注学者/</id>
     <published>2016-11-06T09:09:17.000Z</published>
-    <updated>2016-12-21T14:10:11.000Z</updated>
+    <updated>2017-11-09T09:39:13.554Z</updated>
     
     <content type="html"><![CDATA[<h1 id="国内"><a href="#国内" class="headerlink" title="国内"></a>国内</h1><ul>
 <li><a href="">刘知远</a></li>
@@ -872,16 +892,12 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">葛涛</a></li>
 </ul>
 <a id="more"></a>
-<h1 id="Script-Learning"><a href="#Script-Learning" class="headerlink" title="Script Learning"></a>Script Learning</h1><ol>
-<li>斯坦福大学</li>
-</ol>
+<h1 id="Script-Learning"><a href="#Script-Learning" class="headerlink" title="Script Learning"></a>Script Learning</h1><p>1.斯坦福大学</p>
 <ul>
 <li><a href="http://cs.stanford.edu/people/nc/" target="_blank" rel="external">Nate Chambers</a></li>
 <li><a href="http://web.stanford.edu/~jurafsky/" target="_blank" rel="external">Dan Jurafsky</a></li>
 </ul>
-<ol>
-<li>德国萨尔大学 Saarland University</li>
-</ol>
+<p>2.德国萨尔大学 Saarland University</p>
 <ul>
 <li><a href="http://www.sfb1102.uni-saarland.de/?page_id=59" target="_blank" rel="external">Saarland Projects</a></li>
 <li><a href="http://www.sfb1102.uni-saarland.de/?page_id=2582" target="_blank" rel="external">Recourses</a></li>
@@ -894,15 +910,11 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://www.sfb1102.uni-saarland.de/?page_id=1608" target="_blank" rel="external">Alessandra Zarcone</a></li>
 <li><a href="http://www.coli.uni-saarland.de/~stth/" target="_blank" rel="external">Stefan Thater</a></li>
 <li><a href="http://www.coli.uni-saarland.de/~vera/" target="_blank" rel="external">Vera Demberg</a></li>
-<li><p><a href="http://www.coli.uni-saarland.de/projects/smile/" target="_blank" rel="external">SMILE Script Mining as Internet-based Learning</a></p>
-</li>
-<li><p><a href="">Tatjana Anikina</a></p>
-</li>
+<li><a href="http://www.coli.uni-saarland.de/projects/smile/" target="_blank" rel="external">SMILE Script Mining as Internet-based Learning</a></li>
+<li><a href="">Tatjana Anikina</a></li>
 <li><a href="">Alexander Koller</a></li>
 </ul>
-<ol>
-<li>约翰霍普金斯大学</li>
-</ol>
+<p>3.约翰霍普金斯大学</p>
 <ul>
 <li><a href="http://www.clsp.jhu.edu/people/graduate-students/rachel-rudinger/" target="_blank" rel="external">Rachel Rudinger</a></li>
 <li><a href="http://rudinger.github.io/" target="_blank" rel="external">Rachel Rudinger githubio</a></li>
@@ -914,9 +926,7 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="https://scholar.google.com/citations?user=UB5EoOEAAAAJ&amp;hl=en" target="_blank" rel="external">Francis Ferraro google citation</a></li>
 <li><a href="http://www.cs.jhu.edu/~vandurme/" target="_blank" rel="external">Benjamin Van Durme</a></li>
 </ul>
-<ol>
-<li>佐治亚理工学院</li>
-</ol>
+<p>4.佐治亚理工学院</p>
 <ul>
 <li><a href="http://boyangli.co/index.php" target="_blank" rel="external">boyangli</a></li>
 <li><a href="">Stephen Lee-Urban</a></li>
@@ -924,17 +934,13 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">Mark O. Riedl</a></li>
 <li><a href="">Fatima A. Boujarwah</a></li>
 </ul>
-<ol>
-<li>德克萨斯大学，奥斯汀</li>
-</ol>
+<p>5.德克萨斯大学，奥斯汀</p>
 <ul>
 <li><a href="http://www.cs.utexas.edu/~pichotta/" target="_blank" rel="external">Karl Pichotta</a></li>
 <li><a href="http://www.cs.utexas.edu/users/ai-lab/?mooney" target="_blank" rel="external">Raymond J. Mooney</a></li>
 <li><a href="http://dblp.uni-trier.de/pers/hd/m/Mooney:Raymond_J=" target="_blank" rel="external">Mooney DBLP</a></li>
 </ul>
-<ol>
-<li>俄勒冈州立大学</li>
-</ol>
+<p>6.俄勒冈州立大学</p>
 <ul>
 <li><a href="https://www.linkedin.com/in/walker-orr-2871157" target="_blank" rel="external">Walker Orr linkedin</a></li>
 <li><a href="http://research.engr.oregonstate.edu/dral/" target="_blank" rel="external">Deep Reading and Learning lab</a></li>
@@ -942,47 +948,35 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">Darren Scott Appling</a></li>
 <li><a href="">Mark O. Riedl</a></li>
 </ul>
-<ol>
-<li>英国爱丁堡大学</li>
-</ol>
+<p>7.英国爱丁堡大学</p>
 <ul>
 <li><a href="">Lea Frermann</a></li>
 <li><a href="">Neil McIntyre</a></li>
 <li><a href="">Mirella Lapata</a></li>
 </ul>
-<ol>
-<li>荷兰阿姆斯特丹大学</li>
-</ol>
+<p>8.荷兰阿姆斯特丹大学</p>
 <ul>
 <li><a href="http://ivan-titov.org/" target="_blank" rel="external">Ivan Titov</a></li>
 </ul>
-<ol>
-<li>剑桥大学</li>
-</ol>
+<p>9.剑桥大学</p>
 <ul>
 <li><a href="http://mark.granroth-wilding.co.uk/" target="_blank" rel="external">Mark Granroth-Wilding </a></li>
 <li><a href="http://mark.granroth-wilding.co.uk/papers/what_happens_next/" target="_blank" rel="external">what_happens_next AAAI 2016</a></li>
 <li><a href="https://sites.google.com/site/stephenclark609/" target="_blank" rel="external">Stephen Clark</a></li>
 </ul>
-<ol>
-<li>日本</li>
-</ol>
+<p>10.日本</p>
 <ul>
 <li><a href="">Toshiaki Fujiki</a></li>
 <li><a href="">Hidetsugu Nanba</a></li>
 </ul>
-<ol>
-<li>比利时</li>
-</ol>
+<p>11.比利时</p>
 <ul>
 <li><a href="">Bram Jans</a></li>
 <li><a href="">Ivan Vuli´c,Marie Francine Moens,KU Leuven Leuven</a></li>
 <li><a href="">Marie Francine Moens</a></li>
 <li><a href="">KU Leuven Leuven</a></li>
 </ul>
-<ol>
-<li>美国科罗拉多</li>
-</ol>
+<p>12.美国科罗拉多</p>
 <ul>
 <li><a href="">Steven Bethard</a></li>
 </ul>
@@ -991,7 +985,10 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="http://paramitamirza.com/" target="_blank" rel="external">Paramita Mirza 的个人博客</a></li>
 <li><a href="http://dh.fbk.eu/people/profile/satonelli" target="_blank" rel="external">Sara Tonelli DH.FBK，意大利的科研机构 参加过NewsReader</a></li>
 </ul>
-<h1 id="国外"><a href="#国外" class="headerlink" title="国外"></a>国外</h1><ul>
+<h1 id="Reinforcement-Learning"><a href="#Reinforcement-Learning" class="headerlink" title="Reinforcement Learning"></a>Reinforcement Learning</h1><ul>
+<li><a href="http://joschu.net/" target="_blank" rel="external">John Schulman - Berkeley</a></li>
+</ul>
+<h1 id="国外其他"><a href="#国外其他" class="headerlink" title="国外其他"></a>国外其他</h1><ul>
 <li><a href="">Heng Ji</a></li>
 <li><a href="">张越</a></li>
 <li><a href="">韩家炜</a></li>
@@ -1030,13 +1027,14 @@ M.P.：177-0364-7986；159-4519-1498。
   </entry>
   
   <entry>
-    <title>会议</title>
-    <link href="http://yoursite.com/2016/11/06/%E4%BC%9A%E8%AE%AE/"/>
-    <id>http://yoursite.com/2016/11/06/会议/</id>
+    <title>会议信息</title>
+    <link href="http://yoursite.com/2016/11/06/%E4%BC%9A%E8%AE%AE%E4%BF%A1%E6%81%AF/"/>
+    <id>http://yoursite.com/2016/11/06/会议信息/</id>
     <published>2016-11-06T09:09:01.000Z</published>
-    <updated>2016-12-13T02:50:23.000Z</updated>
+    <updated>2017-11-09T09:42:34.188Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="其他会议信息"><a href="#其他会议信息" class="headerlink" title="其他会议信息"></a>其他会议信息</h1><ul>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="其他会议信息"><a href="#其他会议信息" class="headerlink" title="其他会议信息"></a>其他会议信息</h1><ul>
 <li><a href="https://openreview.net/" target="_blank" rel="external">openreview</a><br>  公开审稿的几个会议</li>
 </ul>
 <h1 id="Conference-From-chenyadong"><a href="#Conference-From-chenyadong" class="headerlink" title="Conference From chenyadong"></a>Conference From <a href="www.cnblogs.com/chenyadong">chenyadong</a></h1><h2 id="A类："><a href="#A类：" class="headerlink" title="A类："></a>A类：</h2><ul>
@@ -1049,7 +1047,6 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">WWW(ACM) International World Wide Web Conferences</a></li>
 <li><a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank" rel="external">ICDE(IEEE) International Conference on Data Engineering</a></li>
 </ul>
-<a id="more"></a>
 <h2 id="B类"><a href="#B类" class="headerlink" title="B类"></a>B类</h2><ul>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">EMNLP(ACL) Empirical Methods in Natural Language Processing</a></li>
 <li><a href="http://www.aclweb.org/anthology-new/" target="_blank" rel="external">NAACL(ACL) North American Chapter of the Association for Computational Linguistics</a></li>
@@ -1070,27 +1067,53 @@ M.P.：177-0364-7986；159-4519-1498。
 <li><a href="">YCCL Youth Conference of Computational Linguistics 青年计算语言学会议</a></li>
 </ul>
 <h1 id="Conference-From-GeTao"><a href="#Conference-From-GeTao" class="headerlink" title="Conference From GeTao"></a>Conference From GeTao</h1><p>Here listed below are prestigious conferences related to my research field – Natural Language Processing (NLP), Data Mining (DM), Machine Learning (ML) and Information Retrieval (IR).</p>
-<h2 id="A-Class"><a href="#A-Class" class="headerlink" title="A Class"></a>A Class</h2><p>SIGKDD: The best data mining conference.<br>ACL: The best NLP/CL conference.<br>SIGIR: The best Information Retrieval (IR) conference.<br>WWW: The best conference on Web<br>ICML: Top machine learning conference.<br>NIPS: Top machine learning conference.<br>VLDB: Top conference on database.<br>SIGMOD: Top conference on database.<br>IJCAI: Top AI conference.<br>AAAI: Top AI conference.</p>
-<h2 id="B-Class"><a href="#B-Class" class="headerlink" title="B Class"></a>B Class</h2><p>CIKM: Famous conference on database and knowledge management<br>EMNLP: Famous conference on natural language processing<br>Recsys: Famous conference on recommender systems.<br>ECML/PKDD: Famous conference on machine learning and data mining<br>ICDM: Famous conference on data mining.<br>NAACL: Famous conference on natural language processing<br>WSDM: Famous conference on IR and DM<br>COLING: Famous conference on NLP/CL.<br>SDM: Famous conference on data mining</p>
-<h2 id="C-Class"><a href="#C-Class" class="headerlink" title="C Class"></a>C Class</h2><p>CoNLL: Good conference on natural language processing<br>PAKDD: Good conference on data mining<br>IJCNLP: Good conference on natural language processing<br>WISE: Good conference on Web<br>ECIR: Good conference on IR<br>AIRS: Good conference on IR in Pacific Asia<br>ACML: Good conference on Machine learning in Asia<br>APWeb: Good conference on Web in Pacific Asia<br>WAIM: Good conference on web information management</p>
-<h2 id="Chinese-Conference"><a href="#Chinese-Conference" class="headerlink" title="Chinese Conference"></a>Chinese Conference</h2><p>NLPCC: Local NLP conference in China<br>CCL: Local NLP conference in China<br>CCIR: Local IR conference in China<br>CCML: Local ML conference in China</p>
+<h2 id="A-Class"><a href="#A-Class" class="headerlink" title="A Class"></a>A Class</h2><ul>
+<li>SIGKDD: The best data mining conference.</li>
+<li>ACL: The best NLP/CL conference.</li>
+<li>SIGIR: The best Information Retrieval (IR) conference.</li>
+<li>WWW: The best conference on Web</li>
+<li>ICML: Top machine learning conference.</li>
+<li>NIPS: Top machine learning conference.</li>
+<li>VLDB: Top conference on database.</li>
+<li>SIGMOD: Top conference on database.</li>
+<li>IJCAI: Top AI conference.</li>
+<li>AAAI: Top AI conference.</li>
+</ul>
+<h2 id="B-Class"><a href="#B-Class" class="headerlink" title="B Class"></a>B Class</h2><ul>
+<li>CIKM: Famous conference on database and knowledge management </li>
+<li>EMNLP: Famous conference on natural language processing</li>
+<li>Recsys: Famous conference on recommender systems.</li>
+<li>ECML/PKDD: Famous conference on machine learning and data mining </li>
+<li>ICDM: Famous conference on data mining.</li>
+<li>NAACL: Famous conference on natural language processing </li>
+<li>WSDM: Famous conference on IR and DM</li>
+<li>COLING: Famous conference on NLP/CL.</li>
+<li>SDM: Famous conference on data mining</li>
+</ul>
+<h2 id="C-Class"><a href="#C-Class" class="headerlink" title="C Class"></a>C Class</h2><ul>
+<li>CoNLL: Good conference on natural language processing </li>
+<li>PAKDD: Good conference on data mining</li>
+<li>IJCNLP: Good conference on natural language processing </li>
+<li>WISE: Good conference on Web</li>
+<li>ECIR: Good conference on IR</li>
+<li>AIRS: Good conference on IR in Pacific Asia</li>
+<li>ACML: Good conference on Machine learning in Asia </li>
+<li>APWeb: Good conference on Web in Pacific Asia</li>
+<li>WAIM: Good conference on web information management</li>
+</ul>
+<h2 id="Chinese-Conference"><a href="#Chinese-Conference" class="headerlink" title="Chinese Conference"></a>Chinese Conference</h2><ul>
+<li>NLPCC: Local NLP conference in China </li>
+<li>CCL: Local NLP conference in China </li>
+<li>CCIR: Local IR conference in China </li>
+<li>CCML: Local ML conference in China</li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;其他会议信息&quot;&gt;&lt;a href=&quot;#其他会议信息&quot; class=&quot;headerlink&quot; title=&quot;其他会议信息&quot;&gt;&lt;/a&gt;其他会议信息&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://openreview.net/&quot;&gt;openreview&lt;/a&gt;&lt;br&gt;  公开审稿的几个会议&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;Conference-From-chenyadong&quot;&gt;&lt;a href=&quot;#Conference-From-chenyadong&quot; class=&quot;headerlink&quot; title=&quot;Conference From chenyadong&quot;&gt;&lt;/a&gt;Conference From &lt;a href=&quot;www.cnblogs.com/chenyadong&quot;&gt;chenyadong&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&quot;A类：&quot;&gt;&lt;a href=&quot;#A类：&quot; class=&quot;headerlink&quot; title=&quot;A类：&quot;&gt;&lt;/a&gt;A类：&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.aclweb.org/anthology-new/&quot;&gt;ACL(ACL) Meeting of the Association for Computational Linguistics &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;IJCAI(AAAI) International Joint Conference on Artificial Intelligence 国际人工智能联合会议&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.aaai.org/Library/IJCAI/ijcai-library.php&quot;&gt;IJCAI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.aaai.org/Library/AAAI/aaai-library.php&quot;&gt;AAAI(AAAI) National Conference on Artificial Intelligence&lt;/a&gt; &lt;a href=&quot;http://www.aaai.org/Library/conferences-library.php&quot;&gt;AAAI所有会议下载地址&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;SIGIR(ACM) International ACM SIGIR Conference on Research and Development in Information Retrieval&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;SIGKDD(ACM) Workshop on Large-Scale Parallel KDD Systems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;WWW(ACM) International World Wide Web Conferences&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/Xplore/home.jsp&quot;&gt;ICDE(IEEE) International Conference on Data Engineering&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;其他会议信息&quot;&gt;&lt;a href=&quot;#其他会议信息&quot; class=&quot;headerlink&quot; title=&quot;其他会议信息&quot;&gt;&lt;/a&gt;其他会议信息&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://openreview.ne
     
     </summary>
     
@@ -1103,13 +1126,13 @@ M.P.：177-0364-7986；159-4519-1498。
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/11/06/hello-world/"/>
-    <id>http://yoursite.com/2016/11/06/hello-world/</id>
+    <link href="http://yoursite.com/2016/11/06/HEXO/"/>
+    <id>http://yoursite.com/2016/11/06/HEXO/</id>
     <published>2016-11-06T02:50:38.000Z</published>
-    <updated>2016-11-06T06:25:09.000Z</updated>
+    <updated>2017-11-09T09:01:03.467Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<a id="more"></a>
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h2 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -1122,7 +1145,8 @@ M.P.：177-0364-7986；159-4519-1498。
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a h
     
     </summary>
     
@@ -1131,15 +1155,15 @@ M.P.：177-0364-7986；159-4519-1498。
   
   <entry>
     <title>网页-微信文章-科普文章阅读笔记</title>
-    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2016/04/02/网页文章阅读笔记/</id>
+    <link href="http://yoursite.com/2016/04/02/%E7%BD%91%E9%A1%B5%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2016/04/02/网页文章/</id>
     <published>2016-04-02T14:20:41.000Z</published>
-    <updated>2016-11-06T06:46:29.000Z</updated>
+    <updated>2017-11-09T09:46:05.063Z</updated>
     
-    <content type="html"><![CDATA[<ol>
+    <content type="html"><![CDATA[<a id="more"></a>
+<ol>
 <li><p>机器学习那些事，刘知远</p>
 <p> 得到的经验就是：<br> 特征工程很重要：特征选择，试错<br> 训练多个不同模型集成很重要：bagging，boosting，stacking</p>
-<a id="more"></a>
 </li>
 <li><p>深度学习：推动NLP领域发展的新引擎</p>
 <p> Word Embedding<br> 引入词的关系<br> 最常见的思路就是用Dependency Parser，把抽取出来的Relation作为词的Context。<br> 改进Bag of Words<br> 有人认为词（Word）的粒度也太大，可以到Character级别的，或者Morpheme级别的。<br> 外部资源和知识库<br> Word2vec只使用了词的上下文的共现，没有使用外部的资源如词典知识库等，因此也有不少工作对此进行改进。</p>
@@ -1248,9 +1272,12 @@ Language的复杂性
     
     <summary type="html">
     
-      &lt;ol&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;机器学习那些事，刘知远&lt;/p&gt;
 &lt;p&gt; 得到的经验就是：&lt;br&gt; 特征工程很重要：特征选择，试错&lt;br&gt; 训练多个不同模型集成很重要：bagging，boosting，stacking&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
     
     </summary>
     
@@ -1266,15 +1293,15 @@ Language的复杂性
     <link href="http://yoursite.com/2016/01/14/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2016/01/14/论文阅读笔记/</id>
     <published>2016-01-14T02:08:19.000Z</published>
-    <updated>2016-11-06T06:40:23.000Z</updated>
+    <updated>2017-11-09T09:46:28.829Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="深度学习相关论文"><a href="#深度学习相关论文" class="headerlink" title="深度学习相关论文"></a>深度学习相关论文</h1><ol>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="深度学习相关论文"><a href="#深度学习相关论文" class="headerlink" title="深度学习相关论文"></a>深度学习相关论文</h1><ol>
 <li>机器学习系统，隐藏多少技术债？Hidden Technical Debt in Machine Learning Systems</li>
 <li>Mastering the game of Go with deep neural networks and tree search_nature</li>
 <li>Human-level control through deep reinforcement</li>
 <li>Teaching Machines to Read and Comprehend</li>
 </ol>
-<a id="more"></a>
 <h1 id="其他论文"><a href="#其他论文" class="headerlink" title="其他论文"></a>其他论文</h1><ol>
 <li>Personalized Microtopic Recommendation on Microblogs,李洋，TIST</li>
 <li>GraphX: Graph Processing in a Distributed Dataflow Framework</li>
@@ -1555,12 +1582,9 @@ Measures）和混合式语义相似度计算（Hybrid Measures）。
     
     <summary type="html">
     
-      &lt;h1 id=&quot;深度学习相关论文&quot;&gt;&lt;a href=&quot;#深度学习相关论文&quot; class=&quot;headerlink&quot; title=&quot;深度学习相关论文&quot;&gt;&lt;/a&gt;深度学习相关论文&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;机器学习系统，隐藏多少技术债？Hidden Technical Debt in Machine Learning Systems&lt;/li&gt;
-&lt;li&gt;Mastering the game of Go with deep neural networks and tree search_nature&lt;/li&gt;
-&lt;li&gt;Human-level control through deep reinforcement&lt;/li&gt;
-&lt;li&gt;Teaching Machines to Read and Comprehend&lt;/li&gt;
-&lt;/ol&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;深度学习相关论文&quot;&gt;&lt;a href=&quot;#深度学习相关论文&quot; class=&quot;headerlink&quot; title=&quot;深度学习相关论文&quot;&gt;&lt;/a&gt;深度学习相关论文&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;机器学习系统，隐藏多少技术债？Hidden 
     
     </summary>
     
@@ -1568,114 +1592,6 @@ Measures）和混合式语义相似度计算（Hybrid Measures）。
     
     
       <category term="论文阅读" scheme="http://yoursite.com/tags/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>集成学习</title>
-    <link href="http://yoursite.com/2015/04/15/%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2015/04/15/集成学习/</id>
-    <published>2015-04-15T07:47:55.000Z</published>
-    <updated>2016-11-06T06:24:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="看《a-course-in-ML》第十一章ensemble-learning所做的笔记"><a href="#看《a-course-in-ML》第十一章ensemble-learning所做的笔记" class="headerlink" title="看《a course in ML》第十一章ensemble learning所做的笔记:"></a>看《a course in ML》第十一章ensemble learning所做的笔记:</h3><p>In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.</p>
-<h3 id="Learning-Objectives"><a href="#Learning-Objectives" class="headerlink" title="Learning Objectives:"></a>Learning Objectives:</h3><p>Implement bagging and explain how it reduces variance in a predictor.</p>
-<p>实现bagging并解释为什么它可以降低方差<br><a id="more"></a></p>
-<p>Explain the difference between a weak learner and a strong learner.</p>
-<p>解释弱学习器和强学习器的不同</p>
-<p>Derive the AdaBoost algorithm.</p>
-<p>提出AdaBoost-adaptive boosting algorithm</p>
-<p>Understand the relationship between boosting decision stumps and linear classification.</p>
-<p>理解决策树桩的提升和线性分类器的关系</p>
-<p>boosting方法的优点：</p>
-<p>比随机猜测好一点点的弱分类器提升为一个很好的分类器</p>
-<p>天生并行，训练和测试效率更高</p>
-<p>降低方差，实施正则化的另一种方法</p>
-<h3 id="11-1-多个分类器投票"><a href="#11-1-多个分类器投票" class="headerlink" title="11.1 多个分类器投票"></a>11.1 多个分类器投票</h3><p>训练很多基础分类器：DT,perceptron,KNN,NN of different architectures,多者胜出</p>
-<p>不是所有分类器都会犯同一个错误，如果每一个错误只有少数分类器犯下，那么你就会得到优化的分类器</p>
-<p>不幸的是不同的算法倾向于饭同一类错误</p>
-<p>对降低方差有效</p>
-<p>二分类容易扩展到多分类问题，但不容易扩展到一下问题，因为很难得到相同的输出：回归：均值；排序，聚类需要不同的方法</p>
-<p>在一个相通数据集上训练或者平分原来的数据集都不是很好的方法</p>
-<p>一个数据集获得多个数据集：bootstrap resampling，原理：独立同分布，bagging</p>
-<p>一个样例不被选中的概率：1-1/N   在一个集合中不出现的概率1-1/N的N次方，1/e==0.3679    N=1000（集合样本数量）是已经精确到4位小数</p>
-<p>所以约有63%的原始样本会出现在所有的集合中 </p>
-<p>正则化-降低方差：通过使用超参数或bagging方法 </p>
-<p>尽管每一个分类器都overfit，但是对不同的特征overfit，通过投票，可以去除掉很大一部分overfit</p>
-<p>图形对比：错误率-DT depth   错误率-num of bags</p>
-<h3 id="11-2-boosting-weak-learners"><a href="#11-2-boosting-weak-learners" class="headerlink" title="11.2 boosting weak learners"></a>11.2 boosting weak learners</h3><p>提升弱学习器：想起文件压缩-不断压缩直至1b</p>
-<p>强学习算法定义-第十章：PAC (probably approximately correct)learning，以成功率y学习到一个算法,错误率必须降低到e</p>
-<p>可以容易得到一个弱学习器：49%错误率，只要比随机猜测好就行</p>
-<p>boosting相对来说是一种学习框架而不是一个算法</p>
-<p>特定的boosting algorithm-AdaBoosting-adaptive boosting algorithm</p>
-<p>第一个实用的boosting算法：多项式复杂度，不需定义很多的超参数，自动适应训练数据</p>
-<p>与准备考试相比较，答对的问题降低注意力，答错的问题提高注意力（权重）</p>
-<p>在训练数据上的权重分布d（初始化每个样本权重都是1/N），在这个有权重的数据集上训练弱学习器（假设可以接受加权样本数据，基本都是可以的），Fk的错误率用来决定这个函数的适应参数a，表示这个分类器结果的重要性。只要分类器的错误率小于50%，那么a就会大于零，如果错误率为0，那么这个分类器的适应参数就会无限大，相当于只需要这一个分类器的结果就够了。</p>
-<p>a计算出来后，权重分布d在新一轮迭代中得到更新。分类正确的样本权重下降，分类错误的样本权重上升，Z是正则项，保证d的和为1。</p>
-<p>算法最终返回结果：多个分类器的加权投票结果</p>
-<p>一个具体的例子：对每个样本加权之后，如果要取得小于50%的错误率，就要有所更新。</p>
-<p>shallow DT：with small depth</p>
-<p>图形对比：一层的DT,多个boost  和  一个DT,深度逐渐增加的对比</p>
-<p>decision stumps-AdaBoost起到了线性分类器的效果</p>
-<p>一个具体的例子：<br>更进一步：最近的研究表明,AdaBoost算法优化目标为exponential loss</p>
-<p>另一个例子：linear classifier-AdaBoost起到了两层神经网络的效果<br>K个线性分类器，K个隐藏单元，<br>仅仅是结构相同-但是参数学习方法不同，一旦学习到了线性分类器的W和b参数，就再也不会更新了。</p>
-<h3 id="11-3-random-ensembles随机集成算法"><a href="#11-3-random-ensembles随机集成算法" class="headerlink" title="11.3 random ensembles随机集成算法"></a>11.3 random ensembles随机集成算法</h3><p>选择决策树的结构非常耗时，树桩算法很高效</p>
-<p>固定树的结构，随机选择特征（一个特征甚至可以在一个分支当中多次出现）：随机森林<br>D（数据），depth（树深），K（决策树的数量）</p>
-<p>最终分类器：多个随机树的投票</p>
-<p>这种方法效果很好：不同特征之间不相关时效果最好，因为每一棵树可能用到的特征很少。一些树会query无用的特征，产生随机猜测结果，可以作为噪声数据，最终只有好的决策树有效。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;看《a-course-in-ML》第十一章ensemble-learning所做的笔记&quot;&gt;&lt;a href=&quot;#看《a-course-in-ML》第十一章ensemble-learning所做的笔记&quot; class=&quot;headerlink&quot; title=&quot;看《a course in ML》第十一章ensemble learning所做的笔记:&quot;&gt;&lt;/a&gt;看《a course in ML》第十一章ensemble learning所做的笔记:&lt;/h3&gt;&lt;p&gt;In this chapter, you will learn about various ways of combining into ensembles. One of the shocking results we will see is that you can take a learning model that only ever does slightly better than chance, and turn it into an arbitrarily good learning model, through a technique known as boosting. You will also learn how ensembles can decrease the variance of predictors as well as perform regularization.&lt;/p&gt;
-&lt;h3 id=&quot;Learning-Objectives&quot;&gt;&lt;a href=&quot;#Learning-Objectives&quot; class=&quot;headerlink&quot; title=&quot;Learning Objectives:&quot;&gt;&lt;/a&gt;Learning Objectives:&lt;/h3&gt;&lt;p&gt;Implement bagging and explain how it reduces variance in a predictor.&lt;/p&gt;
-&lt;p&gt;实现bagging并解释为什么它可以降低方差&lt;br&gt;
-    
-    </summary>
-    
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="机器学习" scheme="http://yoursite.com/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell基本编程自己用过的一些经典例子</title>
-    <link href="http://yoursite.com/2015/04/15/shell%E8%84%9A%E6%9C%AC/"/>
-    <id>http://yoursite.com/2015/04/15/shell脚本/</id>
-    <published>2015-04-15T05:37:48.000Z</published>
-    <updated>2016-11-07T08:49:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>文本行中各列打乱：<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk <span class="symbol">'BEGIN</span>&#123;srand()&#125;&#123;<span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=NF;i++) b[rand()NF]=$i&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)printf <span class="string">"%s "</span>,b[x]&#125;' data</div></pre></td></tr></table></figure></p>
-<p>文本行中各行打乱：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">awk '<span class="keyword">BEGIN</span>&#123;srand()&#125;&#123;b[<span class="keyword">rand</span>()NR]=$<span class="number">0</span>&#125;<span class="keyword">END</span>&#123;<span class="keyword">for</span>(x <span class="keyword">in</span> b)print b[x]&#125;<span class="string">' data</span></div></pre></td></tr></table></figure></p>
-<figure class="highlight haskell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">shuf</span> -n1000 <span class="class"><span class="keyword">data</span></span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>以a.txt作为pattern查找b.txt，实际是求2者交集：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
-<p>以a.txt作为pattern查找b.txt，显示不在a.txt中的数据，实际是求差集b-a：<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grep -F -v -x -f <span class="selector-tag">a</span><span class="selector-class">.txt</span> <span class="selector-tag">b</span>.txt</div></pre></td></tr></table></figure></p>
-<p>编码转换：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">iconv <span class="_">-f</span> gb18030 -t utf8 filename</div></pre></td></tr></table></figure></p>
-<p>以_为分隔符，第二列为键值排序，稳定排序（默认不稳定）：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sort -t_ -k1,2  <span class="_">-s</span>  filename</div></pre></td></tr></table></figure></p>
-<p>对大文件进行外部排序并去重，以temp目录作为缓存：<br><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">sort -u -T temp filename</span></div></pre></td></tr></table></figure></p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">sort</span> filename | uniq   -<span class="built_in">c</span>计数唯一的排序的记录 -d仅仅显示重复的记录 -u仅仅显示没有重复的记录</div></pre></td></tr></table></figure>
-<p>在preview中打开awk的man文档：<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">man</span> -t awk | <span class="keyword">open</span> -a Preview -<span class="built_in">f</span></div></pre></td></tr></table></figure></p>
-<p>awk和cut简单用法：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">awk</span> -F: -v <span class="string">'OFS=\t'</span> <span class="string">'&#123;print "all users are:",<span class="variable">$1</span>,<span class="variable">$2</span>,<span class="variable">$3</span>,<span class="variable">$4</span>,<span class="variable">$5</span>,<span class="variable">$6</span>,<span class="variable">$7</span>&#125;'</span> /etc/passwd | cut -f <span class="number">1</span>,<span class="number">6</span></div></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wc <span class="_">-l</span> 行数 -c字节数 -w字数</div></pre></td></tr></table></figure>
-<p>查看端口:<br><figure class="highlight elm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="title">lsof</span> -i tcp:<span class="keyword">port</span> 将<span class="keyword">port</span>换成被占用的端口(如：8086、9998)</div></pre></td></tr></table></figure></p>
-<p>查看自己的进程详细情况:<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">ps</span> -ef |<span class="keyword">grep</span> zyli</div></pre></td></tr></table></figure></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;文本行中各列打乱：&lt;br&gt;&lt;figure class=&quot;highlight ada&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;awk &lt;span class=&quot;symbol&quot;&gt;&#39;BEGIN&lt;/span&gt;&amp;#123;srand()&amp;#125;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(i=&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;;i&amp;lt;=NF;i++) b[rand()NF]=$i&amp;#125;&lt;span class=&quot;keyword&quot;&gt;END&lt;/span&gt;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(x &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; b)printf &lt;span class=&quot;string&quot;&gt;&quot;%s &quot;&lt;/span&gt;,b[x]&amp;#125;&#39; data&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;文本行中各行打乱：&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;awk &#39;&lt;span class=&quot;keyword&quot;&gt;BEGIN&lt;/span&gt;&amp;#123;srand()&amp;#125;&amp;#123;b[&lt;span class=&quot;keyword&quot;&gt;rand&lt;/span&gt;()NR]=$&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;&amp;#125;&lt;span class=&quot;keyword&quot;&gt;END&lt;/span&gt;&amp;#123;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(x &lt;span class=&quot;keyword&quot;&gt;in&lt;/span&gt; b)print b[x]&amp;#125;&lt;span class=&quot;string&quot;&gt;&#39; data&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight haskell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;title&quot;&gt;shuf&lt;/span&gt; -n1000 &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;data&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="shell" scheme="http://yoursite.com/tags/shell/"/>
     
   </entry>
   
